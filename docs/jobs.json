@@ -1,26 +1,26 @@
 {
  "meta": {
-  "updated": "2026-10-25T22:42+01:00",
-  "members_total": 1197,
+  "updated": "2026-10-27T18:52+00:00",
+  "members_total": 1199,
   "members_with_website": 939,
   "members_with_career_page": 617,
-  "members_scraped_this_run": 1197,
+  "members_scraped_this_run": 1,
   "career_pages_unchanged": 0,
   "companies_with_jobs": 58,
-  "jobs_total": 213,
-  "duration_min": 31.1,
+  "jobs_total": 211,
+  "duration_min": 0.5,
   "demo": false,
-  "ats_signature": "1f8807bcb133",
+  "ats_signature": "8e8b713578f9",
   "ai": {
    "model": "claude-haiku-5-5",
-   "calls": 4462,
-   "cached": 2559,
-   "errors": 1,
-   "input_tokens": 16233858,
-   "output_tokens": 982012,
-   "web_searches": 2,
-   "pages_rendered": 1354,
-   "job_pages_unchanged": 300
+   "calls": 0,
+   "cached": 1,
+   "errors": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "web_searches": 0,
+   "pages_rendered": 0,
+   "job_pages_unchanged": 0
   }
  },
  "jobs": [
@@ -36,7 +36,7 @@
    "source": "Onecruiter",
    "reason": "Det är en LIA-praktik för studenter som studerar marknadsföring, vilket är en juniorroll.",
    "first_seen": "2026-10-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Atea Finance AB",
@@ -64,7 +64,7 @@
    "source": "Webbplats",
    "reason": "Annonsen välkomnar nyexaminerade ingenjörer och de med viss erfarenhet, utan krav på flera års erfarenhet.",
    "first_seen": "2026-10-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Sigma Industry Power and Energy AB",
@@ -78,11 +78,11 @@
    "source": "Webbplats",
    "reason": "Annonsen riktar sig till både nyexaminerade och personer med viss erfarenhet, och kräver ingen flerårig erfarenhet.",
    "first_seen": "2026-10-25",
-   "is_new": true
+   "is_new": false
   },
   {
-   "company": "Telia Towers AB",
-   "orgnr": "559196-5164",
+   "company": "Telia Finance AB",
+   "orgnr": "556404-6661",
    "type": "Junior",
    "title": "Säljare till Telias butik i Haninge",
    "url": "https://www.teliacompany.com/en/careers/open-positions/Sljare-till-Telias-butik-i-Haninge_63535-3",
@@ -90,7 +90,21 @@
    "deadline": "2026-10-31",
    "location": "Haninge",
    "source": "Webbplats",
-   "reason": "Entry-level säljroll som kräver endast gymnasieexamen och där tidigare erfarenhet är en fördel, utan krav på flera års erfarenhet.",
+   "reason": "Entry-level säljroll där enda formella krav är gymnasieexamen och tidigare erfarenhet bara är en fördel.",
+   "first_seen": "2026-10-25",
+   "is_new": false
+  },
+  {
+   "company": "CGI Sverige AB",
+   "orgnr": "556337-2191",
+   "type": "Junior",
+   "title": "Junior och senior tekniker inom EDI och integrationsplattformar",
+   "url": "https://cgi.njoyn.com/corp/xweb/xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J0826-1988&BRID=1329701&lang=8",
+   "published": null,
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Njoyn",
+   "reason": "Annonsen söker en junior tekniker med relevant utbildning eller viss erfarenhet, vid sidan av en senior tekniker.",
    "first_seen": "2026-10-25",
    "is_new": false
   },
@@ -105,20 +119,6 @@
    "location": "Stockholm, Göteborg, Malmö",
    "source": "Webbplats",
    "reason": "Praktikplats för studenter inom redovisning och lön hos ECIT Services AB, avsedd för studenter under utbildning.",
-   "first_seen": "2026-10-25",
-   "is_new": true
-  },
-  {
-   "company": "CGI Sverige AB",
-   "orgnr": "556337-2191",
-   "type": "Junior",
-   "title": "Junior och senior tekniker inom EDI och integrationsplattformar",
-   "url": "https://cgi.njoyn.com/corp/xweb/xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J0826-1988&BRID=1329701&lang=8",
-   "published": null,
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Njoyn",
-   "reason": "Annonsen söker en junior tekniker med relevant utbildning eller viss erfarenhet, vid sidan av en senior tekniker.",
    "first_seen": "2026-10-25",
    "is_new": false
   },
@@ -137,8 +137,8 @@
    "is_new": false
   },
   {
-   "company": "Knowit AB",
-   "orgnr": "556391-0354",
+   "company": "Knowit",
+   "orgnr": "559459-6156",
    "type": "Junior",
    "title": "Junior jurist inom dataskydd & digitalisering",
    "url": "https://www.knowit.se/karriar/lediga-jobb/junior-jurist-inom-dataskydd--digitalisering/",
@@ -146,7 +146,7 @@
    "deadline": null,
    "location": "Stockholm",
    "source": "Webbplats",
-   "reason": "Juniorroll med cirka två års juridisk erfarenhet som krav, och tjänsten är uttryckligen markerad som junior.",
+   "reason": "Rollen är märkt som junior och kräver cirka två års juridisk erfarenhet, vilket ligger inom nybörjarnivå.",
    "first_seen": "2026-10-25",
    "is_new": false
   },
@@ -400,7 +400,7 @@
    "source": "Teamtailor",
    "reason": "Rollen riktar sig till personer som kanske arbetar som processutvecklare eller liknande och inte nödvändigtvis är tekniska specialister, och inga års erfarenhet krävs uttryckligen; ingångsroll för dig tidigt i karriären.",
    "first_seen": "2026-10-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -529,8 +529,8 @@
    "is_new": false
   },
   {
-   "company": "Knowit AB",
-   "orgnr": "556391-0354",
+   "company": "Knowit Connectivity AB",
+   "orgnr": "556254-0673",
    "type": "Junior",
    "title": "Junior jurist inom dataskydd och digitalisering",
    "url": "https://careersweden.knowit.se/jobs/8581085-junior-jurist-inom-dataskydd-digitalisering",
@@ -538,7 +538,7 @@
    "deadline": null,
    "location": "Stockholm",
    "source": "Teamtailor",
-   "reason": "Titeln är juniorroll och kravet är cirka två års juridisk erfarenhet, vilket ligger i nivån för tidig karriär.",
+   "reason": "Rollen är märkt som junior och kräver cirka två års juridisk erfarenhet, vilket ligger inom intervallet för nyexaminerade och personer tidigt i karriären.",
    "first_seen": "2026-10-25",
    "is_new": false
   },
@@ -907,8 +907,8 @@
    "is_new": false
   },
   {
-   "company": "Atea Sverige AB",
-   "orgnr": "556448-0282",
+   "company": "Atea Logistics AB",
+   "orgnr": "556354-4690",
    "type": "Junior",
    "title": "IT-tekniker - Installation, Logistik & Enhetsutbyten",
    "url": "https://web106.reachmee.com/ext/I020/1291/job?site=27&lang=SE&validator=277cb2bac1f6d9ba2720e8827a79e39b&job_id=3425",
@@ -916,13 +916,13 @@
    "deadline": "2026-10-31",
    "location": "Sista ansökningsdag: 2026-10-31 2026-10-31",
    "source": "ReachMee",
-   "reason": "Inga års erfarenhet krävs, endast intresse för teknik och/eller gymnasial IT-utbildning, vilket gör rollen till en ingångsposition.",
+   "reason": "Ingångsroll för tekniker med gymnasial IT-utbildning eller stort tekniskt intresse, och erfarenhet nämns bara som meriterande.",
    "first_seen": "2026-10-17",
    "is_new": false
   },
   {
-   "company": "Axiell Sverige AB",
-   "orgnr": "556739-8218",
+   "company": "Axiell Group",
+   "orgnr": "556349-2189",
    "type": "Praktik/Internship",
    "title": "Kickstart Your Future with an Internship at Axiell",
    "url": "https://apply.workspacerecruit.com/job/kickstart-your-future-with-an-internship-at-axiell-12706",
@@ -930,7 +930,7 @@
    "deadline": "2026-12-31",
    "location": "Lund",
    "source": "Workspace Recruit",
-   "reason": "Praktikplats för studenter hos Axiell i Lund, där krav är att vara student.",
+   "reason": "Praktikprogram för studenter hos Axiell i Lund.",
    "first_seen": "2026-10-17",
    "is_new": false
   },
@@ -949,20 +949,6 @@
    "is_new": false
   },
   {
-   "company": "Sigma Industry Solutions AB",
-   "orgnr": "559165-1681",
-   "type": "Junior",
-   "title": "Vill du växa med oss på Sigma Industry South i Kronoberg?",
-   "url": "https://sigmaindustrysolutions.se/platsannons?id=profiler-position-8451",
-   "published": null,
-   "deadline": "2026-11-30",
-   "location": "Växjö",
-   "source": "Webbplats",
-   "reason": "Annonsen välkomnar uttryckligen nyutexaminerade ingenjörer, men söker även dem med erfarenhet, så den riktar sig delvis till nyexaminerade.",
-   "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
    "company": "Sigma Industry Power and Energy AB",
    "orgnr": "559398-1706",
    "type": "Junior",
@@ -973,6 +959,20 @@
    "location": "Växjö",
    "source": "Webbplats",
    "reason": "Annonsen välkomnar uttryckligen nyutexaminerade ingenjörer, men också erfarna kandidater, så den räknas som junior.",
+   "first_seen": "2026-10-17",
+   "is_new": false
+  },
+  {
+   "company": "Sigma Industry Solutions AB",
+   "orgnr": "559165-1681",
+   "type": "Junior",
+   "title": "Vill du växa med oss på Sigma Industry South i Kronoberg?",
+   "url": "https://sigmaindustrysolutions.se/platsannons?id=profiler-position-8451",
+   "published": null,
+   "deadline": "2026-11-30",
+   "location": "Växjö",
+   "source": "Webbplats",
+   "reason": "Annonsen välkomnar uttryckligen nyutexaminerade ingenjörer, men söker även dem med erfarenhet, så den riktar sig delvis till nyexaminerade.",
    "first_seen": "2026-10-17",
    "is_new": false
   },
@@ -1198,7 +1198,7 @@
    "source": "Eightfold",
    "reason": "Rollen är märkt som Junior och kräver en masterexamen utan krav på många års erfarenhet, vilket riktar sig till nyutexaminerade.",
    "first_seen": "2026-10-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "VIEW.Group Business Consulting AB",
@@ -1495,22 +1495,8 @@
    "is_new": false
   },
   {
-   "company": "Tele2 Sverige AB",
-   "orgnr": "556267-5164",
-   "type": "Junior",
-   "title": "Butikssäljare på deltid till Tele2 i Solna Centrum",
-   "url": "https://emp.jobylon.com/jobs/390325-tele2-sweden-ab-butikssaljare-pa-deltid-till-tele2-i-solna-centrum/",
-   "published": "2026-10-14",
-   "deadline": "2026-10-25",
-   "location": "Solna",
-   "source": "Webbplats",
-   "reason": "Tjänsten kräver endast gymnasieutbildning och ingen tidigare erfarenhet krävs, med introduktion och utbildning i rollen.",
-   "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
-   "company": "Advania AB (publ)",
-   "orgnr": "556963-8991",
+   "company": "Advania Sverige AB",
+   "orgnr": "556214-9996",
    "type": "Junior",
    "title": "Onsite tekniker",
    "url": "https://jobb.advania.se/jobs/8544737-onsite-tekniker",
@@ -1518,7 +1504,7 @@
    "deadline": null,
    "location": "Solna",
    "source": "Teamtailor",
-   "reason": "Entry-level onsite supportroll utan krav på ett visst antal års arbetslivserfarenhet, men annonsen nämner att man helst arbetat några år med teknisk support.",
+   "reason": "Annonsen säger att det inte finns något krav på visst antal års arbetslivserfarenhet och att rollen är utvecklande, vilket gör den till en ingångsroll.",
    "first_seen": "2026-10-25",
    "is_new": false
   },
@@ -1579,8 +1565,8 @@
    "is_new": false
   },
   {
-   "company": "Knowit AB",
-   "orgnr": "556391-0354",
+   "company": "Knowit",
+   "orgnr": "559459-6156",
    "type": "Junior",
    "title": "Junior konsult inom försvarssektorn (Nyutexaminerad 2027)",
    "url": "https://careersweden.knowit.se/jobs/8541359-junior-konsult-inom-forsvarssektorn-nyutexaminerad-2027",
@@ -1588,36 +1574,8 @@
    "deadline": "2026-12-11",
    "location": "Stockholm, Göteborg",
    "source": "Teamtailor",
-   "reason": "Rollen riktar sig till snart nyutexaminerade med planerad examen 2027 och är en juniorkonsultanställning hos Knowit.",
+   "reason": "Tjänsten riktar sig till snart nyutexaminerade med planerad examen 2027, vilket gör den till en juniorroll.",
    "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
-   "company": "Datakraft",
-   "orgnr": "556567-9940",
-   "type": "Praktik/Internship",
-   "title": "Exjobb, Praktik, NFK - Teknik/IT-säkerhet/Nätverk",
-   "url": "https://karriar.datakraft.se/jobs/266702-exjobb-praktik-nfk-teknikit-sakerhetnatverk",
-   "published": null,
-   "deadline": "2026-12-31",
-   "location": "Värnamo, Gnosjö",
-   "source": "Webbplats",
-   "reason": "Erbjuder exjobb och praktikplatser för studenter inom IT-säkerhet och nätverk.",
-   "first_seen": "2026-10-13",
-   "is_new": false
-  },
-  {
-   "company": "Datakraft",
-   "orgnr": "556567-9940",
-   "type": "Praktik/Internship",
-   "title": "Exjobb, Praktik, VFU, NFK - Affärssystem/Utveckling/BI",
-   "url": "https://karriar.datakraft.se/jobs/264658-exjobb-praktik-vfu-nfk-affarssystemutvecklingbi",
-   "published": null,
-   "deadline": "2026-12-31",
-   "location": "Värnamo",
-   "source": "Webbplats",
-   "reason": "Erbjuder exjobb och praktik för studenter inom affärssystem, utveckling och BI.",
-   "first_seen": "2026-10-13",
    "is_new": false
   },
   {
@@ -1761,6 +1719,34 @@
    "is_new": false
   },
   {
+   "company": "Datakraft",
+   "orgnr": "556567-9940",
+   "type": "Praktik/Internship",
+   "title": "Exjobb, Praktik, NFK - Teknik/IT-säkerhet/Nätverk",
+   "url": "https://karriar.datakraft.se/jobs/266702-exjobb-praktik-nfk-teknikit-sakerhetnatverk",
+   "published": null,
+   "deadline": "2026-12-31",
+   "location": "Värnamo, Gnosjö",
+   "source": "Webbplats",
+   "reason": "Erbjuder exjobb och praktikplatser för studenter inom IT-säkerhet och nätverk.",
+   "first_seen": "2026-10-13",
+   "is_new": false
+  },
+  {
+   "company": "Datakraft",
+   "orgnr": "556567-9940",
+   "type": "Praktik/Internship",
+   "title": "Exjobb, Praktik, VFU, NFK - Affärssystem/Utveckling/BI",
+   "url": "https://karriar.datakraft.se/jobs/264658-exjobb-praktik-vfu-nfk-affarssystemutvecklingbi",
+   "published": null,
+   "deadline": "2026-12-31",
+   "location": "Värnamo",
+   "source": "Webbplats",
+   "reason": "Erbjuder exjobb och praktik för studenter inom affärssystem, utveckling och BI.",
+   "first_seen": "2026-10-13",
+   "is_new": false
+  },
+  {
    "company": "Ericsson AB",
    "orgnr": "556056-6258",
    "type": "Examensarbete",
@@ -1845,8 +1831,8 @@
    "is_new": false
   },
   {
-   "company": "Knowit Connectivity Group AB",
-   "orgnr": "559370-7713",
+   "company": "Knowit",
+   "orgnr": "559459-6156",
    "type": "Examensarbete",
    "title": "Examensarbete inom AI, systemutveckling och digitalisering – Knowit Umeå",
    "url": "https://www.knowit.se/karriar/lediga-jobb/examensarbete-inom-ai-systemutveckling-och-digitalisering--knowit-umea/",
@@ -1854,7 +1840,7 @@
    "deadline": null,
    "location": "Umeå",
    "source": "Webbplats",
-   "reason": "Examensarbete för studenter på högskola eller universitet, vilket är en juniorroll.",
+   "reason": "Examensarbete hos Knowit i Umeå riktat till högskole- och universitetsstudenter.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -1887,8 +1873,8 @@
    "is_new": false
   },
   {
-   "company": "Telia Towers AB",
-   "orgnr": "559196-5164",
+   "company": "Telia Company AB",
+   "orgnr": "556103-4249",
    "type": "Trainee",
    "title": "Executive Management Trainee 2027",
    "url": "https://www.teliacompany.com/en/careers/executive-management-trainee-program",
@@ -1896,22 +1882,8 @@
    "deadline": null,
    "location": "",
    "source": "Webbplats",
-   "reason": "Trainee-program för nya akademiker och talanger tidigt i karriären, anställning från start.",
+   "reason": "Trainee-program för nya akademiker i början av karriären, anställd direkt hos Telia från start.",
    "first_seen": "2026-10-13",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Junior",
-   "title": "Data Engineer",
-   "url": "https://jobs.ericsson.com/careers/job/563121777330000?domain=ericsson.com",
-   "published": "2026-10-12",
-   "deadline": "2026-10-26",
-   "location": "Göteborg",
-   "source": "Eightfold",
-   "reason": "Rollen riktar sig till nyexaminerade med examen inom datavetenskap eller liknande och saknar krav på flera års erfarenhet.",
-   "first_seen": "2026-10-17",
    "is_new": false
   },
   {
@@ -1940,7 +1912,7 @@
    "source": "Jobylon",
    "reason": "Säljartjänst på timanställning utan krav på erfarenhet, enda kravet är minst 18 år och svenska och engelska.",
    "first_seen": "2026-10-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Eltel AB",
@@ -1954,7 +1926,7 @@
    "source": "Jobylon",
    "reason": "Kräver endast gymnasieutbildning, inga års erfarenhet, och Eltel lovar lära upp rätt person.",
    "first_seen": "2026-10-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -1985,8 +1957,8 @@
    "is_new": false
   },
   {
-   "company": "Knowit AB",
-   "orgnr": "556391-0354",
+   "company": "Knowit",
+   "orgnr": "559459-6156",
    "type": "Examensarbete",
    "title": "Exjobb hos Knowit i Sundsvall",
    "url": "https://careersweden.knowit.se/jobs/8529546-exjobb-hos-knowit-i-sundsvall",
@@ -2111,8 +2083,8 @@
    "is_new": false
   },
   {
-   "company": "Knowit AB",
-   "orgnr": "556391-0354",
+   "company": "Knowit",
+   "orgnr": "559459-6156",
    "type": "Examensarbete",
    "title": "Examensarbete inom AI, systemutveckling och digitalisering",
    "url": "https://careersweden.knowit.se/jobs/8517722-examensarbete-inom-ai-systemutveckling-och-digitalisering-knowit-umea",
@@ -2120,7 +2092,7 @@
    "deadline": null,
    "location": "Umeå",
    "source": "Teamtailor",
-   "reason": "Examensarbete för studenter på högskola eller universitet, vilket är en juniorroll.",
+   "reason": "Examensarbete för studenter på högskola eller universitet hos Knowit i Umeå.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2167,8 +2139,8 @@
    "is_new": false
   },
   {
-   "company": "Advania AB (publ)",
-   "orgnr": "556963-8991",
+   "company": "Advania Sverige AB",
+   "orgnr": "556214-9996",
    "type": "Junior",
    "title": "Dansktalande IT-supporttekniker",
    "url": "https://jobb.advania.se/jobs/8507389-dansktalande-it-supporttekniker",
@@ -2176,13 +2148,13 @@
    "deadline": null,
    "location": "Solna",
    "source": "Teamtailor",
-   "reason": "Rollen riktar sig till personer med starkt IT-intresse som kan vara nyutexaminerade eller tidigt i karriären, och kräver ingen tidigare erfarenhet.",
+   "reason": "Rollen riktar sig till personer med starkt IT-intresse utan krav på erfarenhet, med introduktion och stöd, vilket är en ingångsroll.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
   {
-   "company": "Advania AB (publ)",
-   "orgnr": "556963-8991",
+   "company": "Advania Sverige AB",
+   "orgnr": "556214-9996",
    "type": "Junior",
    "title": "Norsktalande IT-supporttekniker",
    "url": "https://jobb.advania.se/jobs/8507191-norsktalande-it-supporttekniker",
@@ -2190,7 +2162,7 @@
    "deadline": null,
    "location": "Stockholm",
    "source": "Teamtailor",
-   "reason": "Entry-level IT-supporttjänst där erfarenhet inte krävs från start och en IT-utbildning eller tidigare erfarenhet bara är meriterande.",
+   "reason": "Rollen riktar sig till personer med IT-intresse och gärna utbildning, utan krav på tidigare erfarenhet, vilket är en ingångsroll.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2262,7 +2234,7 @@
    "source": "Webbplats",
    "reason": "Supporttekniker-tjänsten söker personer med gärna tidigare IT-erfarenhet men utan krav på många års erfarenhet, med möjlighet att utvecklas.",
    "first_seen": "2026-10-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "3",
@@ -2276,7 +2248,7 @@
    "source": "Jobylon",
    "reason": "Entry-level timanställning som säljare i butik, öppen för personer från 18 år utan krav på erfarenhet.",
    "first_seen": "2026-10-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Accenture Solutions AB",
@@ -2433,8 +2405,8 @@
    "is_new": false
   },
   {
-   "company": "Knowit AB",
-   "orgnr": "556391-0354",
+   "company": "Knowit",
+   "orgnr": "559459-6156",
    "type": "Examensarbete",
    "title": "Masteruppsats/examensarbete våren 2027 - Knowit Cybersecurity & Law",
    "url": "https://careersweden.knowit.se/jobs/8455437-masteruppsats-examensarbete-varen-2027-knowit-cybersecurity-law",
@@ -2442,7 +2414,7 @@
    "deadline": null,
    "location": "Stockholm, Karlskrona, Göteborg, Linköping",
    "source": "Teamtailor",
-   "reason": "Masteruppsats och examensarbete för studenter under våren 2027 hos Knowit, med även en praktikplats.",
+   "reason": "Masteruppsats och examensarbete för studenter i slutet av sina studier, med en praktikplats också utlyst.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2517,8 +2489,8 @@
    "is_new": false
   },
   {
-   "company": "Knowit AB",
-   "orgnr": "556391-0354",
+   "company": "Knowit",
+   "orgnr": "559459-6156",
    "type": "Examensarbete",
    "title": "Examensarbete inom försvarssektorn - våren 2027",
    "url": "https://careersweden.knowit.se/jobs/8427274-examensarbete-inom-forsvarssektorn-varen-2027",
@@ -2526,7 +2498,7 @@
    "deadline": "2026-11-30",
    "location": "Stockholm, Göteborg",
    "source": "Teamtailor",
-   "reason": "Examensarbete för studenter på master-nivå, vilket är en juniorroll i början av karriären.",
+   "reason": "Examensarbete för studenter som avslutar sin utbildning, vilket är en juniorroll.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2559,8 +2531,8 @@
    "is_new": false
   },
   {
-   "company": "Axians AB",
-   "orgnr": "556590-7069",
+   "company": "Axians",
+   "orgnr": "556534-6631",
    "type": "Junior",
    "title": "Projektkoordinator",
    "url": "https://karriar.axians.se/jobs/8387263-projektkoordinator-axians-engineering-goteborg",
@@ -2568,7 +2540,7 @@
    "deadline": null,
    "location": "Askim",
    "source": "Teamtailor",
-   "reason": "Rollen riktar sig till dig som är i början av din tekniska karriär och har eftergymnasial utbildning, vilket gör den juniorinriktad.",
+   "reason": "Rollen riktar sig till dig som precis läst en eftergymnasial utbildning och är i början av din karriär, med 2-4 års utbildning eller motsvarande kompetens.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2629,8 +2601,8 @@
    "is_new": false
   },
   {
-   "company": "Advania AB (publ)",
-   "orgnr": "556963-8991",
+   "company": "Advania Sverige AB",
+   "orgnr": "556214-9996",
    "type": "Junior",
    "title": "IT-supporttekniker",
    "url": "https://jobb.advania.se/jobs/8328299-it-supporttekniker",
@@ -2638,13 +2610,13 @@
    "deadline": null,
    "location": "Norrköping",
    "source": "Teamtailor",
-   "reason": "Entry-level servicedeskroll som välkomnar nyutexaminerade och personer nya på arbetsmarknaden, utan krav på erfarenhet.",
+   "reason": "Annonsen välkomnar uttryckligen dem som är nya på arbetsmarknaden och vill starta sin karriär, och kräver bara avslutad gymnasial utbildning.",
    "first_seen": "2026-10-17",
    "is_new": false
   },
   {
-   "company": "Tunstall AB",
-   "orgnr": "556135-1197",
+   "company": "Tunstall Nordic AB",
+   "orgnr": "556540-2889",
    "type": "Junior",
    "title": "Larmoperatör",
    "url": "https://se-careers.tunstall.com/jobs/8298675-larmoperator",
@@ -2652,7 +2624,7 @@
    "deadline": null,
    "location": "Orebro",
    "source": "Teamtailor",
-   "reason": "Ingen erfarenhet krävs, gymnasieexamen räcker och tjänsten inkluderar betald introduktionsutbildning och traineeperiod.",
+   "reason": "Heltidsroll med betald 4-veckors introduktionsutbildning och traineeperiod, kräver endast gymnasieexamen och ingen yrkeserfarenhet.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2668,7 +2640,7 @@
    "source": "Teamtailor",
    "reason": "Rollen välkomnar uttryckligen personer i början av karriären med praktisk erfarenhet från projekt, praktik eller exjobb.",
    "first_seen": "2026-10-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Addnode Group Aktiebolag (publ)",
@@ -2727,8 +2699,8 @@
    "is_new": false
   },
   {
-   "company": "Axians AB",
-   "orgnr": "556590-7069",
+   "company": "Axians",
+   "orgnr": "556534-6631",
    "type": "Junior",
    "title": "Junior installationstekniker",
    "url": "https://karriar.axians.se/jobs/7818960-junior-installationstekniker",
@@ -2736,7 +2708,7 @@
    "deadline": null,
    "location": "Göteborg",
    "source": "Teamtailor",
-   "reason": "Tjänsten är utannonserad som junior installationstekniker och kräver grundläggande kunskaper utan flera års erfarenhet.",
+   "reason": "Rollen är märkt som junior och kräver ingen lång erfarenhet, med praktiskt lärande och utbildning.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2752,7 +2724,7 @@
    "source": "Webbplats",
    "reason": "Annonsen anger ingen erfarenhet krävs (Arbetslivserfarenhet: Ingen erfarenhet), vilket gör den till en ingångstjänst.",
    "first_seen": "2026-10-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Softronic CM1 AB",
@@ -2808,7 +2780,7 @@
    "source": "Webbplats",
    "reason": "Spontanansökan som inkluderar praktikplatser och öppen för juniora talanger.",
    "first_seen": "2026-10-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Once Upon",
@@ -2962,7 +2934,7 @@
    "source": "Teamtailor",
    "reason": "Heltidstjänst för den som kan komma från ett användarled utan krav på att vara fullfjädrad konsult, vilket tyder på ingångsnivå.",
    "first_seen": "2026-10-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Vitec Energy AB",
@@ -3012,7 +2984,7 @@
    "company": "Ericsson AB",
    "url": "https://jobs.ericsson.com/careers?domain=ericsson.com",
    "open_total": 78,
-   "junior": 52,
+   "junior": 51,
    "ats": "Eightfold"
   },
   {
@@ -3030,7 +3002,7 @@
    "ats": "ReachMee"
   },
   {
-   "company": "Knowit AB",
+   "company": "Knowit",
    "url": "https://www.knowit.se/karriar/lediga-jobb/",
    "open_total": 115,
    "junior": 7,
@@ -3040,7 +3012,7 @@
    "company": "Tele2 Sverige AB",
    "url": "https://www.tele2.com/join-us/",
    "open_total": 56,
-   "junior": 7,
+   "junior": 6,
    "ats": ""
   },
   {
@@ -3058,7 +3030,7 @@
    "ats": "Njoyn"
   },
   {
-   "company": "Advania AB (publ)",
+   "company": "Advania Sverige AB",
    "url": "https://jobb.advania.se/",
    "open_total": 42,
    "junior": 4,
@@ -3107,13 +3079,6 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "ACM 2001 AB",
-   "url": "https://academedia.se/jobba-hos-oss/lediga-jobb/",
-   "open_total": 162,
-   "junior": 1,
-   "ats": "Onecruiter"
-  },
-  {
    "company": "Sigma Industry Power and Energy AB",
    "url": "https://sigmaindustrype.se/sv/karriar",
    "open_total": 78,
@@ -3124,13 +3089,6 @@
    "company": "Sigma Industry West AB",
    "url": "https://www.sigmaindustrywest.se/jobbamedoss/",
    "open_total": 22,
-   "junior": 2,
-   "ats": ""
-  },
-  {
-   "company": "Telia Towers AB",
-   "url": "https://www.teliacompany.com/en/careers/open-positions",
-   "open_total": 21,
    "junior": 2,
    "ats": ""
   },
@@ -3170,7 +3128,7 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "Axians AB",
+   "company": "Axians",
    "url": "https://karriar.axians.se/",
    "open_total": 6,
    "junior": 2,
@@ -3212,10 +3170,17 @@
    "ats": ""
   },
   {
+   "company": "ACM 2001 AB",
+   "url": "https://academedia.se/jobba-hos-oss/lediga-jobb/",
+   "open_total": 162,
+   "junior": 1,
+   "ats": "Onecruiter"
+  },
+  {
    "company": "Axiell Group",
    "url": "https://careers.axiell.com/",
    "open_total": 81,
-   "junior": 0,
+   "junior": 1,
    "ats": "Workspace Recruit"
   },
   {
@@ -3224,6 +3189,13 @@
    "open_total": 52,
    "junior": 1,
    "ats": ""
+  },
+  {
+   "company": "Atea Logistics AB",
+   "url": "https://www.atea.com/why-work-in-atea/",
+   "open_total": 46,
+   "junior": 1,
+   "ats": "ReachMee"
   },
   {
    "company": "Orientalent AB",
@@ -3254,6 +3226,13 @@
    "ats": "Workday"
   },
   {
+   "company": "Telia Finance AB",
+   "url": "https://www.teliacompany.com/en/careers/open-positions",
+   "open_total": 21,
+   "junior": 1,
+   "ats": ""
+  },
+  {
    "company": "Camai Consulting AB",
    "url": "https://karriar.camai.se/jobs",
    "open_total": 17,
@@ -3273,6 +3252,13 @@
    "open_total": 11,
    "junior": 1,
    "ats": "Teamtailor"
+  },
+  {
+   "company": "Telia Company AB",
+   "url": "https://www.teliacompany.com/en/careers",
+   "open_total": 11,
+   "junior": 1,
+   "ats": ""
   },
   {
    "company": "Azets Solutions AB",
@@ -3310,7 +3296,7 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "Tunstall AB",
+   "company": "Tunstall Nordic AB",
    "url": "https://se-careers.tunstall.com/",
    "open_total": 4,
    "junior": 1,
@@ -3420,13 +3406,6 @@
    "open_total": 48,
    "junior": 0,
    "ats": "Teamtailor"
-  },
-  {
-   "company": "Atea Logistics AB",
-   "url": "https://www.atea.com/why-work-in-atea/",
-   "open_total": 46,
-   "junior": 0,
-   "ats": "ReachMee"
   },
   {
    "company": "Q Professionals AB",
@@ -3753,13 +3732,6 @@
   {
    "company": "Nexer Engineering AB",
    "url": "https://nexergroup.com/career/open-positions/",
-   "open_total": 11,
-   "junior": 0,
-   "ats": ""
-  },
-  {
-   "company": "Telia Company AB",
-   "url": "https://www.teliacompany.com/en/careers",
    "open_total": 11,
    "junior": 0,
    "ats": ""
