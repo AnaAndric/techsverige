@@ -198,8 +198,8 @@ footer p{margin:0 0 6px;max-width:680px}
     <i class="o"></i><i class="r"></i><i></i><i class="w"></i><i class="o"></i>
   </div>
   <div class="wrap">
-    <h1>Internships, trainee&shy;program och juniora jobb hos våra medlemmar</h1>
-    <p>Samlade från medlemsföretagens egna webbplatser. Uppdateras automatiskt den 1:a varje månad.</p>
+    <h1>Trainee&shy;program, juniora jobb och examens&shy;arbete hos våra medlemmar</h1>
+    <p>Här samlar vi juniora tjänster, praktikplatser, examensarbeten och traineeprogram hos TechSveriges medlemsföretag. Annonserna hämtas från företagens egna webbplatser och listan uppdateras varje vecka.</p>
     <div class="stats" id="stats" aria-live="polite"></div>
   </div>
 </section>
@@ -310,6 +310,11 @@ footer p{margin:0 0 6px;max-width:680px}
   const daysLeft = (d) => Math.round((parse(d) - today) / dayMs);
   const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
   const city = (loc) => (loc || "").split(",")[0].trim();
+  // Ny = hittad från och med den 1:a i senaste körningens månad. Annonser från allra
+  // första körningen räknas inte, de är utgångsläget och inte nya.
+  const monthStart = (META.updated || new Date().toISOString()).slice(0, 8) + "01";
+  const baseline = JOBS.reduce((m, j) => (j.first_seen && (!m || j.first_seen < m) ? j.first_seen : m), "");
+  const isNew = (j) => !!j.first_seen && j.first_seen >= monthStart && j.first_seen > baseline;
 
   // ---------- Tillstånd (speglas i URL:en så att vyer kan delas) ----------
   const params = new URLSearchParams(location.search);
@@ -338,12 +343,11 @@ footer p{margin:0 0 6px;max-width:680px}
     if (META.updated) $("updated").textContent = new Date(META.updated).toLocaleDateString("sv-SE", { day: "numeric", month: "long", year: "numeric" });
     $("demo").hidden = !META.demo;
     const companies = new Set(JOBS.map((j) => j.company)).size;
-    const newCount = JOBS.filter((j) => j.is_new).length;
+    const newCount = JOBS.filter(isNew).length;
     const stats = [
       [JOBS.length, "öppna annonser"],
       [companies, "medlemsföretag annonserar"],
-      ...(newCount ? [[newCount, "nya sedan förra månaden"]] : []),
-      ...(META.members_total ? [[META.members_total.toLocaleString("sv-SE"), "medlemmar genomsökta"]] : []),
+      [newCount, "nya sedan förra månaden"],
     ];
     $("stats").innerHTML = stats.map(([n, l]) => `<div class="stat"><b>${esc(n)}</b><span>${esc(l)}</span></div>`).join("");
 
@@ -379,7 +383,7 @@ footer p{margin:0 0 6px;max-width:680px}
     let list = JOBS.filter((j) => {
       if (state.types.size && !state.types.has(j.type)) return false;
       if (state.place && city(j.location) !== state.place) return false;
-      if (state.onlyNew && !j.is_new) return false;
+      if (state.onlyNew && !isNew(j)) return false;
       if (state.due === "open" && j.deadline) return false;
       if ((state.due === "7" || state.due === "30") && (!j.deadline || daysLeft(j.deadline) > +state.due)) return false;
       if (q) {   // alla ord måste finnas, i valfri ordning
@@ -418,7 +422,7 @@ footer p{margin:0 0 6px;max-width:680px}
       return `<tr>
         <td class="c-type"><span class="badge" style="--c:${st.c};--bg:${st.bg};--t:${st.tx}${st.bd ? ";--bd:" + st.bd : ""}">${esc(j.type)}</span></td>
         <td class="c-role role"><a href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener">${esc(j.title)}</a>${
-          j.is_new || (j.source && j.source !== "Webbplats") ? `<span class="src">${j.is_new ? '<span class="new">NY</span>' : ""}${j.source && j.source !== "Webbplats" ? `via ${esc(j.source)}` : ""}</span>` : ""}${
+          isNew(j) || (j.source && j.source !== "Webbplats") ? `<span class="src">${isNew(j) ? '<span class="new">NY</span>' : ""}${j.source && j.source !== "Webbplats" ? `via ${esc(j.source)}` : ""}</span>` : ""}${
           j.reason ? `<span class="why">${esc(j.reason)}</span>` : ""}</td>
         <td class="c-company company" data-label="Företag">${esc(j.company)}</td>
         <td class="c-place" data-label="Plats">${j.location ? esc(j.location) : '<span class="muted">Ej angivet</span>'}</td>
