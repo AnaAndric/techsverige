@@ -2,7 +2,7 @@
 
 En enkel webbapp som listar internships, traineeprogram, examensarbeten, sommarjobb,
 studentjobb och juniora tjänster hos TechSveriges medlemsföretag – plus ett skript som
-uppdaterar listan automatiskt den 1:a varje månad.
+uppdaterar listan automatiskt varje söndag.
 
 ```
 scraper/scrape.py            skriptet (Python 3.9+, Playwright + Anthropic SDK)
@@ -15,7 +15,7 @@ data/members.json            senast hämtade medlemslista (används om hämtning
 data/run_log.json            körlogg: vilka företag saknade karriärsida, fel osv.
 data/ai_cache.json           sparade AI-svar (samma innehåll -> inget nytt anrop)
 data/annonssidor_cache.json  sparade annonssidor med ETag/Last-Modified
-.github/workflows/…          månadsschemat
+.github/workflows/…          veckoschemat (söndagar)
 tests/test_offline.py        test mot en påhittad lokal sajt
 ```
 
@@ -32,7 +32,7 @@ Appen visar en gul banderoll så länge det är exempeldata.
 4. **Actions → Uppdatera juniora jobb → Run workflow** för en första körning
    (tar ca 20–60 min för hela medlemslistan).
 
-Därefter körs den automatiskt kl. 07 den 1:a varje månad och appen uppdateras av sig själv.
+Därefter körs den automatiskt kl. 07 varje söndag och appen uppdateras av sig själv.
 
 ## Köra lokalt
 
@@ -54,7 +54,7 @@ Har du medlemslistan internt (t.ex. export från CRM) kan du hoppa över webbskr
 av listan: `python scraper/scrape.py --members-file medlemmar.csv`
 (kolumner `name;domain;orgnr`, komma eller semikolon).
 
-Utan GitHub: schemalägg samma kommando med cron (`0 7 1 * *`) eller Windows Schemaläggaren.
+Utan GitHub: schemalägg samma kommando med cron (`0 7 * * 0`) eller Windows Schemaläggaren.
 
 ## Register över karriärsidor – `data/karriarsidor.csv`
 

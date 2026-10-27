@@ -27,6 +27,7 @@ import json
 import logging
 import os
 import threading
+import time
 from pathlib import Path
 
 log = logging.getLogger("scrape.ai")
@@ -107,6 +108,8 @@ class AI:
     def __init__(self, cache_path: Path, model: str = MODEL):
         import anthropic  # importeras bara när AI används
         self.client = anthropic.Anthropic(max_retries=4)
+        # Begränsar samtidiga anrop så att kontots gräns för tokens per minut inte slår i
+        self._slots = threading.Semaphore(int(os.environ.get("AI_PARALLEL", "6")))
         self.anthropic = anthropic
         self.model = model
         self.cache_path = cache_path
@@ -130,10 +133,19 @@ class AI:
                 self.stats["cached"] += 1
                 return hit["v"]
         try:
-            r = self.client.messages.create(
-                model=self.model, max_tokens=max_tokens, system=CONTEXT,
-                output_config={"effort": "low", "format": {"type": "json_schema", "schema": schema}},
-                messages=[{"role": "user", "content": prompt}], **({"tools": tools} if tools else {}))
+            for attempt in range(8):
+                try:
+                    with self._slots:
+                        r = self.client.messages.create(
+                            model=self.model, max_tokens=max_tokens, system=CONTEXT,
+                            output_config={"effort": "low", "format": {"type": "json_schema", "schema": schema}},
+                            messages=[{"role": "user", "content": prompt}], **({"tools": tools} if tools else {}))
+                    break
+                except self.anthropic.RateLimitError as e:
+                    if attempt == 7:
+                        raise
+                    wait = float(e.response.headers.get("retry-after") or 0) or 15 * (attempt + 1)
+                    time.sleep(min(wait, 90))
         except self.anthropic.APIStatusError as e:
             log.warning("AI-fel (%s): %s", kind, str(e)[:200])
             self.stats["errors"] += 1

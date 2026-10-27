@@ -2,8 +2,8 @@ name: Uppdatera juniora jobb
 
 on:
   schedule:
-    # Kl. 05:00 UTC den 1:a varje månad (07:00 svensk sommartid / 06:00 vintertid)
-    - cron: "0 5 1 * *"
+    # Kl. 05:00 UTC varje söndag (07:00 svensk sommartid / 06:00 vintertid)
+    - cron: "0 5 * * 0"
   workflow_dispatch:      # kör manuellt från fliken Actions
     inputs:
       antal:
@@ -55,4 +55,6 @@ jobs:
           git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
           git add docs data
           git diff --cached --quiet || git commit -m "Uppdatera juniora jobb $(date +%F)"
+          # Någon kan ha pushat (t.ex. ändrat sidan) medan skriptet körde
+          git pull --rebase -X theirs
           git push
