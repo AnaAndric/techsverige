@@ -1,0 +1,1503 @@
+{
+ "meta": {
+  "updated": "2026-10-25T22:42+01:00",
+  "members_total": 1197,
+  "members_with_website": 939,
+  "members_with_career_page": 617,
+  "members_scraped_this_run": 1197,
+  "career_pages_unchanged": 0,
+  "companies_with_jobs": 59,
+  "jobs_total": 215,
+  "duration_min": 31.1,
+  "demo": false,
+  "ats_signature": "1f8807bcb133",
+  "ai": {
+   "model": "claude-haiku-5-5",
+   "calls": 4462,
+   "cached": 2559,
+   "errors": 1,
+   "input_tokens": 16233858,
+   "output_tokens": 982012,
+   "web_searches": 2,
+   "pages_rendered": 1354,
+   "job_pages_unchanged": 300
+  }
+ },
+ "notes": {
+  "Adapta AB": [
+   "webbplats svarar inte"
+  ],
+  "A Metering AB": [
+   "webbplats svarar inte"
+  ],
+  "AddSecure AB": [
+   "9 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Addgile AB": [
+   "ingen karriärsida hittad"
+  ],
+  "AV Bolaget AB": [
+   "ingen karriärsida hittad"
+  ],
+  "ARODIS AB": [
+   "webbplatsen i medlemslistan svarar inte – använde arodis.com (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "ActiveQuiz Europe AB": [
+   "ingen karriärsida hittad"
+  ],
+  "AddSecure Group Services AB": [
+   "9 tjänster utanför Sverige i Teamtailor hoppades över",
+   "9 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Addoro": [
+   "ingen karriärsida hittad"
+  ],
+  "Admincontrol Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Aditso AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Aliaro AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Agical AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Agero AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Agero Innovation AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Abc Rix AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Analysbolaget Svenska Konsult AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Apira Solutions KB": [
+   "webbplats svarar inte"
+  ],
+  "Aponsa AB": [
+   "2 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Arbetsrättsbyrån MBL 11 digitala tjänster AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Antenn-zon": [
+   "ingen karriärsida hittad"
+  ],
+  "Appox": [
+   "ingen karriärsida hittad"
+  ],
+  "Amazon Corporate Services Sweden AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade amazon.se via webbsökning (kontrollera)"
+  ],
+  "Arkimera Robotics AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Ariser AB": [
+   "webbplatsen i medlemslistan svarar inte – använde ariser.se (kontrollera)"
+  ],
+  "Artilect AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Avantime": [
+   "ingen karriärsida hittad"
+  ],
+  "Ants IT-support AB": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "Atlantic Security AB": [
+   "webbplatsen i medlemslistan svarar inte – använde atlanticsecurity.com (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Amazon EU S.à r.l., Sverige Filial": [
+   "webbplatsen i medlemslistan svarar inte – hittade amazon.se via webbsökning (kontrollera)"
+  ],
+  "Autodesk AB": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "Aviseq Critical Communications AB": [
+   "webbplats svarar inte"
+  ],
+  "Acrelec": [
+   "webbplatsen i medlemslistan svarar inte – använde acrelec.com (kontrollera)"
+  ],
+  "Awiwo AB": [
+   "ingen karriärsida hittad"
+  ],
+  "alxias AB": [
+   "ingen karriärsida hittad"
+  ],
+  "AddCIT AB": [
+   "ingen karriärsida hittad"
+  ],
+  "arifiQ Development AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Aura Strategic Consulting AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Azolver Svenska AB": [
+   "10 tjänster utanför Sverige i BambooHR hoppades över"
+  ],
+  "ACM 2001 AB": [
+   "127 oklara annonser lästes inte (max 30 per företag)"
+  ],
+  "Baltic Spot AB": [
+   "ingen karriärsida hittad"
+  ],
+  "BeeSmarter AB": [
+   "webbplats svarar inte"
+  ],
+  "BRS Networks AB": [
+   "ingen karriärsida hittad"
+  ],
+  "BaniTech": [
+   "webbplatsen i medlemslistan svarar inte – använde banitech.se (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Bredband2 Allmänna IT AB": [
+   "webbplats svarar inte"
+  ],
+  "BonMill Solutions AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Brave Operations AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Beijmo Intangible Services and Goods AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Broker Mark1 AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Bxo Solutions AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Bluecall app": [
+   "ingen karriärsida hittad"
+  ],
+  "bSeolized AB": [
+   "ingen karriärsida hittad"
+  ],
+  "BRS Software": [
+   "webbplatsen i medlemslistan svarar inte – använde brssoftware.com (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "byTrust AB": [
+   "ingen karriärsida hittad"
+  ],
+  "CAG MER Consulting AB": [
+   "ingen karriärsida hittad"
+  ],
+  "byBrick Sthlm AB": [
+   "ingen karriärsida hittad"
+  ],
+  "COS Systems AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Canon Svenska AB": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "Cascade Control AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Cepheo Sverige AB": [
+   "13 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "CR Electric Fiber & Kabelteknik AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Centric Retail Solutions Nordic AB": [
+   "ingen karriärsida hittad"
+  ],
+  "City Telecom AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Basware AB": [
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Cardsandmore": [
+   "ingen karriärsida hittad"
+  ],
+  "Beslutsdata AB": [
+   "ingen karriärsida hittad"
+  ],
+  "CloCom AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Ciceronen Telekom AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Bricobomba AB": [
+   "4 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "Cloud Connected Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Clira AB": [
+   "ingen karriärsida hittad"
+  ],
+  "BizOne AB": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "Coment AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Comintelli Sverige AB": [
+   "webbplats svarar inte"
+  ],
+  "Combain Mobile": [
+   "ingen karriärsida hittad"
+  ],
+  "Communisis Sverige AB": [
+   "webbplats svarar inte"
+  ],
+  "Cognicatus AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Com7 Stockholm AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Compose Group International AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Co-native AB": [
+   "webbplats svarar inte"
+  ],
+  "Comaea ECT AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Compose IT": [
+   "ingen karriärsida hittad"
+  ],
+  "Construct IT": [
+   "webbplatsen i medlemslistan svarar inte – använde constructit.se (kontrollera)"
+  ],
+  "Controlkeeper AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Adlede AB": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "6 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Crayon AB": [
+   "webbplats svarar inte"
+  ],
+  "CompuGroup Medical Sweden AB": [
+   "webbplatsen i medlemslistan svarar inte – använde cgm.com (kontrollera)"
+  ],
+  "Cygrids Communications AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Customer First AB": [
+   "webbplatsen i medlemslistan svarar inte – använde customerfirst.se (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Careium Sweden AB": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Comrod Mission Systems": [
+   "webbplatsen i medlemslistan svarar inte – hittade comrod.com via webbsökning (kontrollera)"
+  ],
+  "Crosskey": [
+   "3 tjänster utanför Sverige i HR Manager hoppades över"
+  ],
+  "Concentrix IT Services Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "DataNova": [
+   "ingen karriärsida hittad"
+  ],
+  "Dedicatum Consulting AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Datile IT AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Datacenter Uppsala AB": [
+   "ingen karriärsida hittad"
+  ],
+  "DF IT AB": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "Complete Synergi AB": [
+   "8 tjänster utanför Sverige i BambooHR hoppades över",
+   "8 tjänster utanför Sverige i BambooHR hoppades över"
+  ],
+  "Demand Calendar AB": [
+   "webbplatsen i medlemslistan svarar inte – använde demandcalendar.com (kontrollera)"
+  ],
+  "Digital Workforce Svenska AB": [
+   "1 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Delegia AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Digital Strategi Skandinavien AB": [
+   "ingen karriärsida hittad"
+  ],
+  "DigFab AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Digitraffic infrastruktur AB": [
+   "ingen karriärsida hittad"
+  ],
+  "DriveQ AB": [
+   "webbplats svarar inte"
+  ],
+  "Certified Konsult Sweden AB": [
+   "webbplatsen i medlemslistan svarar inte – använde certifiedkonsult.com (kontrollera)",
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "2 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "DXC Technology Sverige AB": [
+   "2 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "8 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Dantek AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Dustin Sverige AB": [
+   "ingen karriärsida hittad"
+  ],
+  "EPI-USE Sweden 2 AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade epiuse.com via webbsökning (kontrollera)"
+  ],
+  "Ecoonline AB": [
+   "8 tjänster utanför Sverige i Teamtailor hoppades över",
+   "8 tjänster utanför Sverige i Teamtailor hoppades över",
+   "8 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Evimeria EMR AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade webdoc.com via webbsökning (kontrollera)"
+  ],
+  "EKAB Systemservice AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Educateit AB": [
+   "webbplatsen i medlemslistan svarar inte – använde educateit.se (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Ehra Talent Solutions AB": [
+   "3 tjänster utanför Sverige i Teamtailor hoppades över",
+   "2 tjänster utanför Sverige i Teamtailor hoppades över",
+   "2 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "El-Info i Växjö AB": [
+   "ingen karriärsida hittad"
+  ],
+  "eParkera": [
+   "ingen karriärsida hittad"
+  ],
+  "Digitalist Open Tech AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade digitalist.se via webbsökning (kontrollera)"
+  ],
+  "Enea AB": [
+   "6 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Dekiru Solutions AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Everspring": [
+   "ingen karriärsida hittad"
+  ],
+  "Excosoft AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Epitech AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Boomi": [
+   "26 tjänster utanför Sverige i Greenhouse hoppades över",
+   "26 tjänster utanför Sverige i Greenhouse hoppades över"
+  ],
+  "EDP Consult AB": [
+   "21 tjänster utanför Sverige i Recruitee hoppades över"
+  ],
+  "Extenda Retail AB": [
+   "1 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "eBuilder Sweden AB": [
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Everon Sverige AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Facebook": [
+   "webbplats svarar inte"
+  ],
+  "eXtraOrdinary service Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "FP Digital AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Financial Solutions Metafore AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Atea Logistics AB": [
+   "2 oklara annonser lästes inte (max 30 per företag)"
+  ],
+  "Flare Consulting Group AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Flattr AB": [
+   "ingen karriärsida hittad"
+  ],
+  "FG Business Consultant AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Epical Sweden AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade epicalgroup.com via webbsökning (kontrollera)"
+  ],
+  "Freja eID": [
+   "ingen karriärsida hittad"
+  ],
+  "Enghouse Interactive AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade enghouseinteractive.com via webbsökning (kontrollera)"
+  ],
+  "Foxway AB": [
+   "11 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Fusion Support AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Geomatikk": [
+   "webbplats svarar inte"
+  ],
+  "Electrocare Nordic AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade elcare.com via webbsökning (kontrollera)",
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Fujitsu Sweden AB": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "Generic Sweden AB (publ)": [
+   "ingen karriärsida hittad"
+  ],
+  "Consid S5 AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade consid.com via webbsökning (kontrollera)"
+  ],
+  "Google": [
+   "webbplats svarar inte"
+  ],
+  "Gulliksen Consulting AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Glow Technology AB": [
+   "2 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "HOUSE OF SRI LANKA AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Gopio Holding AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Habbie HealthTech AB": [
+   "ingen karriärsida hittad"
+  ],
+  "CGI Sverige AB": [
+   "4 tjänster utanför Sverige i Njoyn hoppades över",
+   "4 tjänster utanför Sverige i Njoyn hoppades över",
+   "49 tjänster utanför Sverige i Njoyn hoppades över",
+   "48 oklara annonser lästes inte (max 30 per företag)"
+  ],
+  "Hepro Care AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Flowy Information AB": [
+   "webbplats svarar inte"
+  ],
+  "Hillside Nordic": [
+   "ingen karriärsida hittad"
+  ],
+  "High Performance Systems Svenska AB": [
+   "ingen karriärsida hittad"
+  ],
+  "HPI Health Profile Institute AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade hpi.se via webbsökning (kontrollera)"
+  ],
+  "Helmsman Consulting AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade helmsman.se via webbsökning (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Hoist Group Holding Intressenter AB": [
+   "13 tjänster utanför Sverige i SmartRecruiters hoppades över"
+  ],
+  "goFRST AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade frst.world via webbsökning (kontrollera)"
+  ],
+  "Hemmersbach Sweden AB": [
+   "3 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Hypernode AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Airbus Defence and Space, Secure Land Communication": [
+   "1 oklara annonser lästes inte (max 30 per företag)",
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "3 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "GlobalConnect AB": [
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "IMPACT Commerce AB": [
+   "6 tjänster utanför Sverige i Teamtailor hoppades över",
+   "6 tjänster utanför Sverige i Teamtailor hoppades över",
+   "6 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Institutet för informationsteknologi": [
+   "ingen karriärsida hittad"
+  ],
+  "Humanit Stockholm AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade humanit.se via webbsökning (kontrollera)"
+  ],
+  "ITM Centina Consult AB": [
+   "webbplats svarar inte"
+  ],
+  "Hybrid Solutions AB": [
+   "ingen karriärsida hittad"
+  ],
+  "IT System i Dalarna AB": [
+   "ingen karriärsida hittad"
+  ],
+  "IFS Sverige AB": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "IFS": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "ITM Nordic AB": [
+   "ingen karriärsida hittad"
+  ],
+  "InfoURGE AB": [
+   "ingen karriärsida hittad"
+  ],
+  "ITmaskinen.se AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Industrial And Financial Systems, Ifs AB": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "Giesecke+Devrient Mobile Security Sweden AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade gi-de.com via webbsökning (kontrollera)",
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "2 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Infodesk Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Infostat AB": [
+   "ingen karriärsida hittad"
+  ],
+  "InformationsTeknik i Norrbotten AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Innotel AB": [
+   "webbplats svarar inte"
+  ],
+  "Infrasec Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Hewlett Packard Enterprise Sverige AB": [
+   "webbplats svarar inte"
+  ],
+  "InfraCom Zedcom AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Interactive Health Group In Stockholm AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Infosys": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "Infosoc Rättsdata AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Installationsgruppen i Stockholm AB": [
+   "ingen karriärsida hittad"
+  ],
+  "IGT Sweden Interactive AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade igt.com via webbsökning (kontrollera)",
+   "3 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Infosoc Quality AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade infosoc.se via webbsökning (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Intito AB": [
+   "webbplatsen i medlemslistan svarar inte – använde intito.com (kontrollera)"
+  ],
+  "Iptor Sweden AB": [
+   "1 tjänster utanför Sverige i Teamtailor hoppades över",
+   "1 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "IntraPhone Solutions AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Hos Bois AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade hosbois.se via webbsökning (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Infor (Sweden) AB": [
+   "webbplatsen i medlemslistan svarar inte – använde infor.com (kontrollera)"
+  ],
+  "Intric AB": [
+   "2 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Inserve Technology AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Ideact AB": [
+   "ingen karriärsida hittad"
+  ],
+  "IoT Open AB": [
+   "ingen karriärsida hittad"
+  ],
+  "iBinder Sverige AB": [
+   "ingen karriärsida hittad"
+  ],
+  "JG Optotech AB": [
+   "webbplatsen i medlemslistan svarar inte – använde jgoptotech.com (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "JobOffice AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Infobyte": [
+   "ingen karriärsida hittad"
+  ],
+  "Interdo Aktiebolag": [
+   "ingen karriärsida hittad"
+  ],
+  "Junglemap AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Keynet Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Inselo Installation AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade inselo.se via webbsökning (kontrollera)"
+  ],
+  "Infometric": [
+   "webbplats svarar inte"
+  ],
+  "IntraKey": [
+   "ingen karriärsida hittad"
+  ],
+  "Jahopp AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Kafit AB": [
+   "ingen karriärsida hittad"
+  ],
+  "itm8 Sverige AB": [
+   "webbplatsen i medlemslistan svarar inte – använde itm8.se (kontrollera)"
+  ],
+  "Iver Sverige AB": [
+   "webbplatsen i medlemslistan svarar inte – använde iver.com (kontrollera)"
+  ],
+  "Axiell Sverige AB": [
+   "24 oklara annonser lästes inte (max 30 per företag)",
+   "5 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "2 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Itelligence": [
+   "ingen karriärsida hittad"
+  ],
+  "Axiell Group": [
+   "28 oklara annonser lästes inte (max 30 per företag)",
+   "4 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "2 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Cree Sweden AB": [
+   "2 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "3 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Kompetensvy AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Knightec Group Software and Cloud AB": [
+   "11 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Konica Minolta Business Solutions Sweden AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade konicaminolta.se via webbsökning (kontrollera)"
+  ],
+  "Flowbird AB": [
+   "webbplatsen i medlemslistan svarar inte – använde flowbird.com (kontrollera)",
+   "67 tjänster utanför Sverige i Ashby hoppades över",
+   "67 tjänster utanför Sverige i Ashby hoppades över",
+   "7 oklara annonser lästes inte (max 30 per företag)",
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "2 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Komplett.se": [
+   "webbplats svarar inte"
+  ],
+  "LEDtec": [
+   "ingen karriärsida hittad"
+  ],
+  "LENVO AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Kodak Nordic AB": [
+   "webbplatsen i medlemslistan svarar inte – använde kodak.com (kontrollera)",
+   "3 oklara annonser lästes inte (max 30 per företag)",
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "2 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "LM Layer & Mesh AB": [
+   "ingen karriärsida hittad"
+  ],
+  "LNW Sweden AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade lnw.com via webbsökning (kontrollera)"
+  ],
+  "Lantero Visselblåsarsystem": [
+   "ingen karriärsida hittad"
+  ],
+  "Lenovo (Sweden) AB": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "Left is Right": [
+   "ingen karriärsida hittad"
+  ],
+  "LNKW Entreprenad AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Locka Software AB": [
+   "webbplats svarar inte"
+  ],
+  "Lumera AB": [
+   "webbplats svarar inte"
+  ],
+  "LogTrade Technology AB": [
+   "ingen karriärsida hittad"
+  ],
+  "MSTV": [
+   "ingen karriärsida hittad"
+  ],
+  "MLT = ML TeleCom AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Mainter AB": [
+   "webbplatsen i medlemslistan svarar inte – använde mainter.com (kontrollera)"
+  ],
+  "MagiCAD Group AB": [
+   "webbplats svarar inte"
+  ],
+  "Meditude": [
+   "ingen karriärsida hittad"
+  ],
+  "Mercell Sverige AB": [
+   "5 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Mediateknik i Varberg AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Modern IT i Stockholm AB": [
+   "webbplats svarar inte"
+  ],
+  "Melius IT AB": [
+   "ingen karriärsida hittad"
+  ],
+  "MoreWires AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade wires.se via webbsökning (kontrollera)"
+  ],
+  "Mobilexpense Nordics AB": [
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Moonlighting Industries AB": [
+   "ingen karriärsida hittad"
+  ],
+  "mySafety Group AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Mysoft AB": [
+   "webbplatsen i medlemslistan svarar inte – använde mysoft.com (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Mon 7 Consulting AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Mobilaris": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "NILAN Engineering AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Mitronic AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Mitronic IT Services AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade mitronic.se via webbsökning (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Netsmart AB": [
+   "ingen karriärsida hittad"
+  ],
+  "NEC Scandinavia AB": [
+   "ingen karriärsida hittad"
+  ],
+  "N'gager": [
+   "ingen karriärsida hittad"
+  ],
+  "NYCE Solutions AB": [
+   "1 tjänster utanför Sverige i Teamtailor hoppades över",
+   "1 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Marlink AB": [
+   "webbplatsen i medlemslistan svarar inte – använde marlink.se (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "NewsMachine AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade market.newsmachine.com via webbsökning (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Netropolis Aktiebolag": [
+   "ingen karriärsida hittad"
+  ],
+  "Nez AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Nevecka AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Nilex i Helsingborg AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Nokia": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "Netpublicator": [
+   "ingen karriärsida hittad"
+  ],
+  "Network Expertise Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Nordic Defender AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade nordicdefender.com via webbsökning (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Nore Technology AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Ntt Security (Sweden) AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade samurai.by.security.ntt via webbsökning (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Nobicon Nordic AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Nordic Integration-Works AB": [
+   "ingen karriärsida hittad"
+  ],
+  "OED Blockchain AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Nova Software AB": [
+   "webbplatsen i medlemslistan svarar inte – använde novasoftware.com (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Northfork AB": [
+   "ingen karriärsida hittad"
+  ],
+  "OPEN POS Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Mashie FoodTech Solutions AB": [
+   "webbplats svarar inte"
+  ],
+  "NSI": [
+   "ingen karriärsida hittad"
+  ],
+  "Omnitor AB": [
+   "ingen karriärsida hittad"
+  ],
+  "OGRAFY Group AB": [
+   "webbplatsen i medlemslistan svarar inte – använde ografy.com (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Optidev AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Netadmin System i Sverige AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade netadminsystems.com via webbsökning (kontrollera)"
+  ],
+  "Orange Business Sweden AB": [
+   "28 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "OptoSweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Netsecurity Nordic AB": [
+   "webbplatsen i medlemslistan svarar inte – använde netsecurity.no (kontrollera)"
+  ],
+  "Projektorspecialisten i Sverige AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Pausit AB": [
+   "ingen karriärsida hittad"
+  ],
+  "PartnerSec AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Papirfly AB": [
+   "3 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "PLM Group Sverige AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Presector AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Onitio Sverige AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade onitio.com via webbsökning (kontrollera)"
+  ],
+  "Phoniro AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade intelligentcare.com via webbsökning (kontrollera)"
+  ],
+  "Prime Mobile": [
+   "ingen karriärsida hittad"
+  ],
+  "Prog-It AB": [
+   "2 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Primotek": [
+   "ingen karriärsida hittad"
+  ],
+  "Prenax AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Proxio Systems AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Publit": [
+   "ingen karriärsida hittad"
+  ],
+  "Produt Solutions AB": [
+   "ingen karriärsida hittad"
+  ],
+  "QRTECH AB": [
+   "webbplats svarar inte"
+  ],
+  "QRIOS Engineering AB": [
+   "webbplats svarar inte"
+  ],
+  "Provectum System AB": [
+   "ingen karriärsida hittad"
+  ],
+  "PrimeQ": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "Qrios Cloud AB": [
+   "webbplats svarar inte"
+  ],
+  "Qrios DiversIT AB": [
+   "webbplats svarar inte"
+  ],
+  "Orientalent AB": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "Questback Sweden": [
+   "webbplatsen i medlemslistan svarar inte – hittade questback.com via webbsökning (kontrollera)"
+  ],
+  "Qnova Systems AB": [
+   "ingen karriärsida hittad"
+  ],
+  "OpenUniverse AB": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "R Isaksson Teknik AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Railit Tracker AB": [
+   "ingen karriärsida hittad"
+  ],
+  "REAL anno 1991 AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Rebnis Hotel Systems": [
+   "ingen karriärsida hittad"
+  ],
+  "Redfield AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Rejoin Telematics AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Recipify AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Q-Free Sverige AB": [
+   "2 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Roima Sweden AB": [
+   "webbplats svarar inte"
+  ],
+  "Research Automators Sweden AB": [
+   "webbplatsen i medlemslistan svarar inte – använde researchautomators.se (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Retail Data Sundsvall AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Resolutor AB": [
+   "ingen karriärsida hittad"
+  ],
+  "One CC AB": [
+   "4 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Rymdweb AB": [
+   "webbplatsen i medlemslistan svarar inte – använde rymdweb.com (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Ridango AB": [
+   "1 tjänster utanför Sverige i BambooHR hoppades över",
+   "1 tjänster utanför Sverige i BambooHR hoppades över"
+  ],
+  "SEYC Sweden AB": [
+   "webbplats svarar inte"
+  ],
+  "Rvid AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Rackfish AB": [
+   "webbplatsen i medlemslistan svarar inte – använde rackfish.com (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Safetytech i Väst AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Seidor Nordics AB": [
+   "webbplats svarar inte"
+  ],
+  "SLI Education AB": [
+   "webbplatsen i medlemslistan svarar inte – använde slieducation.se (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Planview": [
+   "webbplatsen i medlemslistan svarar inte – använde planview.com (kontrollera)",
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Serveyou AB": [
+   "ingen karriärsida hittad"
+  ],
+  "SthlmTechPartner": [
+   "ingen karriärsida hittad"
+  ],
+  "Scoodia": [
+   "ingen karriärsida hittad"
+  ],
+  "Lattispire AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade lattispire.com via webbsökning (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Secure State Group AB": [
+   "webbplats svarar inte"
+  ],
+  "OneCo Networks AB": [
+   "1 tjänster utanför Sverige i HR Manager hoppades över"
+  ],
+  "Signicat AB": [
+   "7 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Q Professionals AB": [
+   "7 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "Servicon Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Orange Business AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade orange-business.com via webbsökning (kontrollera)",
+   "28 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Signalstyrkan AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Smartr": [
+   "ingen karriärsida hittad"
+  ],
+  "Snille Networks AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Scientific Games": [
+   "webbplats svarar inte"
+  ],
+  "Softwareone AB": [
+   "webbplats svarar inte"
+  ],
+  "Solid Networks": [
+   "webbplatsen i medlemslistan svarar inte – använde solidnetworks.se (kontrollera)"
+  ],
+  "Retail Logistics Excellence AB": [
+   "2 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Spaider AB": [
+   "webbplats svarar inte"
+  ],
+  "Soleil AB": [
+   "webbplatsen i medlemslistan svarar inte – använde soleil.se (kontrollera)"
+  ],
+  "PTV Nordics AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade ptvlogistics.com via webbsökning (kontrollera)"
+  ],
+  "SolarPlexus IT Strategi AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Sony Nordic (Sweden), Filial till Sony Europe B.V.(NL)": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "Ricoh IT-Partner": [
+   "webbplats svarar inte"
+  ],
+  "Substorm AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Stride Nordic AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Svenska Stadsnätsföreningens Servicebolag AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Telecitygroup Scandinavia AB": [
+   "webbplats svarar inte"
+  ],
+  "Snapinc AB": [
+   "3 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Systematiq": [
+   "ingen karriärsida hittad"
+  ],
+  "Reach Consulting": [
+   "webbplatsen i medlemslistan svarar inte – hittade b3.se via webbsökning (kontrollera)"
+  ],
+  "Stift Life International Foundation For Eco": [
+   "ingen karriärsida hittad"
+  ],
+  "Tata Consultancy Services": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "Staylive AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Tadait AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Tanico AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Sörbom Fiber & Entreprenad AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Swelog Business System AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Svensk skadereglering AB": [
+   "ingen karriärsida hittad"
+  ],
+  "SOPRA STERIA SWEDEN AB": [
+   "webbplatsen i medlemslistan svarar inte – använde soprasteria.se (kontrollera)",
+   "100 tjänster utanför Sverige i SmartRecruiters hoppades över",
+   "100 tjänster utanför Sverige i SmartRecruiters hoppades över"
+  ],
+  "Team Security Alarm i Skåne AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Technology WICER Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Telia Field Operations AB": [
+   "webbplats svarar inte"
+  ],
+  "Sigma Industry Evolution AB": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "Tekiva AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Techstep AB": [
+   "3 tjänster utanför Sverige i Teamtailor hoppades över",
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "TMK Kommunikation AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Saven": [
+   "webbplats svarar inte"
+  ],
+  "Telekområdgivarna": [
+   "webbplatsen i medlemslistan svarar inte – hittade telekomradgivarna.se via webbsökning (kontrollera)"
+  ],
+  "Teligent Telecom AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Sagem": [
+   "webbplatsen i medlemslistan svarar inte – hittade sagemcom.com via webbsökning (kontrollera)",
+   "10 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Telpartner Sverige AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Tempus Information Systems AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Tickoff AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Svenska Driftgruppen AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Telenor Linx As": [
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Till-IT AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Tobii AB": [
+   "1 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Sigma Industry Power and Energy AB": [
+   "12 oklara annonser lästes inte (max 30 per företag)",
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "TopRight Sverige AB": [
+   "ingen karriärsida hittad"
+  ],
+  "ToBeShore AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Tendium AB": [
+   "1 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Telenor": [
+   "webbplatsen i medlemslistan svarar inte – använde telenor.com (kontrollera)",
+   "5 tjänster utanför Sverige i Teamtailor hoppades över",
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Thalamus It Consulting AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade thalamus.se via webbsökning (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "TikTok Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Kyndryl Svenska Aktiebolag": [
+   "2 oklara annonser lästes inte (max 30 per företag)",
+   "16 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Total Säkerhet": [
+   "ingen karriärsida hittad"
+  ],
+  "Transpa AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Tunstall AB": [
+   "webbplatsen i medlemslistan svarar inte – använde tunstall.se (kontrollera)"
+  ],
+  "Trippus Event Solutions AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade trippus.com via webbsökning (kontrollera)",
+   "ingen karriärsida hittad"
+  ],
+  "Tieto Card Services AB": [
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Trivec Systems AB": [
+   "ingen karriärsida hittad"
+  ],
+  "The Logistic Solution": [
+   "ingen karriärsida hittad"
+  ],
+  "Tieto Fintech Sweden AB": [
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Unit4": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "Upstream AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Telia Cygate AB": [
+   "2 tjänster utanför Sverige i Workday hoppades över",
+   "2 tjänster utanför Sverige i Workday hoppades över",
+   "2 tjänster utanför Sverige i Workday hoppades över"
+  ],
+  "TM-Group": [
+   "webbplatsen i medlemslistan svarar inte – hittade tm-group.com via webbsökning (kontrollera)"
+  ],
+  "Utech AB": [
+   "ingen karriärsida hittad"
+  ],
+  "upKeeper Solutions AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Upright Consulting AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Variant Linköping AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Visma PubliTech AB": [
+   "3 tjänster utanför Sverige i Teamtailor hoppades över",
+   "2 tjänster utanför Sverige i Teamtailor hoppades över",
+   "2 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Visma Software": [
+   "3 tjänster utanför Sverige i Teamtailor hoppades över",
+   "2 tjänster utanför Sverige i Teamtailor hoppades över",
+   "2 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "ViTalent Consulting AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Vewd Software Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Tenstar AB": [
+   "webbplatsen blockerar automatiska besök"
+  ],
+  "Visuera Integration AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Squeed Göteborg AB": [
+   "11 tjänster utanför Sverige i Teamtailor hoppades över",
+   "10 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "Visuell Planering & Praktisk PPM AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Vend Marketplaces AB": [
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "TopWork Digital Sverige AB": [
+   "44 oklara annonser lästes inte (max 30 per företag)"
+  ],
+  "Volue AB": [
+   "10 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Tele2 Sverige AB": [
+   "6 oklara annonser lästes inte (max 30 per företag)",
+   "4 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Välkommen Webbutveckling AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade valkommen.se via webbsökning (kontrollera)"
+  ],
+  "Telia Towers AB": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "2 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Vitec MV AB": [
+   "webbplats svarar inte"
+  ],
+  "Telia Company AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade teliacompany.com via webbsökning (kontrollera)",
+   "2 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Treasury Systems  Sweden AB": [
+   "webbplatsen i medlemslistan svarar inte – använde treasurysystems.com (kontrollera)"
+  ],
+  "Telia Finance AB": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "5 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Telia Towers Sweden AB": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade",
+   "2 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Voi Technology AB": [
+   "56 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Tunstall Nordic AB": [
+   "webbplatsen i medlemslistan svarar inte – använde tunstall.se (kontrollera)"
+  ],
+  "Xllnc Finance AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade foxway.com via webbsökning (kontrollera)",
+   "11 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Young & Skilled": [
+   "webbplats svarar inte"
+  ],
+  "Vivicta Sweden AB": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "Vivicta AB": [
+   "1 annonser för andra arbetsgivare (kunder) bortfiltrerade"
+  ],
+  "Zandgroup AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Xtrotec": [
+   "ingen karriärsida hittad"
+  ],
+  "Vikingen Financial Software AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Yeeha AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Östgöta Infra AB": [
+   "webbplats svarar inte"
+  ],
+  "Zbriq AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Zaplox AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Vitec": [
+   "webbplatsen i medlemslistan svarar inte – använde vitec.com (kontrollera)"
+  ],
+  "0 tid AB": [
+   "ingen karriärsida hittad"
+  ],
+  "3icom Solutions Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Äventyret Sweden AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Videnca AB": [
+   "webbplatsen i medlemslistan svarar inte – använde videnca.se (kontrollera)"
+  ],
+  "100 Procent Media Sandviken AB": [
+   "ingen karriärsida hittad"
+  ],
+  "Vitec Capitex AB": [
+   "webbplats svarar inte"
+  ],
+  "Vitec Mäklarsystem AB": [
+   "webbplatsen i medlemslistan svarar inte – använde vitec-maklarsystem.com (kontrollera)"
+  ],
+  "21st Century Technology Solutions Limited": [
+   "webbplats svarar inte"
+  ],
+  "Vitec Energy AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade vitec-energy.com via webbsökning (kontrollera)"
+  ],
+  "Vitec IT-Drift AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade vitecsoftware.com via webbsökning (kontrollera)",
+   "19 tjänster utanför Sverige i Teamtailor hoppades över"
+  ],
+  "Thales DIS Sweden AB": [
+   "webbplatsen i medlemslistan svarar inte – hittade thalesgroup.com via webbsökning (kontrollera)",
+   "5 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "42 Telecom AB": [
+   "webbplats svarar inte"
+  ],
+  "Vitec Software Group AB (Publ)": [
+   "webbplatsen i medlemslistan svarar inte – använde vitecsoftware.com (kontrollera)",
+   "19 tjänster utanför Sverige i Teamtailor hoppades över",
+   "1 tjänster utanför Sverige bortfiltrerade"
+  ],
+  "Videobet Interactive Sweden AB": [
+   "webbplats svarar inte"
+  ]
+ }
+}

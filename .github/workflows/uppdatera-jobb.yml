@@ -1,0 +1,58 @@
+name: Uppdatera juniora jobb
+
+on:
+  schedule:
+    # Kl. 05:00 UTC den 1:a varje månad (07:00 svensk sommartid / 06:00 vintertid)
+    - cron: "0 5 1 * *"
+  workflow_dispatch:      # kör manuellt från fliken Actions
+    inputs:
+      antal:
+        description: "Antal medlemsföretag att gå igenom (tomt = alla)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: uppdatera-jobb
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installera beroenden
+        run: |
+          pip install -r scraper/requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Testa skriptet (offline)
+        run: python tests/test_offline.py
+
+      - name: Hämta annonser
+        env:
+          ANTAL: ${{ github.event.inputs.antal }}
+          # Settings -> Secrets and variables -> Actions -> New repository secret
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$ANTAL" ]; then
+            python scraper/scrape.py --limit "$ANTAL"
+          else
+            python scraper/scrape.py
+          fi
+
+      - name: Spara resultatet
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add docs data
+          git diff --cached --quiet || git commit -m "Uppdatera juniora jobb $(date +%F)"
+          git push

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+data/medlemssida.*
+.DS_Store
+*.zip
+techsverige-projekt/
+TechSverige Juniora jobb.*

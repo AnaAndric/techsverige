@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Juniora jobb hos medlemmar – TechSverige</title>
+<meta name="description" content="Internships, traineeprogram, examensarbeten och juniora tjänster hos TechSveriges medlemsföretag.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ==========================================================================
+   VARUMÄRKE – TechSveriges palett (grafisk profil 2.3)
+   Svart #1E1E1E · Grön #DCFE8C · Varmgrå #DCDCBE · Mörkgrå #968C78
+   Vit #FFFFFF · Blå #008CFF · Röd #FF6E3C
+   Grön, blå och röd används som ytor/markeringar – aldrig som brödtext på vitt
+   (för låg kontrast). Liten grå text använder en mörkare nyans av Mörkgrå.
+   ========================================================================== */
+:root{
+  --ts-black:#1e1e1e;      /* Svart    */
+  --ts-green:#dcfe8c;      /* Grön     */
+  --ts-warmgray:#dcdcbe;   /* Varmgrå  */
+  --ts-darkgray:#968c78;   /* Mörkgrå  */
+  --ts-white:#ffffff;      /* Vit      */
+  --ts-blue:#008cff;       /* Blå      */
+  --ts-red:#ff6e3c;        /* Röd      */
+
+  /* härledda toner (ljusa/mörka varianter av paletten) */
+  --ts-ink:var(--ts-black);
+  --ts-ink-2:#3d3a33;
+  --ts-muted:#6b6352;      /* Mörkgrå, mörkad för läsbar text */
+  --ts-warm:#f4f4ec;       /* Varmgrå, ljus – sidbakgrund */
+  --ts-warm-2:var(--ts-warmgray);
+  --ts-line:#e3e3d2;
+  --ts-blue-tint:#d9edff;
+  --ts-red-tint:#ffe4da;
+  --font:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --radius:12px;
+  --shadow:0 1px 2px rgba(30,30,30,.06),0 4px 16px rgba(30,30,30,.05);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ts-warm);color:var(--ts-ink);font:15px/1.5 var(--font);font-feature-settings:"tnum" 1,"cv11" 1}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--ts-blue);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 24px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- Header ---------- */
+.top{background:var(--ts-ink);color:#fff}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff}
+.logo{display:block;width:129px;height:18px}
+.top-meta{font-size:13px;color:var(--ts-warmgray);text-align:right}
+.top-meta strong{color:#fff;font-weight:600}
+
+.hero{background:var(--ts-ink);color:#fff;padding:28px 0 56px;position:relative;overflow:hidden}
+.hero h1{font-size:clamp(28px,4vw,44px);line-height:1.08;letter-spacing:-.03em;margin:0 0 12px;max-width:760px;font-weight:700}
+.hero p{margin:0;color:var(--ts-warmgray);max-width:640px;font-size:16px}
+.hero-tiles{position:absolute;right:-20px;top:16px;display:grid;grid-template-columns:repeat(5,34px);grid-auto-rows:34px;gap:6px;opacity:.9}
+.hero-tiles i{border-radius:3px;background:rgba(255,255,255,.06)}
+.hero-tiles i.g{background:var(--ts-green)} .hero-tiles i.w{background:var(--ts-warmgray)} .hero-tiles i.m{background:var(--ts-darkgray)} .hero-tiles i.b{background:var(--ts-blue)} .hero-tiles i.r{background:var(--ts-red)} .hero-tiles i.o{background:transparent}
+@media (max-width:860px){.hero-tiles{display:none}}
+
+.stats{display:flex;flex-wrap:wrap;gap:28px;margin-top:26px}
+.stat b{display:block;font-size:30px;font-weight:700;letter-spacing:-.02em;line-height:1.1}
+.stat span{font-size:13px;color:var(--ts-warmgray)}
+
+/* ---------- Panel ---------- */
+main{margin-top:-28px;position:relative;padding-bottom:48px}
+.panel{background:var(--ts-white);border-radius:var(--radius);box-shadow:var(--shadow);overflow:clip}
+.demo{background:var(--ts-red-tint);color:var(--ts-ink);padding:10px 20px 10px 16px;font-size:14px;font-weight:500;border-left:4px solid var(--ts-red)}
+
+.filters{padding:20px 20px 4px;border-bottom:1px solid var(--ts-line)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.chip{appearance:none;border:1px solid var(--ts-line);background:var(--ts-white);color:var(--ts-ink);border-radius:999px;padding:7px 14px;font:500 14px var(--font);cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s}
+.chip:hover{border-color:var(--ts-ink-2)}
+.chip .n{font-size:12px;color:var(--ts-muted);font-weight:600}
+.chip .dot{width:9px;height:9px;border-radius:2px;background:var(--c,var(--ts-ink));box-shadow:inset 0 0 0 1px rgba(30,30,30,.18)}
+.chip[aria-pressed="true"]{background:var(--ts-ink);border-color:var(--ts-ink);color:#fff}
+.chip[aria-pressed="true"] .n{color:var(--ts-warmgray)}
+
+.controls{display:grid;grid-template-columns:minmax(220px,2.2fr) repeat(3,minmax(150px,1fr)) auto;gap:12px;align-items:end;padding-bottom:16px}
+.field label{display:block;font-size:12px;font-weight:600;color:var(--ts-muted);margin:0 0 5px;text-transform:uppercase;letter-spacing:.04em}
+.input,.select{width:100%;height:42px;border:1px solid var(--ts-line);border-radius:8px;background:var(--ts-white);font:15px var(--font);color:var(--ts-ink);padding:0 12px}
+.input{padding-left:38px;background:var(--ts-white) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='none' stroke='%236f6c66' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='8' cy='8' r='6'/%3E%3Cpath d='m13 13 4 4'/%3E%3C/svg%3E") 12px 50% no-repeat}
+.select{appearance:none;padding-right:34px;background:var(--ts-white) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%231d1d1b' stroke-width='1.8'%3E%3Cpath d='m1 1 5 5 5-5'/%3E%3C/svg%3E") right 12px center no-repeat;cursor:pointer}
+.input:hover,.select:hover{border-color:var(--ts-darkgray)}
+.toggle{display:flex;align-items:center;gap:10px;height:42px;font-weight:500;cursor:pointer;white-space:nowrap;user-select:none}
+.toggle input{appearance:none;width:38px;height:22px;border-radius:999px;background:var(--ts-warm-2);position:relative;cursor:pointer;transition:background .15s;margin:0}
+.toggle input::after{content:"";position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.2);transition:transform .15s}
+.toggle input:checked{background:var(--ts-ink)}
+.toggle input:checked::after{background:var(--ts-green)}
+.toggle input:checked::after{transform:translateX(16px)}
+
+.resultbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 20px;font-size:14px;color:var(--ts-muted);flex-wrap:wrap}
+.resultbar strong{color:var(--ts-ink)}
+.linkbtn{background:none;border:0;padding:0;font:inherit;color:var(--ts-ink);font-weight:500;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.btn{display:inline-flex;align-items:center;gap:8px;height:36px;padding:0 14px;border-radius:8px;border:1px solid var(--ts-ink);background:var(--ts-white);color:var(--ts-ink);font:600 14px var(--font);cursor:pointer;text-decoration:none}
+.btn:hover{background:var(--ts-ink);color:#fff}
+
+/* ---------- Tabell ---------- */
+.tablewrap{overflow:visible}   /* ingen scrollbox – annars fastnar inte rubrikraden */
+table{width:100%;border-collapse:collapse}
+thead th{position:sticky;top:0;background:#f8f8f1;text-align:left;font-size:12px;font-weight:600;color:var(--ts-muted);text-transform:uppercase;letter-spacing:.04em;padding:0;border-bottom:1px solid var(--ts-line);white-space:nowrap;z-index:1}
+thead th button{all:unset;display:flex;align-items:center;gap:6px;padding:12px 16px;cursor:pointer;width:100%;box-sizing:border-box}
+thead th button:hover{color:var(--ts-ink)}
+thead th button:focus-visible{outline:3px solid var(--ts-blue);outline-offset:-3px}
+thead th .arr{opacity:.35;font-size:10px}
+thead th[aria-sort] .arr{opacity:1;color:var(--ts-ink)}
+thead th.nosort{padding:12px 16px}
+tbody td{padding:14px 16px;border-bottom:1px solid #ececdf;vertical-align:top}
+tbody tr:hover{background:#fafaf3}
+tbody tr:last-child td{border-bottom:0}
+.role a{font-weight:600;text-decoration:none;color:var(--ts-ink)}
+.role a:hover{text-decoration:underline;text-decoration-color:var(--ts-darkgray);text-underline-offset:3px}
+.new{display:inline-block;margin-right:8px;padding:0 6px;border-radius:4px;background:var(--ts-green);color:var(--ts-ink);font-size:10.5px;font-weight:700;letter-spacing:.04em;line-height:17px}
+.src{display:block;font-size:12px;color:var(--ts-muted);margin-top:2px}
+.why{display:block;font-size:12.5px;line-height:1.4;color:var(--ts-muted);margin-top:4px;max-width:46ch}
+.company{font-weight:500}
+.muted{color:var(--ts-muted)}
+.nowrap{white-space:nowrap}
+.badge{display:inline-flex;align-items:center;gap:6px;padding:3px 9px;border-radius:6px;font-size:12.5px;font-weight:600;white-space:nowrap;background:var(--bg);color:var(--t,var(--ts-ink));box-shadow:inset 0 0 0 1px var(--bd,transparent)}
+.badge::before{content:"";width:7px;height:7px;border-radius:2px;background:var(--t,var(--ts-ink));opacity:.85}
+.due{display:block;font-size:12.5px;color:var(--ts-muted)}
+.due.soon{color:var(--ts-ink);font-weight:600;display:flex;align-items:center;gap:6px}
+.due.soon::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--ts-red);flex:none}
+.open{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:13.5px;color:var(--ts-ink);background:var(--ts-green);padding:6px 12px;border-radius:999px;text-decoration:none;white-space:nowrap;transition:background .15s,color .15s}
+.open:hover{background:var(--ts-ink);color:var(--ts-green)}
+
+.empty{padding:56px 20px;text-align:center;color:var(--ts-muted)}
+.empty b{display:block;color:var(--ts-ink);font-size:17px;margin-bottom:6px}
+
+footer{padding:28px 0 48px;color:var(--ts-muted);font-size:13.5px}
+footer .wrap{display:grid;grid-template-columns:2fr 1fr;gap:24px}
+footer h2{font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--ts-ink);margin:0 0 6px}
+footer p{margin:0 0 6px;max-width:680px}
+
+/* ---------- Mobil: rader blir kort ---------- */
+@media (max-width:900px){
+  .controls{grid-template-columns:1fr 1fr}
+  .controls .field:first-child{grid-column:1/-1}
+  footer .wrap{grid-template-columns:1fr}
+}
+@media (max-width:900px){
+  .wrap{padding:0 16px}
+  .stats{gap:16px 22px}.stat b{font-size:24px}.stat span{font-size:12px}
+  .top-meta .long{display:none}
+  .filters{padding:16px 16px 4px}
+  .resultbar{padding:12px 16px}
+  .chips{flex-wrap:nowrap;overflow-x:auto;margin:0 -16px 14px;padding:0 16px 2px;scrollbar-width:none}
+  .chip{flex:none}
+  thead{display:none}
+  table,tbody,tr,td{display:block;width:100%}
+  tbody tr{padding:16px;border-bottom:1px solid #ececdf;display:grid;grid-template-columns:1fr 1fr;gap:6px 12px}
+  tbody td{padding:0;border:0}
+  tbody td.c-type{grid-column:1/-1}
+  tbody td.c-role{grid-column:1/-1;font-size:16px}
+  tbody td.c-company{grid-column:1/-1}
+  tbody td[data-label]::before{content:attr(data-label);display:block;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--ts-muted);font-weight:600}
+  tbody td.c-company::before{display:none}
+  tbody td.c-link{grid-column:1/-1;margin-top:4px}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="TechSverige – juniora jobb, startsida">
+      <svg class="logo" width="129" height="18" viewBox="0 0 129 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+        <g clip-path="url(#ts-logo-clip)" fill="white">
+          <path d="M59.0895 3.46648C57.2673 3.46648 55.9117 4.42203 55.4673 6.53314H55.4451V0.777588H53.5117V14.1109H55.4451V7.95537C55.4451 6.22203 56.5117 5.22203 58.2895 5.22203C60.1784 5.22203 60.7784 6.53314 60.7784 7.95537V14.1109H62.7117V7.46648C62.7117 5.24425 61.7784 3.46648 59.0895 3.46648Z"/>
+          <path d="M47.0239 12.6066C44.9495 12.6066 43.6317 11.2454 43.6317 8.93322C43.6317 6.46989 44.9928 5.23877 46.9595 5.23877C48.5462 5.23877 49.4973 6.07989 49.8661 7.35989H51.8906C51.3584 4.90544 49.8684 3.46655 46.9806 3.46655C43.8906 3.46655 41.665 5.49766 41.665 8.911C41.665 12.3243 43.8039 14.3777 47.045 14.3777C49.855 14.3777 51.3806 12.9132 51.9139 10.3543H49.925C49.5495 11.6354 48.7906 12.6066 47.0239 12.6066Z"/>
+          <path d="M70.5466 6.51543C67.5221 5.97543 66.9177 5.24099 66.9177 4.20432C66.9177 3.03765 67.8899 2.2821 69.531 2.2821C71.1721 2.2821 72.0799 2.9521 72.5543 4.18321H74.7143C74.0877 2.06654 72.6621 0.510986 69.6166 0.510986C66.571 0.510986 64.8643 2.00099 64.8643 4.24765C64.8643 6.21321 66.0521 7.63876 69.7021 8.24321C72.3155 8.67543 73.1799 9.3021 73.1799 10.5332C73.1799 11.7643 72.1866 12.5854 70.1988 12.5854C68.211 12.5854 66.9155 11.6354 66.4188 10.0588H64.2588C64.7343 12.521 66.4832 14.3565 70.091 14.3788C73.6121 14.3788 75.2321 12.8021 75.2321 10.4477C75.2321 8.6121 74.2388 7.14321 70.5455 6.51654L70.5466 6.51543Z"/>
+          <path d="M31.9775 0.777588H21.333V2.71092H25.6441V14.1109H27.6886V2.71092H31.9775V0.777588Z"/>
+          <path d="M35.822 3.46655C32.6676 3.46655 30.5498 5.541 30.5498 8.99766C30.5498 12.4543 32.6242 14.3554 35.8865 14.3554C38.3009 14.3554 39.9242 13.111 40.422 11.0232H38.5798C38.2265 11.9899 37.3742 12.6699 35.8431 12.6699C33.8554 12.6699 32.6887 11.5466 32.4731 9.53766H40.532C40.5531 9.19211 40.5754 8.93322 40.5754 8.56544C40.5754 7.37766 40.3598 6.18878 39.6242 5.21655C38.8254 4.17989 37.5498 3.46655 35.822 3.46655ZM32.5376 8.02544C32.7965 6.10211 33.9631 5.12989 35.7565 5.12989C37.5498 5.12989 38.6087 6.25322 38.7387 8.02544H32.5376Z"/>
+          <path d="M91.3533 3.46655C88.1988 3.46655 86.0811 5.541 86.0811 8.99766C86.0811 12.4543 88.1555 14.3554 91.4177 14.3554C93.8322 14.3554 95.4544 13.111 95.9533 11.0232H94.1111C93.7577 11.9899 92.9055 12.6699 91.3733 12.6699C89.3855 12.6699 88.2188 11.5466 88.0033 9.53766H96.0622C96.0833 9.19211 96.1055 8.93322 96.1055 8.56544C96.1055 7.37766 95.8899 6.18878 95.1544 5.21655C94.3555 4.17989 93.0799 3.46655 91.3522 3.46655H91.3533ZM88.0699 8.02544C88.3288 6.10211 89.4966 5.12989 91.2888 5.12989C93.0811 5.12989 94.1411 6.25322 94.2699 8.02544H88.0688H88.0699Z"/>
+          <path d="M84.0961 3.73315L82.6072 7.71093C82.0294 9.22204 81.4072 10.9109 80.8961 12.3332H80.8516C80.3405 10.9332 79.6961 9.24426 79.1183 7.71093L77.6072 3.73315H75.4961L79.785 14.1109H81.9405L86.1405 3.73315H84.0961Z"/>
+          <path d="M106.575 0.777588H104.664V2.47314H106.575V0.777588Z"/>
+          <path d="M128.587 8.56544C128.587 7.37766 128.371 6.18878 127.637 5.21655C126.837 4.17989 125.562 3.46655 123.835 3.46655C120.68 3.46655 118.562 5.541 118.562 8.99766C118.562 12.4543 120.637 14.3554 123.899 14.3554C126.314 14.3554 127.937 13.111 128.435 11.0232H126.592C126.239 11.9899 125.387 12.6699 123.856 12.6699C121.868 12.6699 120.701 11.5466 120.486 9.53766H128.545C128.567 9.19211 128.588 8.93322 128.588 8.56544H128.587ZM120.55 8.02544C120.809 6.10211 121.976 5.12989 123.769 5.12989C125.562 5.12989 126.621 6.25322 126.75 8.02544H120.549H120.55Z"/>
+          <path d="M115.473 12.0365H110.594V10.3854C111.357 10.6287 111.869 10.7109 112.644 10.7109C115.465 10.7109 116.951 9.6776 116.951 7.73871C116.951 6.20982 115.918 5.60649 114.518 5.36982V5.32649C115.293 5.36982 115.788 5.39093 116.305 5.39093H117.813V3.73315H112.795C110.018 3.73315 108.402 4.98204 108.402 7.3076C108.402 8.67982 109.064 9.70982 110.303 10.272L110.285 10.2854C109.422 10.8776 108.767 11.3965 108.767 12.1532C108.767 12.7665 109.259 13.2787 109.961 13.4254C108.569 13.682 107.775 14.3343 107.775 15.2332C107.775 16.7643 109.311 17.4176 112.91 17.4176C116.509 17.4176 118.174 16.5387 118.174 14.4798C118.174 12.9432 117.265 12.1209 115.473 12.0365ZM110.145 7.37315C110.145 6.12426 110.878 5.34871 112.643 5.34871C114.409 5.34871 115.271 6.10204 115.271 7.37315C115.271 8.64426 114.518 9.35427 112.687 9.35427C110.855 9.35427 110.145 8.62204 110.145 7.37315ZM112.868 15.8698C110.234 15.8698 109.389 15.5787 109.389 14.6732C109.389 14.1309 109.854 13.4987 111.167 13.4987H115.237C116.353 13.4987 116.52 14.1132 116.52 14.4798C116.52 15.382 115.938 15.8698 112.869 15.8698H112.868Z"/>
+          <path d="M99.7444 6.93315H99.6999V3.73315H97.7666V14.1109H99.6999V8.62204C99.6999 6.62204 100.567 5.86649 102.522 5.86649H103.455V3.73315H102.811C101.144 3.73315 100.167 4.51093 99.7444 6.93315Z"/>
+          <path d="M106.564 3.73315H104.653V14.1109H106.564V3.73315Z"/>
+          <path d="M5.33333 7.44425C5.33333 8.18092 4.73667 8.77759 4 8.77759H0V14.1109H5.33333V10.1109C5.33333 9.37425 5.93 8.77759 6.66667 8.77759H13.3333V0.777588H5.33333V7.44425Z"/>
+        </g>
+        <defs><clipPath id="ts-logo-clip"><rect width="128.889" height="17.3333" fill="white" transform="translate(0 0.333252)"/></clipPath></defs>
+      </svg>
+    </a>
+    <div class="top-meta"><span class="long">Senast uppdaterad </span><strong id="updated">–</strong></div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-tiles" aria-hidden="true">
+    <i class="o"></i><i></i><i class="g"></i><i class="b"></i><i class="o"></i>
+    <i class="w"></i><i></i><i class="m"></i><i class="g"></i><i></i>
+    <i class="o"></i><i class="r"></i><i></i><i class="w"></i><i class="o"></i>
+  </div>
+  <div class="wrap">
+    <h1>Internships, trainee&shy;program och juniora jobb hos våra medlemmar</h1>
+    <p>Samlade från medlemsföretagens egna webbplatser. Uppdateras automatiskt den 1:a varje månad.</p>
+    <div class="stats" id="stats" aria-live="polite"></div>
+  </div>
+</section>
+
+<main class="wrap">
+  <div class="panel">
+    <div class="demo" id="demo" hidden>Exempeldata – kör skriptet för att hämta riktiga annonser.</div>
+
+    <div class="filters">
+      <div class="chips" id="chips" role="group" aria-label="Filtrera på typ av tjänst"></div>
+      <div class="controls">
+        <div class="field">
+          <label for="q">Sök</label>
+          <input class="input" id="q" type="search" placeholder="Roll, företag eller ort" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="place">Plats</label>
+          <select class="select" id="place"><option value="">Alla orter</option></select>
+        </div>
+        <div class="field">
+          <label for="due">Sista ansökan</label>
+          <select class="select" id="due">
+            <option value="">När som helst</option>
+            <option value="7">Inom 7 dagar</option>
+            <option value="30">Inom 30 dagar</option>
+            <option value="open">Löpande / ej angivet</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="sort">Sortera</label>
+          <select class="select" id="sort">
+            <option value="published:desc">Senast publicerad</option>
+            <option value="deadline:asc">Sista ansökan först</option>
+            <option value="company:asc">Företag A–Ö</option>
+            <option value="title:asc">Roll A–Ö</option>
+          </select>
+        </div>
+        <label class="toggle"><input type="checkbox" id="onlyNew"> Bara nya</label>
+      </div>
+    </div>
+
+    <div class="resultbar">
+      <div><span id="count" aria-live="polite"></span> <button class="linkbtn" id="reset" hidden>Rensa filter</button></div>
+      <button class="btn" id="csv" type="button">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M8 2v8m0 0 3-3m-3 3L5 7M3 13h10"/></svg>
+        Ladda ner CSV
+      </button>
+    </div>
+
+    <div class="tablewrap">
+      <table>
+        <caption class="sr-only">Juniora tjänster hos TechSveriges medlemsföretag</caption>
+        <thead>
+          <tr>
+            <th data-key="type"><button type="button">Typ <span class="arr">▲▼</span></button></th>
+            <th data-key="title"><button type="button">Roll <span class="arr">▲▼</span></button></th>
+            <th data-key="company"><button type="button">Företag <span class="arr">▲▼</span></button></th>
+            <th data-key="location"><button type="button">Plats <span class="arr">▲▼</span></button></th>
+            <th data-key="published"><button type="button">Publicerad <span class="arr">▲▼</span></button></th>
+            <th data-key="deadline"><button type="button">Sista ansökan <span class="arr">▲▼</span></button></th>
+            <th class="nosort"><span class="sr-only">Länk till annons</span></th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <div class="empty" id="empty" hidden><b>Inga annonser matchar</b>Prova att ta bort ett filter eller söka på något annat.</div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h2>Så tas listan fram</h2>
+      <p>Ett skript går igenom TechSveriges medlemsföretags egna webbplatser och karriärsidor. Annonser hämtas från medlemmens egen webbplats och från rekryteringssystem som webbplatsen länkar till (t.ex. Teamtailor). AI (Claude) läser varje annons och bedömer om den riktar sig till studenter, nyexaminerade eller personer tidigt i karriären – motiveringen visas under titeln. Bara tjänster i Sverige tas med, och annonser med passerad sista ansökningsdag tas bort.</p>
+      <p>Kontrollera alltid uppgifterna i originalannonsen.</p>
+    </div>
+    <div id="runinfo"></div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script>
+(() => {
+  "use strict";
+  const DATA = window.TS_DATA || { meta: {}, jobs: [] };
+  const JOBS = DATA.jobs || [];
+  const META = DATA.meta || {};
+
+  // [typ, färgmarkering, bakgrund, text, kantlinje] – endast TechSveriges palett
+  const TYPES = [
+    ["Praktik/Internship", "#dcfe8c", "#dcfe8c", "#1e1e1e", ""],
+    ["Trainee",            "#1e1e1e", "#1e1e1e", "#ffffff", ""],
+    ["Examensarbete",      "#008cff", "#d9edff", "#1e1e1e", ""],
+    ["Sommarjobb",         "#ff6e3c", "#ffe4da", "#1e1e1e", ""],
+    ["Junior",             "#dcdcbe", "#dcdcbe", "#1e1e1e", ""],
+    ["Studentjobb",        "#968c78", "#ffffff", "#1e1e1e", "#968c78"],
+  ];
+  const TYPE_STYLE = Object.fromEntries(TYPES.map(([t, c, bg, tx, bd]) => [t, { c, bg, tx, bd }]));
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const safeUrl = (u) => (/^https?:\/\//i.test(String(u || "")) ? u : "#");   // bara http(s)-länkar
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const dayMs = 864e5;
+  const parse = (d) => (d ? new Date(d + "T00:00:00") : null);
+  const fmt = (d) => d ? parse(d).toLocaleDateString("sv-SE", { day: "numeric", month: "short", year: parse(d).getFullYear() === today.getFullYear() ? undefined : "numeric" }) : "";
+  const daysLeft = (d) => Math.round((parse(d) - today) / dayMs);
+  const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+  const city = (loc) => (loc || "").split(",")[0].trim();
+
+  // ---------- Tillstånd (speglas i URL:en så att vyer kan delas) ----------
+  const params = new URLSearchParams(location.search);
+  const state = {
+    types: new Set((params.get("typ") || "").split("|").filter(Boolean)),
+    q: params.get("q") || "",
+    place: params.get("ort") || "",
+    due: params.get("sista") || "",
+    onlyNew: params.get("nya") === "1",
+    sort: params.get("sort") || "published:desc",
+  };
+  function syncUrl() {
+    const p = new URLSearchParams();
+    if (state.types.size) p.set("typ", [...state.types].join("|"));
+    if (state.q) p.set("q", state.q);
+    if (state.place) p.set("ort", state.place);
+    if (state.due) p.set("sista", state.due);
+    if (state.onlyNew) p.set("nya", "1");
+    if (state.sort !== "published:desc") p.set("sort", state.sort);
+    const qs = p.toString();
+    history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+  }
+
+  // ---------- Statiska delar ----------
+  function renderHeader() {
+    if (META.updated) $("updated").textContent = new Date(META.updated).toLocaleDateString("sv-SE", { day: "numeric", month: "long", year: "numeric" });
+    $("demo").hidden = !META.demo;
+    const companies = new Set(JOBS.map((j) => j.company)).size;
+    const newCount = JOBS.filter((j) => j.is_new).length;
+    const stats = [
+      [JOBS.length, "öppna annonser"],
+      [companies, "medlemsföretag annonserar"],
+      ...(newCount ? [[newCount, "nya sedan förra månaden"]] : []),
+      ...(META.members_total ? [[META.members_total.toLocaleString("sv-SE"), "medlemmar genomsökta"]] : []),
+    ];
+    $("stats").innerHTML = stats.map(([n, l]) => `<div class="stat"><b>${esc(n)}</b><span>${esc(l)}</span></div>`).join("");
+
+    const counts = {};
+    JOBS.forEach((j) => (counts[j.type] = (counts[j.type] || 0) + 1));
+    const known = new Set(TYPES.map(([t]) => t));
+    const present = [...TYPES.filter(([t]) => counts[t]),
+      ...Object.keys(counts).filter((t) => !known.has(t)).sort((a, b) => a.localeCompare(b, "sv")).map((t) => [t, "#1e1e1e"])];
+    $("chips").innerHTML =
+      `<button class="chip" type="button" data-type="" aria-pressed="${!state.types.size}">Alla <span class="n">${JOBS.length}</span></button>` +
+      present.map(([t, c]) => `<button class="chip" type="button" data-type="${esc(t)}" style="--c:${c}" aria-pressed="${state.types.has(t)}"><span class="dot"></span>${esc(t)} <span class="n">${counts[t]}</span></button>`).join("");
+
+    const cities = {};
+    JOBS.forEach((j) => { const c = city(j.location); if (c) cities[c] = (cities[c] || 0) + 1; });
+    const sel = $("place");
+    Object.entries(cities).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "sv"))
+      .forEach(([c, n]) => sel.insertAdjacentHTML("beforeend", `<option value="${esc(c)}">${esc(c)} (${n})</option>`));
+
+    if (META.updated) {
+      const bits = [];
+      if (META.members_with_website) bits.push(`${META.members_with_website.toLocaleString("sv-SE")} webbplatser lästa`);
+      if (META.members_with_career_page) bits.push(`${META.members_with_career_page.toLocaleString("sv-SE")} karriärsidor hittade`);
+      if (META.career_pages_unchanged) bits.push(`${META.career_pages_unchanged.toLocaleString("sv-SE")} oförändrade sedan sist`);
+      $("runinfo").innerHTML = `<h2>Senaste körning</h2><p>${esc(new Date(META.updated).toLocaleString("sv-SE", { dateStyle: "long", timeStyle: "short" }))}</p>${bits.length ? `<p>${esc(bits.join(" · "))}</p>` : ""}<p><a href="jobs.csv">Hela listan som CSV</a></p><p><a href="karriarsidor.csv">Medlemmarnas karriärsidor (CSV)</a></p>`;
+    }
+    $("q").value = state.q; $("place").value = state.place; $("due").value = state.due;
+    $("onlyNew").checked = state.onlyNew; $("sort").value = state.sort;
+  }
+
+  // ---------- Filtrering & sortering ----------
+  function filtered() {
+    const q = norm(state.q).trim();
+    let list = JOBS.filter((j) => {
+      if (state.types.size && !state.types.has(j.type)) return false;
+      if (state.place && city(j.location) !== state.place) return false;
+      if (state.onlyNew && !j.is_new) return false;
+      if (state.due === "open" && j.deadline) return false;
+      if ((state.due === "7" || state.due === "30") && (!j.deadline || daysLeft(j.deadline) > +state.due)) return false;
+      if (q) {   // alla ord måste finnas, i valfri ordning
+        const hay = norm(`${j.title} ${j.company} ${j.location} ${j.type} ${j.source || ""} ${j.reason || ""}`);
+        if (!q.split(/\s+/).every((w) => hay.includes(w))) return false;
+      }
+      return true;
+    });
+    const [key, dir] = state.sort.split(":");
+    const mul = dir === "desc" ? -1 : 1;
+    const val = (j) => key === "published" ? (j.published || j.first_seen || "") : (j[key] || "");
+    list.sort((a, b) => {
+      const va = val(a), vb = val(b);
+      if (!va && vb) return 1;           // tomma värden sist oavsett riktning
+      if (va && !vb) return -1;
+      return mul * String(va).localeCompare(String(vb), "sv") || a.company.localeCompare(b.company, "sv");
+    });
+    return list;
+  }
+
+  function deadlineCell(d) {
+    if (!d) return `<span class="muted">Löpande</span>`;
+    const left = daysLeft(d);
+    const rel = left === 0 ? "sista dagen idag" : left === 1 ? "i morgon" : `om ${left} dagar`;
+    return `<span class="nowrap">${esc(fmt(d))}</span><span class="due${left <= 7 ? " soon" : ""}">${esc(rel)}</span>`;
+  }
+
+  function render() {
+    const list = filtered();
+    const ts = (t) => TYPE_STYLE[t] || { c: "#1e1e1e", bg: "#dcdcbe", tx: "#1e1e1e", bd: "" };
+    $("rows").innerHTML = list.map((j) => {
+      const st = ts(j.type);
+      const pub = j.published
+        ? `<span class="nowrap">${esc(fmt(j.published))}</span>`
+        : `<span class="muted" title="Datum saknas i annonsen – hittades ${esc(fmt(j.first_seen))}">–</span>`;
+      return `<tr>
+        <td class="c-type"><span class="badge" style="--c:${st.c};--bg:${st.bg};--t:${st.tx}${st.bd ? ";--bd:" + st.bd : ""}">${esc(j.type)}</span></td>
+        <td class="c-role role"><a href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener">${esc(j.title)}</a>${
+          j.is_new || (j.source && j.source !== "Webbplats") ? `<span class="src">${j.is_new ? '<span class="new">NY</span>' : ""}${j.source && j.source !== "Webbplats" ? `via ${esc(j.source)}` : ""}</span>` : ""}${
+          j.reason ? `<span class="why">${esc(j.reason)}</span>` : ""}</td>
+        <td class="c-company company" data-label="Företag">${esc(j.company)}</td>
+        <td class="c-place" data-label="Plats">${j.location ? esc(j.location) : '<span class="muted">Ej angivet</span>'}</td>
+        <td class="c-pub" data-label="Publicerad">${pub}</td>
+        <td class="c-due" data-label="Sista ansökan">${deadlineCell(j.deadline)}</td>
+        <td class="c-link"><a class="open" href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener" aria-label="Öppna annonsen ${esc(j.title)} hos ${esc(j.company)} i ny flik">Annons <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 2h6v6M10 2 3 9"/></svg></a></td>
+      </tr>`;
+    }).join("");
+
+    $("empty").hidden = list.length > 0;
+    $("count").innerHTML = list.length === JOBS.length
+      ? `<strong>${JOBS.length}</strong> annonser`
+      : `Visar <strong>${list.length}</strong> av ${JOBS.length} annonser`;
+    const active = state.types.size || state.q || state.place || state.due || state.onlyNew;
+    $("reset").hidden = !active;
+
+    document.querySelectorAll("#chips .chip").forEach((b) => {
+      const t = b.dataset.type;
+      b.setAttribute("aria-pressed", t ? state.types.has(t) : !state.types.size);
+    });
+    const [key, dir] = state.sort.split(":");
+    document.querySelectorAll("thead th[data-key]").forEach((th) => {
+      const on = th.dataset.key === key;
+      if (on) th.setAttribute("aria-sort", dir === "desc" ? "descending" : "ascending"); else th.removeAttribute("aria-sort");
+      th.querySelector(".arr").textContent = on ? (dir === "desc" ? "▼" : "▲") : "▲▼";
+    });
+    syncUrl();
+    window.__visible = list;
+  }
+
+  // ---------- Händelser ----------
+  $("chips").addEventListener("click", (e) => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    const t = b.dataset.type;
+    if (!t) state.types.clear(); else state.types.has(t) ? state.types.delete(t) : state.types.add(t);
+    render();
+  });
+  let timer;
+  $("q").addEventListener("input", (e) => { clearTimeout(timer); timer = setTimeout(() => { state.q = e.target.value; render(); }, 120); });
+  $("place").addEventListener("change", (e) => { state.place = e.target.value; render(); });
+  $("due").addEventListener("change", (e) => { state.due = e.target.value; render(); });
+  $("onlyNew").addEventListener("change", (e) => { state.onlyNew = e.target.checked; render(); });
+  $("sort").addEventListener("change", (e) => { state.sort = e.target.value; render(); });
+  document.querySelectorAll("thead th[data-key] button").forEach((btn) => btn.addEventListener("click", () => {
+    const key = btn.parentElement.dataset.key;
+    const [k, d] = state.sort.split(":");
+    const defDir = key === "published" ? "desc" : "asc";
+    state.sort = `${key}:${k === key ? (d === "asc" ? "desc" : "asc") : defDir}`;
+    const opt = [...$("sort").options].find((o) => o.value === state.sort);
+    $("sort").value = opt ? state.sort : "";
+    render();
+  }));
+  $("reset").addEventListener("click", () => {
+    Object.assign(state, { q: "", place: "", due: "", onlyNew: false }); state.types.clear();
+    $("q").value = ""; $("place").value = ""; $("due").value = ""; $("onlyNew").checked = false;
+    render();
+  });
+  $("csv").addEventListener("click", () => {
+    const cols = [["type", "Typ"], ["title", "Roll"], ["company", "Företag"], ["location", "Plats"], ["published", "Publicerad"], ["deadline", "Sista ansökan"], ["url", "Länk"], ["source", "Källa"], ["reason", "Varför junior"]];
+    const cell = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
+    const csv = [cols.map((c) => cell(c[1])).join(";"), ...window.__visible.map((j) => cols.map(([k]) => cell(j[k])).join(";"))].join("\r\n");
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob(["﻿" + csv], { type: "text/csv;charset=utf-8" }));
+    a.download = `juniora-jobb-techsverige-${new Date().toISOString().slice(0, 10)}.csv`;
+    a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "/" && document.activeElement.tagName !== "INPUT") { e.preventDefault(); $("q").focus(); }
+  });
+
+  renderHeader();
+  render();
+})();
+</script>
+</body>
+</html>
