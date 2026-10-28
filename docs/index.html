@@ -96,8 +96,6 @@ main{margin-top:-28px;position:relative;padding-bottom:48px}
 .resultbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 20px;font-size:14px;color:var(--ts-muted);flex-wrap:wrap}
 .resultbar strong{color:var(--ts-ink)}
 .linkbtn{background:none;border:0;padding:0;font:inherit;color:var(--ts-ink);font-weight:500;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
-.btn{display:inline-flex;align-items:center;gap:8px;height:36px;padding:0 14px;border-radius:8px;border:1px solid var(--ts-ink);background:var(--ts-white);color:var(--ts-ink);font:600 14px var(--font);cursor:pointer;text-decoration:none}
-.btn:hover{background:var(--ts-ink);color:#fff}
 
 /* ---------- Tabell ---------- */
 .tablewrap{overflow:visible}   /* ingen scrollbox – annars fastnar inte rubrikraden */
@@ -242,10 +240,6 @@ footer .brand{color:#fff}
 
     <div class="resultbar">
       <div><span id="count" aria-live="polite"></span> <button class="linkbtn" id="reset" hidden>Rensa filter</button></div>
-      <button class="btn" id="csv" type="button">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M8 2v8m0 0 3-3m-3 3L5 7M3 13h10"/></svg>
-        Ladda ner CSV
-      </button>
     </div>
 
     <div class="tablewrap">
@@ -440,7 +434,6 @@ footer .brand{color:#fff}
       th.querySelector(".arr").textContent = on ? (dir === "desc" ? "▼" : "▲") : "▲▼";
     });
     syncUrl();
-    window.__visible = list;
   }
 
   // ---------- Händelser ----------
@@ -469,15 +462,6 @@ footer .brand{color:#fff}
     Object.assign(state, { q: "", place: "", due: "", onlyNew: false }); state.types.clear();
     $("q").value = ""; $("place").value = ""; $("due").value = ""; $("onlyNew").checked = false;
     render();
-  });
-  $("csv").addEventListener("click", () => {
-    const cols = [["type", "Typ"], ["title", "Roll"], ["company", "Företag"], ["location", "Plats"], ["published", "Publicerad"], ["deadline", "Sista ansökan"], ["url", "Länk"], ["source", "Källa"], ["reason", "Varför junior"]];
-    const cell = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
-    const csv = [cols.map((c) => cell(c[1])).join(";"), ...window.__visible.map((j) => cols.map(([k]) => cell(j[k])).join(";"))].join("\r\n");
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(new Blob(["﻿" + csv], { type: "text/csv;charset=utf-8" }));
-    a.download = `juniora-jobb-techsverige-${new Date().toISOString().slice(0, 10)}.csv`;
-    a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   });
   document.addEventListener("keydown", (e) => {
     if (e.key === "/" && document.activeElement.tagName !== "INPUT") { e.preventDefault(); $("q").focus(); }
