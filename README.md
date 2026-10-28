@@ -10,7 +10,7 @@ scraper/ai.py                frågorna till Claude Haiku (karriärsida, annonser
 scraper/ats.py               flöden från rekryteringssystem (Teamtailor, Lever, Workday …)
 docs/index.html              appen (öppna i webbläsaren eller publicera med GitHub Pages)
 docs/data.js                 data som appen läser – skrivs över av skriptet
-docs/jobs.json, jobs.csv     samma data som JSON och CSV (Excel-vänlig, semikolon)
+docs/jobs.json               samma data som JSON (används för att markera nya annonser)
 data/members.json            senast hämtade medlemslista (används om hämtningen misslyckas)
 data/run_log.json            körlogg: vilka företag saknade karriärsida, fel osv.
 data/ai_cache.json           sparade AI-svar (samma innehåll -> inget nytt anrop)

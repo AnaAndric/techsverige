@@ -134,7 +134,6 @@ def test_register(tmp=None):
     row = reg[scrape._reg_key("Exempelbolaget AB")]
     assert row["Karriärsida"].endswith("/karriar") and row["Källa"] == "Automatiskt", row
     assert "Webbplats saknas" in reg[scrape._reg_key("Åkerö Data AB")]["Status"]
-    assert (tmp / "out" / "karriarsidor.csv").exists()
 
     # Någon har öppnat filen i Excel, lagt in en egen länk och sparat (cp1252)
     text = (tmp / "data" / "karriarsidor.csv").read_text("utf-8-sig").replace(

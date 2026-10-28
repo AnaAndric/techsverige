@@ -24,8 +24,8 @@ Flöde
    Sidor som bara visar innehåll med JavaScript öppnas i en headless webbläsare.
    Endast medlemmens egen webbplats och rekryteringssystem som den länkar till
    används – inga jobbsajter som Platsbanken eller LinkedIn.
-3. Resultatet skrivs till docs/data.js (läses av appen), docs/jobs.json och
-   docs/jobs.csv. Annonser vars sista ansökningsdag passerat tas bort.
+3. Resultatet skrivs till docs/data.js (läses av appen) och docs/jobs.json.
+   Annonser vars sista ansökningsdag passerat tas bort.
    "Ny" = annonsen fanns inte vid förra körningen.
 
 Kör:  python scraper/scrape.py              (allt)
@@ -47,7 +47,6 @@ import logging
 import os
 import queue
 import re
-import shutil
 import sys
 import threading
 import time
@@ -1746,20 +1745,6 @@ def write_outputs(out_dir: Path, jobs: list[dict], meta: dict, companies: list[d
     (out_dir / "data.js").write_text(
         "/* Genereras av scraper/scrape.py – redigera inte för hand */\nwindow.TS_DATA = "
         + json.dumps(payload, ensure_ascii=False) + ";\n", "utf-8")
-    cols = [("type", "Typ"), ("title", "Roll"), ("company", "Företag"), ("location", "Plats"),
-            ("published", "Publicerad"), ("deadline", "Sista ansökan"), ("url", "Länk"), ("source", "Källa"),
-            ("reason", "Varför junior")]
-    with (out_dir / "jobs.csv").open("w", newline="", encoding="utf-8-sig") as f:
-        w = csv.writer(f, delimiter=";")
-        w.writerow([c[1] for c in cols])
-        for j in jobs:
-            w.writerow([csv_safe(j.get(k) or "") for k, _ in cols])
-
-
-def csv_safe(v) -> str:
-    """Hindrar att Excel tolkar en cell som formel."""
-    s = str(v)
-    return "'" + s if s[:1] in ("=", "+", "-", "@") else s
 
 
 # ---------------------------------------------------------------------------
@@ -1871,7 +1856,7 @@ def update_register(register: dict, s: "CompanyScraper") -> None:
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--members-file", type=Path, help="CSV/JSON med name, domain, orgnr (ersätter skrapning av medlemslistan)")
-    ap.add_argument("--out", type=Path, default=ROOT / "docs", help="mapp för data.js/jobs.json/jobs.csv")
+    ap.add_argument("--out", type=Path, default=ROOT / "docs", help="mapp för data.js/jobs.json")
     ap.add_argument("--data-dir", type=Path, default=ROOT / "data", help="cache för medlemslista och körlogg")
     ap.add_argument("--limit", type=int, default=0, help="bara de N första medlemmarna med webbplats (för test)")
     ap.add_argument("--workers", type=int, default=24)
@@ -2009,8 +1994,6 @@ def main(argv=None) -> int:
     if pagecache:
         pagecache.save()
     log.info("Snabbkoll: %d karriärsidor oförändrade sedan sist (återanvände annonserna)", unchanged)
-    a.out.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(reg_path, a.out / "karriarsidor.csv")  # så att appen kan länka till den
     log.info("Sparade %s (%d företag)", reg_path, len(register))
 
     # 3. Skriv ut
