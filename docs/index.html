@@ -47,7 +47,7 @@ a{color:inherit}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
 /* ---------- Header ---------- */
-.top{background:var(--ts-ink);color:#fff}
+.top{background:var(--ts-ink);color:#fff;position:sticky;top:0;z-index:20}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff}
 .logo{display:block;width:129px;height:18px}
@@ -102,7 +102,7 @@ main{margin-top:-28px;position:relative;padding-bottom:48px}
 /* ---------- Tabell ---------- */
 .tablewrap{overflow:visible}   /* ingen scrollbox – annars fastnar inte rubrikraden */
 table{width:100%;border-collapse:collapse}
-thead th{position:sticky;top:0;background:#f8f8f1;text-align:left;font-size:12px;font-weight:600;color:var(--ts-muted);text-transform:uppercase;letter-spacing:.04em;padding:0;border-bottom:1px solid var(--ts-line);white-space:nowrap;z-index:1}
+thead th{position:sticky;top:64px;background:#f8f8f1;text-align:left;font-size:12px;font-weight:600;color:var(--ts-muted);text-transform:uppercase;letter-spacing:.04em;padding:0;border-bottom:1px solid var(--ts-line);white-space:nowrap;z-index:1}
 thead th button{all:unset;display:flex;align-items:center;gap:6px;padding:12px 16px;cursor:pointer;width:100%;box-sizing:border-box}
 thead th button:hover{color:var(--ts-ink)}
 thead th button:focus-visible{outline:3px solid var(--ts-blue);outline-offset:-3px}
