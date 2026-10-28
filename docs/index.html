@@ -131,16 +131,15 @@ tbody tr:last-child td{border-bottom:0}
 .empty{padding:56px 20px;text-align:center;color:var(--ts-muted)}
 .empty b{display:block;color:var(--ts-ink);font-size:17px;margin-bottom:6px}
 
-footer{padding:28px 0 48px;color:var(--ts-muted);font-size:13.5px}
-footer .wrap{display:grid;grid-template-columns:2fr 1fr;gap:24px}
-footer h2{font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--ts-ink);margin:0 0 6px}
-footer p{margin:0 0 6px;max-width:680px}
+footer{background:var(--ts-ink);color:var(--ts-warmgray);font-size:13.5px;margin-top:40px}
+footer .wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px 24px;padding-top:28px;padding-bottom:28px}
+footer a{color:#fff}
+footer .brand{color:#fff}
 
 /* ---------- Mobil: rader blir kort ---------- */
 @media (max-width:900px){
   .controls{grid-template-columns:1fr 1fr}
   .controls .field:first-child{grid-column:1/-1}
-  footer .wrap{grid-template-columns:1fr}
 }
 @media (max-width:900px){
   .wrap{padding:0 16px}
@@ -169,7 +168,7 @@ footer p{margin:0 0 6px;max-width:680px}
   <div class="wrap">
     <a class="brand" href="./" aria-label="TechSverige – juniora jobb, startsida">
       <svg class="logo" width="129" height="18" viewBox="0 0 129 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-        <g clip-path="url(#ts-logo-clip)" fill="white">
+        <g id="ts-logo-mark" clip-path="url(#ts-logo-clip)" fill="white">
           <path d="M59.0895 3.46648C57.2673 3.46648 55.9117 4.42203 55.4673 6.53314H55.4451V0.777588H53.5117V14.1109H55.4451V7.95537C55.4451 6.22203 56.5117 5.22203 58.2895 5.22203C60.1784 5.22203 60.7784 6.53314 60.7784 7.95537V14.1109H62.7117V7.46648C62.7117 5.24425 61.7784 3.46648 59.0895 3.46648Z"/>
           <path d="M47.0239 12.6066C44.9495 12.6066 43.6317 11.2454 43.6317 8.93322C43.6317 6.46989 44.9928 5.23877 46.9595 5.23877C48.5462 5.23877 49.4973 6.07989 49.8661 7.35989H51.8906C51.3584 4.90544 49.8684 3.46655 46.9806 3.46655C43.8906 3.46655 41.665 5.49766 41.665 8.911C41.665 12.3243 43.8039 14.3777 47.045 14.3777C49.855 14.3777 51.3806 12.9132 51.9139 10.3543H49.925C49.5495 11.6354 48.7906 12.6066 47.0239 12.6066Z"/>
           <path d="M70.5466 6.51543C67.5221 5.97543 66.9177 5.24099 66.9177 4.20432C66.9177 3.03765 67.8899 2.2821 69.531 2.2821C71.1721 2.2821 72.0799 2.9521 72.5543 4.18321H74.7143C74.0877 2.06654 72.6621 0.510986 69.6166 0.510986C66.571 0.510986 64.8643 2.00099 64.8643 4.24765C64.8643 6.21321 66.0521 7.63876 69.7021 8.24321C72.3155 8.67543 73.1799 9.3021 73.1799 10.5332C73.1799 11.7643 72.1866 12.5854 70.1988 12.5854C68.211 12.5854 66.9155 11.6354 66.4188 10.0588H64.2588C64.7343 12.521 66.4832 14.3565 70.091 14.3788C73.6121 14.3788 75.2321 12.8021 75.2321 10.4477C75.2321 8.6121 74.2388 7.14321 70.5455 6.51654L70.5466 6.51543Z"/>
@@ -272,12 +271,10 @@ footer p{margin:0 0 6px;max-width:680px}
 
 <footer>
   <div class="wrap">
-    <div>
-      <h2>Så tas listan fram</h2>
-      <p>Ett skript går igenom TechSveriges medlemsföretags egna webbplatser och karriärsidor. Annonser hämtas från medlemmens egen webbplats och från rekryteringssystem som webbplatsen länkar till (t.ex. Teamtailor). AI (Claude) läser varje annons och bedömer om den riktar sig till studenter, nyexaminerade eller personer tidigt i karriären – motiveringen visas under titeln. Bara tjänster i Sverige tas med, och annonser med passerad sista ansökningsdag tas bort.</p>
-      <p>Kontrollera alltid uppgifterna i originalannonsen.</p>
-    </div>
-    <div id="runinfo"></div>
+    <a class="brand" href="https://www.techsverige.se/" aria-label="TechSverige">
+      <svg class="logo" width="129" height="18" viewBox="0 0 129 18" aria-hidden="true" focusable="false"><use href="#ts-logo-mark"/></svg>
+    </a>
+    <span>© TechSverige · <a href="https://www.techsverige.se/">techsverige.se</a></span>
   </div>
 </footer>
 
@@ -366,13 +363,6 @@ footer p{margin:0 0 6px;max-width:680px}
     Object.entries(cities).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "sv"))
       .forEach(([c, n]) => sel.insertAdjacentHTML("beforeend", `<option value="${esc(c)}">${esc(c)} (${n})</option>`));
 
-    if (META.updated) {
-      const bits = [];
-      if (META.members_with_website) bits.push(`${META.members_with_website.toLocaleString("sv-SE")} webbplatser lästa`);
-      if (META.members_with_career_page) bits.push(`${META.members_with_career_page.toLocaleString("sv-SE")} karriärsidor hittade`);
-      if (META.career_pages_unchanged) bits.push(`${META.career_pages_unchanged.toLocaleString("sv-SE")} oförändrade sedan sist`);
-      $("runinfo").innerHTML = `<h2>Senaste körning</h2><p>${esc(new Date(META.updated).toLocaleString("sv-SE", { dateStyle: "long", timeStyle: "short" }))}</p>${bits.length ? `<p>${esc(bits.join(" · "))}</p>` : ""}<p><a href="jobs.csv">Hela listan som CSV</a></p><p><a href="karriarsidor.csv">Medlemmarnas karriärsidor (CSV)</a></p>`;
-    }
     $("q").value = state.q; $("place").value = state.place; $("due").value = state.due;
     $("onlyNew").checked = state.onlyNew; $("sort").value = state.sort;
   }
