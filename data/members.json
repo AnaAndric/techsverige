@@ -1580,6 +1580,11 @@
   "domain": "www.visma.se"
  },
  {
+  "name": "Eira Identity AB",
+  "orgnr": "556906-2903",
+  "domain": "www.id-north.com"
+ },
+ {
   "name": "El-Info i Växjö AB",
   "orgnr": "556492-1756",
   "domain": "www.el-info.se"
@@ -2385,11 +2390,6 @@
   "domain": ""
  },
  {
-  "name": "ID North AB",
-  "orgnr": "556906-2903",
-  "domain": "www.id-north.com"
- },
- {
   "name": "Institutet för informationsteknologi",
   "orgnr": "556423-3095",
   "domain": "www.ifi.se"
@@ -2913,6 +2913,11 @@
   "name": "Kiwision Stockholm AB",
   "orgnr": "559512-9882",
   "domain": "www.kiwision.se"
+ },
+ {
+  "name": "Kleri StorSafe AB",
+  "orgnr": "556666-1046",
+  "domain": "www.storsafe.se"
  },
  {
   "name": "Knightec Group Software and Cloud AB",
@@ -3990,11 +3995,6 @@
   "domain": "www.oticon.com"
  },
  {
-  "name": "Optidev AB",
-  "orgnr": "559534-7401",
-  "domain": "www.optidev.se"
- },
- {
   "name": "OptoSweden AB",
   "orgnr": "556532-0479",
   "domain": "www.optosweden.se"
@@ -4995,11 +4995,6 @@
   "domain": ""
  },
  {
-  "name": "Storsafe Sweden AB",
-  "orgnr": "556666-1046",
-  "domain": "www.storsafe.se"
- },
- {
   "name": "Stride Nordic AB",
   "orgnr": "559397-0287",
   "domain": "www.stride.se"
@@ -5443,6 +5438,11 @@
   "name": "Toshiba Tec Nordic AB",
   "orgnr": "556091-2106",
   "domain": "www.toshiba.se"
+ },
+ {
+  "name": "Total Digital IT Solutions Sweden AB",
+  "orgnr": "559176-8055",
+  "domain": "totaldigital.se"
  },
  {
   "name": "Total Säkerhet",
