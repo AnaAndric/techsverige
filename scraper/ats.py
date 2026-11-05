@@ -383,15 +383,25 @@ def reachmee(http, url: str, norm_date) -> list[dict] | None:
     if status != 200 or "jobsTable" not in body:
         return None
     table = body[body.find("jobsTable"):]
+    table = table[: table.find("</table>")]
+    # Kolumnerna varierar mellan kunder (t.ex. Tjänst | Ort | Sista ansökningsdag eller
+    # Tjänst | Sista ansökningsdag | Ort) – läs rubrikerna i stället för att anta ordningen.
+    heads = [_text(h).lower() for h in re.findall(r"(?is)<th[^>]*>(.*?)</th>", table)]
+    col_loc = next((i for i, h in enumerate(heads) if re.search(r"\b(ort|plats|location|city|placering)", h)), None)
+    col_dl = next((i for i, h in enumerate(heads) if re.search(r"sista|deadline|last|apply", h)), None)
+    if not heads:
+        col_loc, col_dl = 1, 2
     out = []
-    for row in re.findall(r"(?is)<tr[^>]*>(.*?)</tr>", table[: table.find("</table>")]):
+    for row in re.findall(r"(?is)<tr[^>]*>(.*?)</tr>", table):
         cells = re.findall(r"(?is)<td[^>]*>(.*?)</td>", row)
         a = re.search(r"(?is)<a[^>]+href=[\"']([^\"']*job_id=(\d+)[^\"']*)[\"'][^>]*>(.*?)</a>", row)
         if not a or len(cells) < 2:
             continue
+        cell = lambda i: re.sub(r"(?is)<span[^>]*(show-mobile|display:\s*none)[^>]*>.*?</span>", " ",
+                                cells[i]) if i is not None and i < len(cells) else ""
         out.append(_job(_text(a.group(3)), f"{base}/job?site={site}&lang={lang}&validator={q['validator']}"
-                        f"&job_id={a.group(2)}", _text(cells[1]), "", None,
-                        norm_date(_text(cells[2])) if len(cells) > 2 else None))
+                        f"&job_id={a.group(2)}", _text(cell(col_loc)), "", None,
+                        norm_date(_text(cell(col_dl))) or None))
     return out
 
 

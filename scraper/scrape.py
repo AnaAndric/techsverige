@@ -1697,6 +1697,23 @@ def dedupe(postings: list[dict]) -> list[dict]:
     return out
 
 
+CITY_ALIASES = {"gothenburg": "Göteborg", "goteborg": "Göteborg", "malmo": "Malmö", "umea": "Umeå",
+                "orebro": "Örebro", "lulea": "Luleå", "vasteras": "Västerås", "linkoping": "Linköping",
+                "norrkoping": "Norrköping", "jonkoping": "Jönköping", "vaxjo": "Växjö", "gavle": "Gävle",
+                "skelleftea": "Skellefteå", "ostersund": "Östersund", "molndal": "Mölndal",
+                "copenhagen": "Köpenhamn", "remote": "Distans"}
+NOT_PLACE_RX = re.compile(r"(sista\s+ansökningsdag|deadline|\d{4}-\d{2}-\d{2})", re.I)
+
+
+def norm_location(loc: str) -> str:
+    """Svenska stavningar (Gothenburg -> Göteborg) så att orter inte dubbleras i filtret,
+    och bort med text som inte är en ort (t.ex. 'Sista ansökningsdag: 2026-10-30')."""
+    if not loc or NOT_PLACE_RX.search(loc):
+        return ""
+    parts = [CITY_ALIASES.get(x.strip().lower(), x.strip()) for x in loc.split(",")]
+    return ", ".join(dict.fromkeys(x for x in parts if x))
+
+
 def finalize(postings: list[dict], previous: list[dict]) -> list[dict]:
     first_seen = {clean_url(p["url"]): p.get("first_seen") for p in previous if p.get("url")}
     today = TODAY.isoformat()
@@ -1708,6 +1725,7 @@ def finalize(postings: list[dict], previous: list[dict]) -> list[dict]:
             continue  # ansökningstiden har gått ut
         if p.get("published") and p["published"] > today:
             p["published"] = None
+        p["location"] = norm_location(p.get("location", ""))
         fs = first_seen.get(clean_url(p["url"]))
         p["first_seen"] = fs or today
         p["is_new"] = fs is None and bool(previous)
