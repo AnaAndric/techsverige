@@ -1740,6 +1740,11 @@
   "domain": "www.explizit.se"
  },
  {
+  "name": "Exsitec Edge AB",
+  "orgnr": "559604-6598",
+  "domain": "www.exsitec.se"
+ },
+ {
   "name": "Exsitec Tech Solutions AB",
   "orgnr": "556210-6681",
   "domain": "www.amesto.se"
@@ -2078,6 +2083,11 @@
   "name": "HR Fokus AB",
   "orgnr": "556665-0981",
   "domain": "www.hrfokus.se"
+ },
+ {
+  "name": "HRZ Nordic AB",
+  "orgnr": "559214-6384",
+  "domain": ""
  },
  {
   "name": "HS News Systems AB",

@@ -1,29 +1,869 @@
 {
  "meta": {
-  "updated": "2026-11-01T11:58+00:00",
-  "members_total": 1199,
-  "members_with_website": 939,
+  "updated": "2026-11-08T12:03+00:00",
+  "members_total": 1201,
+  "members_with_website": 940,
   "members_with_career_page": 608,
-  "members_scraped_this_run": 1199,
-  "career_pages_unchanged": 269,
-  "companies_with_jobs": 65,
-  "jobs_total": 211,
-  "duration_min": 21.5,
+  "members_scraped_this_run": 1201,
+  "career_pages_unchanged": 253,
+  "companies_with_jobs": 63,
+  "jobs_total": 224,
+  "duration_min": 24.7,
   "demo": false,
   "ats_signature": "8e8b713578f9",
   "ai": {
    "model": "claude-haiku-5-5",
-   "calls": 1717,
-   "cached": 3980,
+   "calls": 2202,
+   "cached": 3797,
    "errors": 0,
-   "input_tokens": 8110498,
-   "output_tokens": 621351,
-   "web_searches": 10,
-   "pages_rendered": 880,
-   "job_pages_unchanged": 169
+   "input_tokens": 10263296,
+   "output_tokens": 713420,
+   "web_searches": 0,
+   "pages_rendered": 1001,
+   "job_pages_unchanged": 178
   }
  },
  "jobs": [
+  {
+   "company": "ACM 2001 AB",
+   "orgnr": "556057-2850",
+   "type": "Junior",
+   "title": "Junior PHP-utvecklare till Omniway – Laravel",
+   "url": "https://academedia.onecruiter.com/jobs/320530-junior-php-utvecklare-till-omniway-laravel?_=0.26443967763734144&ref=&language=",
+   "published": null,
+   "deadline": "2026-11-28",
+   "location": "Umeå",
+   "source": "Onecruiter",
+   "reason": "Juniorroll för utvecklare inom PHP och Laravel som kräver grundkunskaper och erbjuder handledning, anställd av AcadeMedia-koncernen.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "ACM 2001 AB",
+   "orgnr": "556057-2850",
+   "type": "Praktik/Internship",
+   "title": "Gör din LIA på Framtidsutveckling och väx som digital marknadsförare!",
+   "url": "https://academedia.onecruiter.com/jobs/318081-gor-din-lia-pa-framtidsutveckling-och-vax-som-digital-marknadsforare?_=0.26443967763734144&ref=&language=",
+   "published": null,
+   "deadline": "2026-12-31",
+   "location": "Göteborg",
+   "source": "Onecruiter",
+   "reason": "Praktikplats (LIA) för student inom digital marknadsföring, en affärsfunktion nära tech.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "ACM 2001 AB",
+   "orgnr": "556057-2850",
+   "type": "Junior",
+   "title": "Administratör inriktning Kundtjänst",
+   "url": "https://academedia.onecruiter.com/jobs/320651-administrator-inriktning-kundtjanst?_=0.26443967763734144&ref=&language=",
+   "published": null,
+   "deadline": "2026-11-30",
+   "location": "Västerås",
+   "source": "Onecruiter",
+   "reason": "Visstidsanställning på entrénivå inom kundtjänst där erfarenhet endast är meriterande, inte krav.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Aderian Stockholm AB",
+   "orgnr": "556803-5298",
+   "type": "Junior",
+   "title": "GDM söker supporttekniker",
+   "url": "https://web103.reachmee.com/ext/I023/2696/job?site=7&lang=SE&validator=c50954ee76ac7d5e1489644ef8aa592a&job_id=26",
+   "published": null,
+   "deadline": "2026-11-22",
+   "location": "Östersund",
+   "source": "ReachMee",
+   "reason": "Supporttekniker-rollen riktar sig till personer med IT-utbildning eller motsvarande erfarenhet, utan krav på flera års erfarenhet, vilket tyder på ingångsnivå.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Compodium International AB",
+   "orgnr": "556614-5826",
+   "type": "Praktik/Internship",
+   "title": "Praktik/LIA inom marknad och event",
+   "url": "https://career.weselect.com/p/73091-praktiklia-inom-marknad-och-event",
+   "published": null,
+   "deadline": "2026-11-30",
+   "location": "Stockholm",
+   "source": "Weselect",
+   "reason": "Praktik/LIA för studenter inom marknad och event hos weselect, en marknadsfunktion som räknas som tech-närliggande.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Exsitec Edge AB",
+   "orgnr": "559604-6598",
+   "type": "Junior",
+   "title": "SDR / Mötesbokare B2B",
+   "url": "https://www.exsitec.se/karriar/lediga-jobb/sdr-insikt?teamtailor_job_id=6895815#job-listing-anchor",
+   "published": null,
+   "deadline": "2026-12-31",
+   "location": "Linköping",
+   "source": "Webbplats",
+   "reason": "Entry-level sales development role where previous experience is only meriting, not required.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Atea Finance AB",
+   "orgnr": "556725-8362",
+   "type": "Junior",
+   "title": "Kundsupport",
+   "url": "https://www.atea.se/karriar/ledigt-jobb/?id=3421&name=Kundsupport&type=Country",
+   "published": null,
+   "deadline": "2026-12-03",
+   "location": "Växjö",
+   "source": "ReachMee",
+   "reason": "Entry-level kundsupport-tjänst som kräver endast viss kundserviceerfarenhet och gymnasieexamen.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Atea Finance AB",
+   "orgnr": "556725-8362",
+   "type": "Junior",
+   "title": "Kundsupport",
+   "url": "https://web106.reachmee.com/ext/I020/1291/job?site=27&lang=SE&validator=277cb2bac1f6d9ba2720e8827a79e39b&job_id=3486",
+   "published": null,
+   "deadline": "2026-12-03",
+   "location": "Växjö",
+   "source": "ReachMee",
+   "reason": "Entry-level kundsupportroll som kräver endast gymnasieexamen och viss kundserviceerfarenhet, vilket gör den lämplig för personer tidigt i karriären inom IT-support.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Telia Company AB",
+   "orgnr": "556103-4249",
+   "type": "Junior",
+   "title": "Säljare till Telias butik i Ringen",
+   "url": "https://www.teliacompany.com/en/careers/open-positions/Sljare-till-Telias-butik-i-Ringen_63640-1",
+   "published": null,
+   "deadline": "2026-11-20",
+   "location": "Stockholm",
+   "source": "Webbplats",
+   "reason": "Säljroll i Telias butik som kräver gymnasieexamen och där tidigare erfarenhet är en fördel, vilket gör den till ett entry-level-jobb.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Telia Company AB",
+   "orgnr": "556103-4249",
+   "type": "Junior",
+   "title": "Säljare till Telias butik i Linköping",
+   "url": "https://www.teliacompany.com/en/careers/open-positions/Sljare-till-Telias-butik-i-Linkping_63634-1",
+   "published": null,
+   "deadline": "2026-11-19",
+   "location": "Linköping",
+   "source": "Webbplats",
+   "reason": "Entry-level säljtjänst i Telias butik som kräver endast gymnasieexamen och där tidigare erfarenhet är en fördel.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Telia Company AB",
+   "orgnr": "556103-4249",
+   "type": "Junior",
+   "title": "Säljare till Telias butik i Luleå",
+   "url": "https://www.teliacompany.com/en/careers/open-positions/Sljare-till-Telias-butik-i-Lule_63626-3",
+   "published": null,
+   "deadline": "2026-11-19",
+   "location": "Luleå",
+   "source": "Webbplats",
+   "reason": "Entry-level säljroll i Telias butik som kräver gymnasieexamen och inga års erfarenhet, med säljning av Telias egna tjänster och produkter.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Telia Company AB",
+   "orgnr": "556103-4249",
+   "type": "Junior",
+   "title": "Säljare till Telias butik i Västerås Livli",
+   "url": "https://www.teliacompany.com/en/careers/open-positions/Sljare-till-Telias-butik-i-Vsters-Livli_63581-1",
+   "published": null,
+   "deadline": "2026-11-18",
+   "location": "Västerås",
+   "source": "Webbplats",
+   "reason": "Entry-level säljroll i Telias butik som kräver endast gymnasieexamen, tidigare erfarenhet är en fördel.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "CGI Sverige AB",
+   "orgnr": "556337-2191",
+   "type": "Junior",
+   "title": "Support Technician",
+   "url": "https://cgi.njoyn.com/corp/xweb/xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1126-0207&BRID=1345927&lang=1",
+   "published": null,
+   "deadline": null,
+   "location": "Västerås",
+   "source": "Njoyn",
+   "reason": "Entry-level supporttekniker-roll som kräver IT-utbildning eller viss IT-supporterfarenhet, utan krav på flera års erfarenhet.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Knowit Connectivity AB",
+   "orgnr": "556254-0673",
+   "type": "Examensarbete",
+   "title": "Knowit - Thesis Opportunities 2027",
+   "url": "https://www.knowit.se/karriar/lediga-jobb/knowit-connectivity---thesis-opportunities-2027/",
+   "published": null,
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Webbplats",
+   "reason": "Examensarbete med handledning från Knowit Connectivity, riktat till studenter i datavetenskap eller inbyggda system.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Telenor",
+   "orgnr": "556421-0309",
+   "type": "Junior",
+   "title": "Butikssäljare till Nordstan",
+   "url": "https://www.telenor.com/career/open-positions/job-search-article.page?id=8674441",
+   "published": null,
+   "deadline": null,
+   "location": "Göteborg",
+   "source": "Teamtailor",
+   "reason": "Entry-level butiksroll utan krav på års erfarenhet, där tidigare kundkontakt bara är meriterande; säljer och servar Telenors egna telekomprodukter.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Telenor",
+   "orgnr": "556421-0309",
+   "type": "Junior",
+   "title": "Butikssäljare till Väla",
+   "url": "https://www.telenor.com/career/open-positions/job-search-article.page?id=8663641",
+   "published": null,
+   "deadline": null,
+   "location": "Helsingborg",
+   "source": "Teamtailor",
+   "reason": "Entry-level butikssäljarroll utan krav på erfarenhet; tidigare kundkontakt är bara meriterande.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Telenor",
+   "orgnr": "556421-0309",
+   "type": "Junior",
+   "title": "Butikssäljare till Malmö, Mobilia",
+   "url": "https://www.telenor.com/career/open-positions/job-search-article.page?id=8253870",
+   "published": null,
+   "deadline": null,
+   "location": "Malmö",
+   "source": "Teamtailor",
+   "reason": "Entry-level butikssäljarroll hos Telenor utan krav på year av erfarenhet, och tidigare erfarenhet av kundkontakt är bara meriterande.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Exsitec Edge AB",
+   "orgnr": "559604-6598",
+   "type": "Trainee",
+   "title": "Traineeprogram inom IT",
+   "url": "https://www.exsitec.se/karriar/traineeprogram?teamtailor_job_id=null",
+   "published": null,
+   "deadline": null,
+   "location": "",
+   "source": "Webbplats",
+   "reason": "Traineeprogram för nyexaminerade eller personer med några års erfarenhet som vill bli IT-konsulter.}",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Exsitec Edge AB",
+   "orgnr": "559604-6598",
+   "type": "Trainee",
+   "title": "Sales Talent Programme",
+   "url": "https://www.exsitec.se/karriar/sales-talent-programme?teamtailor_job_id=7971548",
+   "published": null,
+   "deadline": null,
+   "location": "",
+   "source": "Webbplats",
+   "reason": "Programmet riktar sig till nyexaminerade eller personer med några års arbetslivserfarenhet inom B2B-försäljning och IT.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Sigma Industry Recruit AB",
+   "orgnr": "559570-4569",
+   "type": "Junior",
+   "title": "Inköpskoordinator",
+   "url": "https://www.sigma.se/position/inkopskoordinator-goteborg-sweden-en-20261107/",
+   "published": "2026-11-07",
+   "deadline": "2026-11-14",
+   "location": "Göteborg",
+   "source": "Webbplats",
+   "reason": "Juniorroll som söker cirka 1-2 års erfarenhet, och inköp/avtalshantering räknas som närliggande till tech.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Sigma Industry West AB",
+   "orgnr": "556958-4096",
+   "type": "Junior",
+   "title": "Inköpskoordinator",
+   "url": "https://www.sigmaindustrywest.se/lediga-jobb/inkopskoordinator/",
+   "published": "2026-11-07",
+   "deadline": null,
+   "location": "Göteborg",
+   "source": "Webbplats",
+   "reason": "Annonsen säger uttryckligen junior inköpskoordinator med runt 1-2 års erfarenhet, vilket ligger inom ramen för junior.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "TelliQ",
+   "orgnr": "556733-7430",
+   "type": "Junior",
+   "title": "Junior Account Executive - Infobric Academy",
+   "url": "https://career.infobric.com/jobs/8677366-junior-account-executive-infobric-academy",
+   "published": "2026-11-06",
+   "deadline": "2026-11-30",
+   "location": "Jönköping",
+   "source": "Teamtailor",
+   "reason": "Entry-level B2B-säljroll där erfarenhet av B2B-försäljning inte krävs, och tjänsten gäller försäljning av utbildningar inom arbetsmiljö och säkerhet via egen säljteam.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Telia Cygate AB",
+   "orgnr": "556549-8952",
+   "type": "Junior",
+   "title": "Säljare till Telias butik i Ringen",
+   "url": "https://teliacompany.wd3.myworkdayjobs.com/Telia_careers/job/Stockholm/Sljare-till-Telias-butik-i-Ringen_63640-1",
+   "published": "2026-11-06",
+   "deadline": "2026-11-21",
+   "location": "Stockholm",
+   "source": "Workday",
+   "reason": "Entry-level säljroll i Telias butik som kräver endast gymnasieexamen, med tidigare erfarenhet bara som fördel.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "3",
+   "orgnr": "556593-4899",
+   "type": "Junior",
+   "title": "Säljare till 3Butiken Marieberg, timanställning",
+   "url": "https://emp.jobylon.com/jobs/395536-tre-saljare-till-3butiken-marieberg-timanstallning/",
+   "published": "2026-11-06",
+   "deadline": "2026-11-30",
+   "location": "Örebro",
+   "source": "Jobylon",
+   "reason": "Entry-level timanställning i butik utan krav på erfarenhet, med introduktion och utbildning, och rollen säljer och servar Tres egna mobil- och bredbandstjänster.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Junior",
+   "title": "Entry level: Developer",
+   "url": "https://jobs.ericsson.com/careers/job/563121777429369?domain=ericsson.com",
+   "published": "2026-11-06",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Titeln anger entry level och kraven är MSc eller BSc i datavetenskap, utan krav på många års erfarenhet.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master Thesis: Beyond Git: Source Control Architecture for Agentic Software Development",
+   "url": "https://jobs.ericsson.com/careers/job/563121777561409?domain=ericsson.com",
+   "published": "2026-11-06",
+   "deadline": null,
+   "location": "Lund",
+   "source": "Eightfold",
+   "reason": "Det är ett examensarbete (masteruppsats) för studenter inom datavetenskap eller mjukvaruutveckling.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Junior",
+   "title": "Entry Level: Baseband System Developer",
+   "url": "https://jobs.ericsson.com/careers/job/563121777330051?domain=ericsson.com",
+   "published": "2026-11-06",
+   "deadline": null,
+   "location": "Lund",
+   "source": "Eightfold",
+   "reason": "Rekryterar nyexaminerade ingenjörer (\"recently graduated\") till en entry level-roll inom tech.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Telia Cygate AB",
+   "orgnr": "556549-8952",
+   "type": "Junior",
+   "title": "Säljare till Telias butik i Linköping",
+   "url": "https://teliacompany.wd3.myworkdayjobs.com/Telia_careers/job/Linkping/Sljare-till-Telias-butik-i-Linkping_63634-1",
+   "published": "2026-11-05",
+   "deadline": "2026-11-20",
+   "location": "Linköping",
+   "source": "Workday",
+   "reason": "Säljroll i Telias butik med gymnasieexamen som krav och tidigare erfarenhet som fördel, riktad till personer tidigt i karriären.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Telia Cygate AB",
+   "orgnr": "556549-8952",
+   "type": "Junior",
+   "title": "Säljare till Telias butik i Luleå",
+   "url": "https://teliacompany.wd3.myworkdayjobs.com/Telia_careers/job/Lule/Sljare-till-Telias-butik-i-Lule_63626-3",
+   "published": "2026-11-05",
+   "deadline": "2026-11-20",
+   "location": "Luleå",
+   "source": "Workday",
+   "reason": "Säljtjänst i Telias butik med gymnasieexamen som krav och ingen krav på tidigare erfarenhet, vilket gör den till en junior ingångsroll.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master Thesis: AI-Assisted Integrated Data Center Design for Telecom Core Systems",
+   "url": "https://jobs.ericsson.com/careers/job/563121777306234?domain=ericsson.com",
+   "published": "2026-11-05",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Examensarbete (masteruppsats) för studenter inom telekom och datacenterdesign.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master Thesis: Mapping the Unseen: Electromagnetic Effects on Measurements in Anechoic Chambers",
+   "url": "https://jobs.ericsson.com/careers/job/563121777197998?domain=ericsson.com",
+   "published": "2026-11-05",
+   "deadline": null,
+   "location": "Lund",
+   "source": "Eightfold",
+   "reason": "Examensarbete för masterstudenter inom elektroteknik/engineering physics, vilket är en juniorroll.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Praktik/Internship",
+   "title": "Student Intern - AI and Automation",
+   "url": "https://jobs.ericsson.com/careers/job/563121777349942?domain=ericsson.com",
+   "published": "2026-11-05",
+   "deadline": null,
+   "location": "Lund",
+   "source": "Eightfold",
+   "reason": "Praktik för student på 3:e eller 4:e året inom AI och automation hos Ericsson i Lund.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Knightec Group Software and Cloud AB",
+   "orgnr": "556403-0996",
+   "type": "Examensarbete",
+   "title": "Examensarbete: Systemsimulering av band- och fordonsdynamik för BvS10",
+   "url": "https://career.knightecgroup.com/jobs/8664057-examensarbete-systemsimulering-av-band-och-fordonsdynamik-for-bvs10",
+   "published": "2026-11-04",
+   "deadline": "2026-12-06",
+   "location": "Solna",
+   "source": "Teamtailor",
+   "reason": "Examensarbete för studenter med masterexamen på väg, vilket är en juniorroll.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Sigma Connectivity AB",
+   "orgnr": "556929-8051",
+   "type": "Studentjobb",
+   "title": "Sigma Industry Service, Student Ambassador Program 2025",
+   "url": "https://www.sigma.se/position/sigma-industry-service-student-ambassador-program-2025-vasteras-sweden-en-20261104/",
+   "published": "2026-11-04",
+   "deadline": "2026-12-01",
+   "location": "Västerås",
+   "source": "Webbplats",
+   "reason": "Deltidsroll för tekniskt studerande vid Mälardalens universitet, riktad till studenter med något eller några år kvar av studierna.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Sigma Connectivity AB",
+   "orgnr": "556929-8051",
+   "type": "Studentjobb",
+   "title": "Sigma Industry Service, studentambassadörsprogram 2026",
+   "url": "https://www.sigma.se/sv/position/sigma-industry-service-studentambassadorsprogram-2026-vasteras-sverige-sv-20261104/",
+   "published": "2026-11-04",
+   "deadline": "2026-12-01",
+   "location": "Västerås",
+   "source": "Webbplats",
+   "reason": "Deltidsroll för studenter vid Mälardalens universitet med några år kvar till examen, vilket gör den till ett studentjobb.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Telia Cygate AB",
+   "orgnr": "556549-8952",
+   "type": "Junior",
+   "title": "Säljare till Telias butik i Västerås Livli",
+   "url": "https://teliacompany.wd3.myworkdayjobs.com/Telia_careers/job/Vsters/Sljare-till-Telias-butik-i-Vsters-Livli_63581-1",
+   "published": "2026-11-04",
+   "deadline": "2026-11-19",
+   "location": "Västerås",
+   "source": "Workday",
+   "reason": "Entry-level säljroll i Telias butik med krav på gymnasieexamen och tidigare erfarenhet som fördel, vilket gör den lämplig för personer tidigt i karriären.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master Thesis: In-Process Isolation and Recovery for WebAssembly Runtimes",
+   "url": "https://jobs.ericsson.com/careers/job/563121777513925?domain=ericsson.com",
+   "published": "2026-11-04",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Examensarbete (masteruppsats) inom säkerhetsforskning på Ericsson, riktat till masterstudenter.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master Thesis: Exploring Hardware-Assisted Type Safety in C++",
+   "url": "https://jobs.ericsson.com/careers/job/563121777519795?domain=ericsson.com",
+   "published": "2026-11-04",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Examensarbete (masteruppsats) inom mjukvarusäkerhet hos Ericsson Research, vilket är en juniorroll för studenter.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master Thesis: AI-Driven SOP Scenarios",
+   "url": "https://jobs.ericsson.com/careers/job/563121777489390?domain=ericsson.com",
+   "published": "2026-11-04",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Det är ett examensarbete (masteruppsats) inom AI och datadriven planering hos Ericsson AB.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Junior",
+   "title": "Commercial Contract Manager | Early Career Program",
+   "url": "https://jobs.ericsson.com/careers/job/563121777362532?domain=ericsson.com",
+   "published": "2026-11-04",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Early Career Program för nyexaminerade eller personer med upp till fem års erfarenhet, med telekom- och affärsfokus inom kontrakthantering.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Junior",
+   "title": "Strategic Product Manager | Early Career Program",
+   "url": "https://jobs.ericsson.com/careers/job/563121777438238?domain=ericsson.com",
+   "published": "2026-11-04",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Early Career Program för nyligen examinerade eller personer med upp till fem års erfarenhet, men annonsen kräver 2–5 års erfarenhet, så nivån är gränsfall.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master Thesis: Episodic Memory for Behavior Prediction & Accident Anticipation - Traffic Simulation",
+   "url": "https://jobs.ericsson.com/careers/job/563121777546937?domain=ericsson.com",
+   "published": "2026-11-04",
+   "deadline": null,
+   "location": "Lund",
+   "source": "Eightfold",
+   "reason": "Examensarbete (masteruppsats) för studenter inom AI och datavetenskap.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Junior",
+   "title": "Radio Frequency design and support",
+   "url": "https://jobs.ericsson.com/careers/job/563121777418239?domain=ericsson.com",
+   "published": "2026-11-04",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Utvecklingsroll med fokus på lärande och tekniskt växande, utan krav på års erfarenhet, vilket indikerar en juniorposition inom RF-testning och simulering.",
+   "first_seen": "2026-10-25",
+   "is_new": false
+  },
+  {
+   "company": "Tele2 Sverige AB",
+   "orgnr": "556267-5164",
+   "type": "Junior",
+   "title": "Butikssäljare till Tele2 i Göteborg, Kungsmässan",
+   "url": "https://emp.jobylon.com/jobs/390189-tele2-butikssaljare-till-tele2-i-goteborg-kungsmassan/",
+   "published": "2026-11-04",
+   "deadline": null,
+   "location": "Kungsbacka",
+   "source": "Webbplats",
+   "reason": "Heltidstjänst i butik för nyanställda utan krav på tidigare erfarenhet, med introduktion och utbildning inför rollen.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Telia Cygate AB",
+   "orgnr": "556549-8952",
+   "type": "Junior",
+   "title": "Säljare till Telias butik i Liljeholmen",
+   "url": "https://teliacompany.wd3.myworkdayjobs.com/Telia_careers/job/Stockholm/Sljare-till-Telias-butik-i-Liljeholmen_63589-1",
+   "published": "2026-11-03",
+   "deadline": "2026-11-18",
+   "location": "Stockholm",
+   "source": "Workday",
+   "reason": "Entry-level säljroll i Telias butik med gymnasieexamen som krav och tidigare erfarenhet som fördel.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Junior",
+   "title": "Entry Level: Radio SW 5G Developer",
+   "url": "https://jobs.ericsson.com/careers/job/563121777201267?domain=ericsson.com",
+   "published": "2026-11-03",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Annonsen riktar sig till personer i början av karriären med entry level-roll och krav på grundexamen.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Junior",
+   "title": "Integration Lead | Early Career Program",
+   "url": "https://jobs.ericsson.com/careers/job/563121777269703?domain=ericsson.com",
+   "published": "2026-11-03",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Early Career Program för nyligen examinerade eller personer med upp till fem års erfarenhet, men annonsen anger 2–4 års relevant erfarenhet.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Trainee",
+   "title": "Strategic Product Manager, Autonomous Network / Cloud RAN | Early Career Program",
+   "url": "https://jobs.ericsson.com/careers/job/563121777289360?domain=ericsson.com",
+   "published": "2026-11-03",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Early Career Program för nyligen examinerade eller personer med upp till fem års erfarenhet, med rotationer och fast anställning, men kravet 2-5 års erfarenhet gör gränsen mot junior oklar.",
+   "first_seen": "2026-10-25",
+   "is_new": false
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master Thesis: Implementing a Python-Based Verification Framework for Ethernet",
+   "url": "https://jobs.ericsson.com/careers/job/563121777291344?domain=ericsson.com",
+   "published": "2026-11-03",
+   "deadline": null,
+   "location": "Lund",
+   "source": "Eightfold",
+   "reason": "Examensarbete för masterstudenter inom elektroteknik och datorteknik.",
+   "first_seen": "2026-10-17",
+   "is_new": false
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master Thesis: Drone Detection with Acoustic and ISAC Sensing",
+   "url": "https://jobs.ericsson.com/careers/job/563121777507849?domain=ericsson.com",
+   "published": "2026-11-03",
+   "deadline": null,
+   "location": "Lund",
+   "source": "Eightfold",
+   "reason": "Examensarbete (masteruppsats) hos Ericsson i Lund inom teknik, vilket riktar sig till studenter.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master Thesis: Requirements to Verified RTL Releases: A Multi-Agent Traceability Framework for ASIC",
+   "url": "https://jobs.ericsson.com/careers/job/563121777499357?domain=ericsson.com",
+   "published": "2026-11-03",
+   "deadline": null,
+   "location": "Lund",
+   "source": "Eightfold",
+   "reason": "Examensarbete (masteruppsats) hos Ericsson i Lund inom ASIC/RTL-utveckling, riktat till studenter.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master Thesis: Early Prediction and Optimization of power, Perfomance and Area",
+   "url": "https://jobs.ericsson.com/careers/job/563121777237951?domain=ericsson.com",
+   "published": "2026-11-03",
+   "deadline": null,
+   "location": "Lund",
+   "source": "Eightfold",
+   "reason": "Examensarbete för masterstudenter inom elektroteknik/datateknik, vilket är en juniorroll.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Junior",
+   "title": "HW accelerator IP system designer",
+   "url": "https://jobs.ericsson.com/careers/job/563121777487193?domain=ericsson.com",
+   "published": "2026-11-03",
+   "deadline": null,
+   "location": "Lund",
+   "source": "Eightfold",
+   "reason": "Annonsen riktar sig till personer tidigt i karriären med M.Sc. eller Ph.D. och inga krav på flera års erfarenhet.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Telia Cygate AB",
+   "orgnr": "556549-8952",
+   "type": "Junior",
+   "title": "Säljare till Telias butik i Gallerian, Stockholm",
+   "url": "https://teliacompany.wd3.myworkdayjobs.com/Telia_careers/job/Stockholm/Sljare-till-Telias-butik-i-Gallerian--Stockholm_63521-1",
+   "published": "2026-11-02",
+   "deadline": "2026-11-17",
+   "location": "Stockholm",
+   "source": "Workday",
+   "reason": "Entry-level säljroll i Telias butik med krav på gymnasieexamen och tidigare erfarenhet som endast är en fördel, vilket gör den juniorlik, och rollen säljer och servar Telias egna telekomprodukter.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Junior",
+   "title": "Entry level: Verification Developer",
+   "url": "https://jobs.ericsson.com/careers/job/563121777212619?domain=ericsson.com",
+   "published": "2026-11-02",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Rekryterar en nyexaminerad till verifieringsutvecklare, vilket riktar sig till personer tidigt i karriären.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master Thesis: QUIC Congestion Control",
+   "url": "https://jobs.ericsson.com/careers/job/563121777449689?domain=ericsson.com",
+   "published": "2026-11-02",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Examensarbete (masterexamen) inom nätverksteknik hos Ericsson AB, riktat till masterstudenter.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Masters Thesis: Measurement-driven DSP Superoptimization",
+   "url": "https://jobs.ericsson.com/careers/job/563121777231075?domain=ericsson.com",
+   "published": "2026-11-02",
+   "deadline": null,
+   "location": "Linköping",
+   "source": "Eightfold",
+   "reason": "Examensarbete (masteruppsats) inom kompilatorutveckling för Ericsson AB.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Knowit Experience Sverige AB",
+   "orgnr": "556432-9679",
+   "type": "Examensarbete",
+   "title": "Knowit - Thesis Opportunities 2027",
+   "url": "https://careersweden.knowit.se/jobs/8650413-knowit-thesis-opportunities-2027",
+   "published": "2026-11-02",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Teamtailor",
+   "reason": "Examensarbete (exjobb) inom embedded systems och IoT, riktat till studenter.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Knowit Secure Solutions AB",
+   "orgnr": "559404-6061",
+   "type": "Junior",
+   "title": "Embedded Software Developer - Automotive",
+   "url": "https://careersweden.knowit.se/jobs/8649118-embedded-software-developer-automotive",
+   "published": "2026-11-02",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Teamtailor",
+   "reason": "Annonsen riktar sig till personer med relevant grund som vill växa och utvecklas, utan krav på många års erfarenhet, vilket gör den till en junior-tjänst.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Tele2 Sverige AB",
+   "orgnr": "556267-5164",
+   "type": "Junior",
+   "title": "Butikssäljare till Tele2 i Skåne",
+   "url": "https://emp.jobylon.com/jobs/394475-tele2-butikssaljare-till-tele2-i-skane/",
+   "published": "2026-11-02",
+   "deadline": null,
+   "location": "Skåne",
+   "source": "Webbplats",
+   "reason": "Entry-level butiksroll som kräver gymnasieutbildning, ingen tidigare erfarenhet krävs och det står att man inte behöver kunna allt från början.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
   {
    "company": "Aderian Stockholm AB",
    "orgnr": "556803-5298",
@@ -36,35 +876,7 @@
    "source": "ReachMee",
    "reason": "Rollen riktar sig till dig i början av din karriär och kräver ingen lång erfarenhet, inom IT-företagets säljfunktion.",
    "first_seen": "2026-11-01",
-   "is_new": true
-  },
-  {
-   "company": "ACM 2001 AB",
-   "orgnr": "556057-2850",
-   "type": "Junior",
-   "title": "Junior PHP-utvecklare till Omniway – Laravel",
-   "url": "https://academedia.onecruiter.com/jobs/320530-junior-php-utvecklare-till-omniway-laravel?_=0.20385181363390104&ref=&language=",
-   "published": null,
-   "deadline": "2026-11-28",
-   "location": "Umeå",
-   "source": "Onecruiter",
-   "reason": "Juniorroll för utvecklare inom PHP och Laravel där grundläggande kunskaper krävs och handledning ges.",
-   "first_seen": "2026-11-01",
-   "is_new": true
-  },
-  {
-   "company": "ACM 2001 AB",
-   "orgnr": "556057-2850",
-   "type": "Praktik/Internship",
-   "title": "Gör din LIA på Framtidsutveckling och väx som digital marknadsförare!",
-   "url": "https://academedia.onecruiter.com/jobs/318081-gor-din-lia-pa-framtidsutveckling-och-vax-som-digital-marknadsforare?_=0.20385181363390104&ref=&language=",
-   "published": null,
-   "deadline": "2026-12-31",
-   "location": "Göteborg",
-   "source": "Onecruiter",
-   "reason": "Det är en LIA-praktik för studenter inom digital marknadsföring, en adjacent affärsfunktion till tech.",
-   "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Knowit Connectivity AB",
@@ -76,37 +888,9 @@
    "deadline": "2026-12-11",
    "location": "Stockholm, Göteborg",
    "source": "Webbplats",
-   "reason": "Riktar sig till snart nyutexaminerade med planerad examen 2027, en juniorroll i teknik och försvar.",
+   "reason": "Riktad till nyutexaminerade med planerad examen 2027 och startar som junior konsult.",
    "first_seen": "2026-11-01",
-   "is_new": true
-  },
-  {
-   "company": "Telia Towers Sweden AB",
-   "orgnr": "559162-3342",
-   "type": "Junior",
-   "title": "Säljare till Telias butik i Malmö Mobilia",
-   "url": "https://www.teliacompany.com/en/careers/open-positions/Sljare-till-Telias-butik-i-Malm-Mobilia_63569-1",
-   "published": null,
-   "deadline": "2026-11-12",
-   "location": "Malmö",
-   "source": "Webbplats",
-   "reason": "Entry-level säljroll i Telias butik som kräver endast gymnasieexamen och där tidigare erfarenhet är en fördel.",
-   "first_seen": "2026-11-01",
-   "is_new": true
-  },
-  {
-   "company": "Sigma Connectivity AB",
-   "orgnr": "556929-8051",
-   "type": "Junior",
-   "title": "Ingenjör inom supply chain",
-   "url": "https://www.sigma.se/position/ingenjor-inom-supply-chain-jonkoping-sweden-en-20261031/",
-   "published": "2026-10-31",
-   "deadline": "2026-12-31",
-   "location": "Jönköping",
-   "source": "Webbplats",
-   "reason": "Annonsen välkomnar uttryckligen nyutexaminerade och juniora kandidater, och kräver endast eftergymnasial utbildning eller motsvarande erfarenhet.",
-   "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -120,7 +904,7 @@
    "source": "Eightfold",
    "reason": "Early Career Program för nyexaminerade eller personer med upp till fem års erfarenhet, med säljroll inom telekom hos Ericsson.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -134,7 +918,7 @@
    "source": "Eightfold",
    "reason": "Examensarbete för masterstudenter inom datavetenskap eller informationssäkerhet, vilket riktar sig till studenter.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -148,7 +932,7 @@
    "source": "Eightfold",
    "reason": "Tjänsten riktar sig till personer tidigt i karriären och kräver en MSc eller motsvarande erfarenhet, med grundläggande kunskaper i 5G/LTE.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -162,7 +946,7 @@
    "source": "Eightfold",
    "reason": "Annonsen söker en junior Software Developer och anger upp till 3 års erfarenhet.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Telia Cygate AB",
@@ -176,7 +960,7 @@
    "source": "Workday",
    "reason": "Entry-level säljroll i Telias butik utan krav på tidigare erfarenhet, endast gymnasieexamen krävs.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -190,7 +974,7 @@
    "source": "Eightfold",
    "reason": "Early Career Program för nyutexaminerade eller personer med upp till fem års relevant erfarenhet, med rollen Strategic Product Manager inom telekom/transport.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -204,34 +988,62 @@
    "source": "Eightfold",
    "reason": "Examensarbete för masterstudenter inom antennsystem och maskininlärning, vilket är en juniorroll.",
    "first_seen": "2026-11-01",
+   "is_new": false
+  },
+  {
+   "company": "Nexer Insight AB",
+   "orgnr": "559217-9070",
+   "type": "Junior",
+   "title": "Junior Androidutvecklare till tekniskt utvecklingsbolag",
+   "url": "https://techtalent.nexergroup.com/jobs/8635181-junior-androidutvecklare-till-tekniskt-utvecklingsbolag",
+   "published": "2026-10-29",
+   "deadline": null,
+   "location": "Göteborg",
+   "source": "Teamtailor",
+   "reason": "Rollen riktar sig till nyexaminerade och personer med cirka 0–3 års erfarenhet och är en junior utvecklartjänst.",
+   "first_seen": "2026-11-08",
    "is_new": true
   },
   {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: China's AI Business Models and Global Transferability",
-   "url": "https://jobs.ericsson.com/careers/job/563121777441882?domain=ericsson.com",
-   "published": "2026-10-28",
+   "company": "Nexer Insight AB",
+   "orgnr": "559217-9070",
+   "type": "Junior",
+   "title": "Junior elektronikingenjör med inriktning kraftelektronik",
+   "url": "https://techtalent.nexergroup.com/jobs/8634762-junior-elektronikingenjor-med-inriktning-kraftelektronik",
+   "published": "2026-10-29",
    "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete (masteruppsats) om AI-affärsmodeller för studenter, hos Ericsson AB.",
-   "first_seen": "2026-11-01",
+   "location": "Göteborg",
+   "source": "Teamtailor",
+   "reason": "Riktar sig till personer i början av karriären med kandidatexamen inom elektronik, och rollen är en konsultanställning hos Nexer Tech Talent i Nexer Group.",
+   "first_seen": "2026-11-08",
    "is_new": true
   },
   {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: Quality of Experience for AI/AR Glasses",
-   "url": "https://jobs.ericsson.com/careers/job/563121777441883?domain=ericsson.com",
-   "published": "2026-10-28",
+   "company": "Nexer Insight AB",
+   "orgnr": "559217-9070",
+   "type": "Junior",
+   "title": "Data Architecture",
+   "url": "https://techtalent.nexergroup.com/jobs/8636482-data-architecture",
+   "published": "2026-10-29",
    "deadline": null,
    "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete för masterstudenter inom tech (AR/AI, nätverk) hos Ericsson AB.",
-   "first_seen": "2026-11-01",
+   "source": "Teamtailor",
+   "reason": "Rollen riktar sig till nyexaminerade civilingenjörer utan krav på antal års erfarenhet, och Nexer Tech Talent positionerar sig för att ge techtalanger starten på arbetslivet.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Nexer Insight AB",
+   "orgnr": "559217-9070",
+   "type": "Junior",
+   "title": "AI Engineer",
+   "url": "https://techtalent.nexergroup.com/jobs/8636376-ai-engineer",
+   "published": "2026-10-29",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Teamtailor",
+   "reason": "Rollen riktar sig till nyexaminerade och personer i början av karriären med civilingenjörs-, master- eller doktorsexamen.",
+   "first_seen": "2026-11-08",
    "is_new": true
   },
   {
@@ -246,7 +1058,21 @@
    "source": "Eightfold",
    "reason": "Examensarbete för masterstudenter inom telekom/satellitkommunikation hos Ericsson AB.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master Thesis: China's AI Business Models and Global Transferability",
+   "url": "https://jobs.ericsson.com/careers/job/563121777441882?domain=ericsson.com",
+   "published": "2026-10-28",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Examensarbete (masteruppsats) om AI-affärsmodeller för studenter, hos Ericsson AB.",
+   "first_seen": "2026-11-01",
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -260,7 +1086,7 @@
    "source": "Eightfold",
    "reason": "Examensarbete (masteruppsats) inom telekom och data, riktat till studenter.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -274,7 +1100,7 @@
    "source": "Eightfold",
    "reason": "Examensarbete (masteruppsats) hos Ericsson AB inom XR och datorseende.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -288,21 +1114,21 @@
    "source": "Eightfold",
    "reason": "Examensarbete (masteruppsats) hos Ericsson AB inom autonoma system och AI-agenter.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
    "orgnr": "556056-6258",
    "type": "Examensarbete",
-   "title": "Master thesis: Semantic Communications with Foundation Models for Vehicle and Road User Detection",
-   "url": "https://jobs.ericsson.com/careers/job/563121777110818?domain=ericsson.com",
+   "title": "Master Thesis: Quality of Experience for AI/AR Glasses",
+   "url": "https://jobs.ericsson.com/careers/job/563121777441883?domain=ericsson.com",
    "published": "2026-10-28",
    "deadline": null,
    "location": "Stockholm",
    "source": "Eightfold",
-   "reason": "Examensarbete inom telekom och AI för masterstudenter, vilket är en juniorroll.",
+   "reason": "Examensarbete för masterstudenter inom tech (AR/AI, nätverk) hos Ericsson AB.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -316,7 +1142,7 @@
    "source": "Eightfold",
    "reason": "Examensarbete (masteruppsats) hos Ericsson inom supply-chain-planering, vilket riktar sig till studenter.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -330,7 +1156,7 @@
    "source": "Eightfold",
    "reason": "Examensarbete för masterstudenter inom datavetenskap, AI eller elektroteknik, vilket riktar sig till studenter.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -344,7 +1170,21 @@
    "source": "Eightfold",
    "reason": "Examensarbete för masterstudenter inom AI/datavetenskap vid Ericsson Research, Stockholm.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Examensarbete",
+   "title": "Master thesis: Semantic Communications with Foundation Models for Vehicle and Road User Detection",
+   "url": "https://jobs.ericsson.com/careers/job/563121777110818?domain=ericsson.com",
+   "published": "2026-10-28",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Examensarbete inom telekom och AI för masterstudenter, vilket är en juniorroll.",
+   "first_seen": "2026-11-01",
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -358,7 +1198,7 @@
    "source": "Eightfold",
    "reason": "Examensarbete (masteruppsats) hos Ericsson AB inom efterfrågeprognoser och supply chain, vilket riktar sig till studenter.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Ericsson AB",
@@ -372,7 +1212,7 @@
    "source": "Eightfold",
    "reason": "Examensarbete (masteruppsats) hos Ericsson Fintech riktat till masterstudenter.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Miryen Nordics AB",
@@ -386,7 +1226,7 @@
    "source": "Webbplats",
    "reason": "Ingångsnivå-tjänst som SDR utan krav på erfarenhet, och rollen säljer företagets Ansys-simuleringsprogramvara.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Tele2 Sverige AB",
@@ -398,9 +1238,9 @@
    "deadline": null,
    "location": "Borlänge",
    "source": "Webbplats",
-   "reason": "Entry-level butikssäljarroll med introduktion och utbildning, krav endast gymnasieutbildning, och försäljning av Tele2:s egna tjänster.",
+   "reason": "Entry-level butikssäljare-roll som inte kräver tidigare erfarenhet och där introduktion ges, säljer Tele2:s egna tjänster.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Tele2 Sverige AB",
@@ -414,34 +1254,6 @@
    "source": "Webbplats",
    "reason": "Entry-level butikssäljare-roll som kräver gymnasieutbildning och ingen tidigare erfarenhet, med introduktion och utbildning, och säljer Tele2:s egna tjänster.",
    "first_seen": "2026-11-01",
-   "is_new": true
-  },
-  {
-   "company": "Accenture Solutions AB",
-   "orgnr": "556593-0269",
-   "type": "Trainee",
-   "title": "Graduate & Junior Consulting Professionals",
-   "url": "https://www.accenture.com/se-en/careers/jobdetails?id=R00358073_en&title=Graduate+%26+Junior+Consulting+Professionals",
-   "published": "2026-10-27",
-   "deadline": "2027-10-27",
-   "location": "Stockholm, Göteborg, Malmö",
-   "source": "Webbplats",
-   "reason": "Graduate-program för nyexaminerade och studenter med max 0-2 års erfarenhet inom konsultverksamhet med AI- och teknikfokus hos Accenture Solutions AB.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Aderian Stockholm AB",
-   "orgnr": "556803-5298",
-   "type": "Junior",
-   "title": "Medarbetare till Servicedesk- 1st Line Support",
-   "url": "https://web103.reachmee.com/ext/I023/2696/job?site=7&lang=SE&validator=c50954ee76ac7d5e1489644ef8aa592a&job_id=22",
-   "published": null,
-   "deadline": "2026-12-18",
-   "location": "Stockholm",
-   "source": "ReachMee",
-   "reason": "Heltidstjänst i första linjens IT-support som öppnar för juniora tekniker i början av sin IT-karriär, utan krav på många års erfarenhet.",
-   "first_seen": "2026-10-27",
    "is_new": false
   },
   {
@@ -459,31 +1271,17 @@
    "is_new": false
   },
   {
-   "company": "Coromatic AB",
-   "orgnr": "556578-6414",
-   "type": "Studentjobb",
-   "title": "Student - industriell ekonomi, inköp eller logistik",
-   "url": "https://karriar.coromatic.se/jobs/320423-student-industriell-ekonomi-inkop-eller-logistik",
+   "company": "Aderian Stockholm AB",
+   "orgnr": "556803-5298",
+   "type": "Junior",
+   "title": "Medarbetare till Servicedesk- 1st Line Support",
+   "url": "https://web103.reachmee.com/ext/I023/2696/job?site=7&lang=SE&validator=c50954ee76ac7d5e1489644ef8aa592a&job_id=22",
    "published": null,
-   "deadline": "2026-11-02",
+   "deadline": "2026-12-18",
    "location": "Stockholm",
-   "source": "Webbplats",
-   "reason": "Deltidsarbete för studenter inom industriell ekonomi, inköp eller logistik i cirka sex månader, med inköps- och orderadministration i ett tekniskt bolag.",
+   "source": "ReachMee",
+   "reason": "Heltidstjänst i första linjens IT-support som öppnar för juniora tekniker i början av sin IT-karriär, utan krav på många års erfarenhet.",
    "first_seen": "2026-10-27",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Praktik/Internship",
-   "title": "AI Learning Solutions Intern",
-   "url": "https://jobs.ericsson.com/careers/job/563121777482803?domain=ericsson.com",
-   "published": "2026-10-27",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Internship (två praktikplatser) för studenter inom datavetenskap/UX, med start så snart som möjligt.",
-   "first_seen": "2026-10-25",
    "is_new": false
   },
   {
@@ -525,34 +1323,6 @@
    "location": "Växjö",
    "source": "Webbplats",
    "reason": "Annonsen riktar sig till nyutexaminerade och till dig med begränsad erfarenhet, och kräver högskole- eller civilingenjörsutbildning.",
-   "first_seen": "2026-10-27",
-   "is_new": false
-  },
-  {
-   "company": "Telenor Linx As",
-   "orgnr": "502062-0018",
-   "type": "Junior",
-   "title": "Butikssäljare till Kristianstad",
-   "url": "https://www.telenor.com/career/open-positions/job-search-article.page?id=8624313",
-   "published": null,
-   "deadline": null,
-   "location": "Kristianstad",
-   "source": "Teamtailor",
-   "reason": "Entry-level butikssäljarroll hos Telenor utan krav på års erfarenhet, där tidigare kundkontakt är meriterande.",
-   "first_seen": "2026-10-27",
-   "is_new": false
-  },
-  {
-   "company": "Telenor Linx As",
-   "orgnr": "502062-0018",
-   "type": "Studentjobb",
-   "title": "Butikssäljare till Visby",
-   "url": "https://www.telenor.com/career/open-positions/job-search-article.page?id=8624082",
-   "published": null,
-   "deadline": null,
-   "location": "Visby",
-   "source": "Teamtailor",
-   "reason": "Tjänsten riktar sig till studenter med minst 6 månader kvar av studierna, och säljer Telenors egna tjänster och produkter i butik.",
    "first_seen": "2026-10-27",
    "is_new": false
   },
@@ -615,20 +1385,6 @@
   {
    "company": "Ericsson AB",
    "orgnr": "556056-6258",
-   "type": "Junior",
-   "title": "Real Estate Portfolio Project Manager | Early Career Program",
-   "url": "https://jobs.ericsson.com/careers/job/563121777507947?domain=ericsson.com",
-   "published": "2026-10-26",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Early Career Program för nyexaminerade eller personer med upp till fem års erfarenhet, med projektledning inom fastighetsportfölj.",
-   "first_seen": "2026-10-27",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
    "type": "Examensarbete",
    "title": "Master Thesis: Open-Source Vetting and FOSS Introduction Analysis",
    "url": "https://jobs.ericsson.com/careers/job/563121777356768?domain=ericsson.com",
@@ -651,6 +1407,20 @@
    "location": "Stockholm",
    "source": "Eightfold",
    "reason": "Early Career-program för nyexaminerade eller personer med upp till fem års erfarenhet, med projektledarroll inom supply chain och telekom.",
+   "first_seen": "2026-10-27",
+   "is_new": false
+  },
+  {
+   "company": "Ericsson AB",
+   "orgnr": "556056-6258",
+   "type": "Junior",
+   "title": "Real Estate Portfolio Project Manager | Early Career Program",
+   "url": "https://jobs.ericsson.com/careers/job/563121777507947?domain=ericsson.com",
+   "published": "2026-10-26",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Eightfold",
+   "reason": "Early Career Program för nyexaminerade eller personer med upp till fem års erfarenhet, med projektledning inom fastighetsportfölj.",
    "first_seen": "2026-10-27",
    "is_new": false
   },
@@ -767,34 +1537,6 @@
    "is_new": false
   },
   {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Junior",
-   "title": "Hardware Designer",
-   "url": "https://jobs.ericsson.com/careers/job/563121777437304?domain=ericsson.com",
-   "published": "2026-10-23",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Tjänsten kräver ungefär två års erfarenhet och är en ingångsroll inom hårdvaruutveckling, så den räknas som junior.",
-   "first_seen": "2026-10-27",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Junior",
-   "title": "Communications & Engagement Coordinator",
-   "url": "https://jobs.ericsson.com/careers/job/563121777418274?domain=ericsson.com",
-   "published": "2026-10-23",
-   "deadline": null,
-   "location": "Linköping",
-   "source": "Eightfold",
-   "reason": "Rollen riktar sig till nyexaminerade eller studenter nära examen och kräver ingen tidigare yrkeserfarenhet, och den ligger inom kommunikation och marknadsföring i Ericssons R&D-verksamhet.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
    "company": "Zitac",
    "orgnr": "556638-7139",
    "type": "Junior",
@@ -805,48 +1547,6 @@
    "location": "Västra Frölunda, Malmö, Bromma",
    "source": "Teamtailor",
    "reason": "Rollen riktar sig till personer i början av sin tekniska karriär som börjar med avgränsade uppgifter under erfarna kollegor.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: FFT Instruction in DSP",
-   "url": "https://jobs.ericsson.com/careers/job/563121777484540?domain=ericsson.com",
-   "published": "2026-10-22",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete (masterexjobb) hos Ericsson inom DSP och processorarkitektur.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: Discovering Building Blocks in Test Environments",
-   "url": "https://jobs.ericsson.com/careers/job/563121777489427?domain=ericsson.com",
-   "published": "2026-10-22",
-   "deadline": null,
-   "location": "Linköping",
-   "source": "Eightfold",
-   "reason": "Examensarbete för masterstudenter inom datavetenskap, hos Ericsson AB i Linköping.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: Cloud-Native Lab Building Blocks",
-   "url": "https://jobs.ericsson.com/careers/job/563121777489426?domain=ericsson.com",
-   "published": "2026-10-22",
-   "deadline": null,
-   "location": "Linköping",
-   "source": "Eightfold",
-   "reason": "Examensarbete för masterstudenter inom datavetenskap och elektroteknik, en tydlig juniorroll.",
    "first_seen": "2026-10-25",
    "is_new": false
   },
@@ -907,104 +1607,6 @@
    "is_new": false
   },
   {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: Low-Delay Audio Compression Using Deep Neural Networks",
-   "url": "https://jobs.ericsson.com/careers/job/563121777323120?domain=ericsson.com",
-   "published": "2026-10-21",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete för masterstudenter inom signalbehandling och maskininlärning.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: Task-Aware and Robust Semantic Audio Communication",
-   "url": "https://jobs.ericsson.com/careers/job/563121777323122?domain=ericsson.com",
-   "published": "2026-10-21",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete (masteruppsats) inom signalbehandling och maskininlärning, riktat till studenter.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: Enhanced AR Avatar for a Real-Time Demonstrator",
-   "url": "https://jobs.ericsson.com/careers/job/563121777323121?domain=ericsson.com",
-   "published": "2026-10-21",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete (masterarbete) inom AR och maskininlärning, riktat till studenter.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: Compiler-directed Deforestation in BEAM",
-   "url": "https://jobs.ericsson.com/careers/job/563121777370368?domain=ericsson.com",
-   "published": "2026-10-21",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete inom kompilatorutveckling för studenter på masternivå.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: Automated alignment of telecom site DTs and city-scale maps",
-   "url": "https://jobs.ericsson.com/careers/job/563121777323125?domain=ericsson.com",
-   "published": "2026-10-21",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete för masterstudenter inom datavetenskap och liknande områden.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master thesis: Automated LiDAR-based city-scale map calibration",
-   "url": "https://jobs.ericsson.com/careers/job/563121777323118?domain=ericsson.com",
-   "published": "2026-10-21",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete för masterstudenter inom datavetenskap, elektroteknik och liknande områden.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Junior",
-   "title": "Solution Package Driver",
-   "url": "https://jobs.ericsson.com/careers/job/563121777227280?domain=ericsson.com",
-   "published": "2026-10-21",
-   "deadline": null,
-   "location": "Lund",
-   "source": "Eightfold",
-   "reason": "Rollen riktar sig särskilt till personer tidigt i karriären med masterexamen och ingen krävd erfarenhet angiven.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
    "company": "Ants IT-support AB",
    "orgnr": "556653-6230",
    "type": "Junior",
@@ -1019,132 +1621,6 @@
    "is_new": false
   },
   {
-   "company": "Evimeria EMR AB",
-   "orgnr": "556896-8001",
-   "type": "Junior",
-   "title": "Ekonomiassistent, vikariat",
-   "url": "https://careers.carasent.com/jobs/8572966-ekonomiassistent-vikariat",
-   "published": "2026-10-20",
-   "deadline": null,
-   "location": "Göteborg",
-   "source": "Teamtailor",
-   "reason": "Entry-level ekonomiassistent-vikariat där tidigare erfarenhet bara är meriterande, i ett SaaS-bolag inom samma koncern.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Trainee",
-   "title": "Strategic Product Manager, Autonomous Network / Cloud RAN | Early Career Program",
-   "url": "https://jobs.ericsson.com/careers/job/563121777289360?domain=ericsson.com",
-   "published": "2026-10-20",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Early Career Program för nyligen examinerade eller personer med upp till fem års erfarenhet, en 18-månaders trainee-satsning med rotationer.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Junior",
-   "title": "Trade Compliance Advisor | Early Career Program",
-   "url": "https://jobs.ericsson.com/careers/job/563121777231289?domain=ericsson.com",
-   "published": "2026-10-20",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Early Career Program för nyexaminerade eller personer med upp till fem års erfarenhet, startar som Trade Compliance Advisor hos Ericsson.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: AI Agent Workflow for Network Simulation",
-   "url": "https://jobs.ericsson.com/careers/job/563121777432031?domain=ericsson.com",
-   "published": "2026-10-20",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete (masteruppsats) hos Ericsson AB inom AI och nätverkssimulering.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: ITSAC Automation Agent",
-   "url": "https://jobs.ericsson.com/careers/job/563121777415405?domain=ericsson.com",
-   "published": "2026-10-20",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete för masterstudenter inom datavetenskap/informationssäkerhet hos Ericsson AB.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Praktik/Internship",
-   "title": "Ericsson Innovation Hub Internship",
-   "url": "https://jobs.ericsson.com/careers/job/563121777476262?domain=ericsson.com",
-   "published": "2026-10-20",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Praktikplats för студенter med minst två års studier i relevant teknisk disciplin, deltid vid Ericsson Innovation Hub.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Junior",
-   "title": "ISAC Technical Coordinator | Early Career Program",
-   "url": "https://jobs.ericsson.com/careers/job/563121777269660?domain=ericsson.com",
-   "published": "2026-10-20",
-   "deadline": null,
-   "location": "Lund",
-   "source": "Eightfold",
-   "reason": "Early Career Program för nyexaminerade eller personer med upp till fem års relevant erfarenhet, en tekniskt inriktad roll inom telekom/AI.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Junior",
-   "title": "RAN Feature Verification Engineer",
-   "url": "https://jobs.ericsson.com/careers/job/563121777305026?domain=ericsson.com",
-   "published": "2026-10-20",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Riktar sig till personer med potential och tidig karriär inom mjukvarutest, utan krav på erfarenhet av telekom och med BSc som krav.",
-   "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Junior",
-   "title": "Radio Frequency design and support",
-   "url": "https://jobs.ericsson.com/careers/job/563121777418239?domain=ericsson.com",
-   "published": "2026-10-20",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Utvecklingsroll för någon som vill bygga kompetens inom RF-test och simulering, med betoning på lärande och ingen krav på lång erfarenhet.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
    "company": "Voi Technology AB",
    "orgnr": "559160-2999",
    "type": "Examensarbete",
@@ -1156,104 +1632,6 @@
    "source": "Teamtailor",
    "reason": "Examensarbete (masteruppsats) för studenter i data, design och maskininlärning med start januari 2027.",
    "first_seen": "2026-11-01",
-   "is_new": true
-  },
-  {
-   "company": "Tele2 Sverige AB",
-   "orgnr": "556267-5164",
-   "type": "Junior",
-   "title": "Butikssäljare på deltid till Tele2 i Kristianstad",
-   "url": "https://emp.jobylon.com/jobs/381341-tele2-sweden-ab-butikssaljare-pa-deltid-till-tele2-i-kristianstad/",
-   "published": "2026-10-19",
-   "deadline": "2026-11-01",
-   "location": "Kristianstad",
-   "source": "Webbplats",
-   "reason": "Entry-level butikssäljare-roll som kräver gymnasieutbildning och ingen tidigare erfarenhet, och säljer Tele2:s egna tjänster.",
-   "first_seen": "2026-10-13",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: Test Data Analytics and Data Platform Engineering",
-   "url": "https://jobs.ericsson.com/careers/job/563121777358383?domain=ericsson.com",
-   "published": "2026-10-19",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete inom data och AI hos Ericsson, riktat till masterstudenter.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: Lab Resource Orchestration and Platform Engineering",
-   "url": "https://jobs.ericsson.com/careers/job/563121777358386?domain=ericsson.com",
-   "published": "2026-10-19",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete för masterstudenter inom datavetenskap, vilket riktar sig till studenter.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Trainee",
-   "title": "Strategic Sourcing Manager | Early Career Program",
-   "url": "https://jobs.ericsson.com/careers/job/563121777477832?domain=ericsson.com",
-   "published": "2026-10-19",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Ericsson Early Career Program för nyligen examinerade eller personer med upp till fem års erfarenhet, en 18-månaders trainee-satsning inom inköp/sourcing i tech-bolaget.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Trainee",
-   "title": "NMS Sourcing Business Partner | Early Career Program",
-   "url": "https://jobs.ericsson.com/careers/job/563121777284028?domain=ericsson.com",
-   "published": "2026-10-19",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Ericsson Early Career Program, ett 18-månaders traineeprogram för nyexaminerade med upp till fem års erfarenhet, med AI- och data-fokus inom sourcing.",
-   "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: Agentic AI for Secure and Reliable Telecom Operations",
-   "url": "https://jobs.ericsson.com/careers/job/563121777434193?domain=ericsson.com",
-   "published": "2026-10-19",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Eightfold",
-   "reason": "Examensarbete för masterstudenter inom AI och telekom, vilket är en juniorroll.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Junior",
-   "title": "Entry Level: Software Developer - Packet Core",
-   "url": "https://jobs.ericsson.com/careers/job/563121777443704?domain=ericsson.com",
-   "published": "2026-10-19",
-   "deadline": null,
-   "location": "Göteborg",
-   "source": "Eightfold",
-   "reason": "Annonsen riktar sig till nyexaminerade och personer i början av karriären för utvecklaranställning.",
-   "first_seen": "2026-10-25",
    "is_new": false
   },
   {
@@ -1274,20 +1652,6 @@
    "company": "Sigma Industry West AB",
    "orgnr": "556958-4096",
    "type": "Examensarbete",
-   "title": "Master Thesis – Development of an Animal Body Model for FEM Simulations",
-   "url": "https://www.sigmaindustrywest.se/lediga-jobb/master-thesis-development-of-an-animal-body-model-for-fem-simulations/",
-   "published": "2026-10-18",
-   "deadline": null,
-   "location": "Göteborg",
-   "source": "Webbplats",
-   "reason": "Examensarbete (masteruppsats) inom FEM-simulering och biomekanik, vilket är en juniorroll för studenter.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Sigma Industry West AB",
-   "orgnr": "556958-4096",
-   "type": "Examensarbete",
    "title": "Master Thesis Opportunity: Development of a Human Body Model for FEM Simulations",
    "url": "https://www.sigmaindustrywest.se/lediga-jobb/master-thesis-opportunity-development-of-a-human-body-model-for-fem-simulations/",
    "published": "2026-10-18",
@@ -1299,20 +1663,6 @@
    "is_new": false
   },
   {
-   "company": "Addnode Group Aktiebolag (publ)",
-   "orgnr": "556291-3185",
-   "type": "Praktik/Internship",
-   "title": "Studerar du teknisk datavetenskap? Bli co-op student hos oss!",
-   "url": "https://icebound.onecruiter.com/jobs/319601-studerar-du-teknisk-datavetenskap-bli-co-op-student-hos-oss",
-   "published": null,
-   "deadline": "2026-11-05",
-   "location": "Umeå",
-   "source": "Teamtailor",
-   "reason": "Co-op-tjänst för studenter i teknisk datavetenskap vid Umeå universitet, vilket gör den till en praktikplats.",
-   "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
    "company": "Atea Finance AB",
    "orgnr": "556725-8362",
    "type": "Praktik/Internship",
@@ -1320,9 +1670,9 @@
    "url": "https://web106.reachmee.com/ext/I020/1291/job?site=27&lang=SE&validator=277cb2bac1f6d9ba2720e8827a79e39b&job_id=2957",
    "published": null,
    "deadline": "2027-05-28",
-   "location": "",
+   "location": "Eskilstuna, Kalmar, Karlskrona, Karlstad, Jönköping, Linköping, Norrköping, Nyköping, Skara, Västerås, Växjö, Örebro",
    "source": "ReachMee",
-   "reason": "Spontanansökan för LIA-plats (praktik) för studenter inom it, teknik och försäljning hos Atea.",
+   "reason": "Spontanansökan om LIA-plats för studenter inom it, teknik och försäljning.",
    "first_seen": "2026-10-17",
    "is_new": false
   },
@@ -1336,7 +1686,7 @@
    "deadline": "2026-11-30",
    "location": "Stockholm, Göteborg",
    "source": "Webbplats",
-   "reason": "Examensarbete för studenter inför slutet av utbildningen, med tekniska ämnesområden inom försvarsteknik.",
+   "reason": "Examensarbete för studenter med tech-/ingenjörsinriktning hos Knowit Defence Technology.",
    "first_seen": "2026-10-17",
    "is_new": false
   },
@@ -1420,7 +1770,7 @@
    "deadline": null,
    "location": "Sundsvall",
    "source": "Webbplats",
-   "reason": "Exjobb för studenter inom systemutveckling, vilket är en juniorroll.",
+   "reason": "Exjobb för studenter inom systemutveckling, vilket är en juniorroll för studenter.",
    "first_seen": "2026-10-17",
    "is_new": false
   },
@@ -1439,59 +1789,17 @@
    "is_new": false
   },
   {
-   "company": "3",
-   "orgnr": "556593-4899",
+   "company": "Capgemini Sverige AB",
+   "orgnr": "556092-3053",
    "type": "Junior",
-   "title": "Nya kollegor till Kundservice!",
-   "url": "https://emp.jobylon.com/jobs/390951-tre-nya-kollegor-till-kundservice/",
-   "published": "2026-10-16",
-   "deadline": "2026-11-06",
-   "location": "Stockholm",
-   "source": "Jobylon",
-   "reason": "Kundservicetjänst på Tre med start 16 november 2026, krav är service- eller försäljningserfarenhet som meriterande och ingen erfarenhetskrav angivet.",
-   "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
-   "company": "Knightec Group Software and Cloud AB",
-   "orgnr": "556403-0996",
-   "type": "Examensarbete",
-   "title": "Examensarbete: Implementera och utvärdera “Process-Aware Stealthy Attack Detection” (PASAD) algoritmer",
-   "url": "https://career.knightecgroup.com/jobs/8555866-examensarbete-implementera-och-utvardera-process-aware-stealthy-attack-detection-pasad-algoritmer",
-   "published": "2026-10-16",
+   "title": "Management consultant- graduate/junior professional in Malmö",
+   "url": "https://careers.capgemini.com/job/Malm%C3%B6-Management-consultant-graduatejunior-professional-in-Malm%C3%B6/1446853133/?feedId=388633&utm_source=CareerSite&tcsource=apply",
+   "published": "2026-10-15",
    "deadline": null,
-   "location": "Umeå, Örnsköldsvik",
-   "source": "Teamtailor",
-   "reason": "Examensarbete för civilingenjörsstudent på masternivå inom signalbehandling och programmering.",
-   "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
-   "company": "Knightec Group Software and Cloud AB",
-   "orgnr": "556403-0996",
-   "type": "Examensarbete",
-   "title": "Examensarbete: Förutsägelse och visualisering av slitage baserat på CAD och punktmoln",
-   "url": "https://career.knightecgroup.com/jobs/8555733-examensarbete-forutsagelse-och-visualisering-av-slitage-baserat-pa-cad-och-punktmoln",
-   "published": "2026-10-16",
-   "deadline": null,
-   "location": "Umeå, Örnsköldsvik",
-   "source": "Teamtailor",
-   "reason": "Examensarbete för civilingenjörsstudent på masternivå, vilket är en studentroll.",
-   "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
-   "company": "Knightec Group Software and Cloud AB",
-   "orgnr": "556403-0996",
-   "type": "Examensarbete",
-   "title": "Examensarbete: Utveckling av automatiserade metoder inom skogsbruksbranschen",
-   "url": "https://career.knightecgroup.com/jobs/8555221-examensarbete-utveckling-av-automatiserade-metoder-inom-skogsbruksbranschen",
-   "published": "2026-10-16",
-   "deadline": null,
-   "location": "Örnsköldsvik, Umeå",
-   "source": "Teamtailor",
-   "reason": "Examensarbete för civilingenjörsstudent på masternivå, vilket är en juniorroll för studenter.",
-   "first_seen": "2026-10-17",
+   "location": "Malmö",
+   "source": "Capgemini",
+   "reason": "Riktad till nyexaminerade med 0-2 års erfarenhet, start hösten 2027 i Malmö inom Data & AI-strategi.",
+   "first_seen": "2026-10-27",
    "is_new": false
   },
   {
@@ -1519,20 +1827,6 @@
    "location": "Stockholm",
    "source": "Capgemini",
    "reason": "Riktar sig till nyexaminerade med 0-3 års erfarenhet och startar hösten 2027 inom cybersäkerhet.",
-   "first_seen": "2026-10-27",
-   "is_new": false
-  },
-  {
-   "company": "Capgemini Sverige AB",
-   "orgnr": "556092-3053",
-   "type": "Junior",
-   "title": "Management consultant- graduate/junior professional in Malmö",
-   "url": "https://careers.capgemini.com/job/Malm%C3%B6-Management-consultant-graduatejunior-professional-in-Malm%C3%B6/1446853133/?feedId=388633&utm_source=CareerSite&tcsource=apply",
-   "published": "2026-10-15",
-   "deadline": null,
-   "location": "Malmö",
-   "source": "Capgemini",
-   "reason": "Riktad till nyexaminerade med 0-1 års erfarenhet och start hösten 2027.",
    "first_seen": "2026-10-27",
    "is_new": false
   },
@@ -1831,8 +2125,8 @@
    "is_new": false
   },
   {
-   "company": "Advania AB (publ)",
-   "orgnr": "556963-8991",
+   "company": "Advania Sverige AB",
+   "orgnr": "556214-9996",
    "type": "Junior",
    "title": "Onsite tekniker (mobil)",
    "url": "https://jobb.advania.se/jobs/8544737-onsite-tekniker-mobil",
@@ -1840,22 +2134,8 @@
    "deadline": null,
    "location": "Solna",
    "source": "Teamtailor",
-   "reason": "Rollen riktar sig till personer med grundläggande IT-förståelse, inget krav på års erfarenhet och med stöd för utveckling, vilket gör den till ett junior-inträde.",
+   "reason": "Sidan anger att det inte finns krav på något visst antal års arbetslivserfarenhet och att introduktionen anpassas efter erfarenhet, vilket gör rollen till en ingångsroll inom IT-support.",
    "first_seen": "2026-11-01",
-   "is_new": true
-  },
-  {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Junior",
-   "title": "System engineer",
-   "url": "https://jobs.ericsson.com/careers/job/563121777330079?domain=ericsson.com",
-   "published": "2026-10-14",
-   "deadline": null,
-   "location": "Linköping",
-   "source": "Eightfold",
-   "reason": "Annonsen riktar sig till personer som startar sin karriär eller har lite erfarenhet, med M.Sc eller B.Sc som krav.",
-   "first_seen": "2026-10-27",
    "is_new": false
   },
   {
@@ -1873,8 +2153,8 @@
    "is_new": false
   },
   {
-   "company": "Knowit Cybersecurity & Law",
-   "orgnr": "556866-3248",
+   "company": "Knowit Experience Sverige AB",
+   "orgnr": "556432-9679",
    "type": "Junior",
    "title": "Junior konsult inom försvarssektorn (Nyutexaminerad 2027)",
    "url": "https://careersweden.knowit.se/jobs/8541359-junior-konsult-inom-forsvarssektorn-nyutexaminerad-2027",
@@ -1882,7 +2162,7 @@
    "deadline": "2026-12-11",
    "location": "Stockholm, Göteborg",
    "source": "Teamtailor",
-   "reason": "Tjänsten riktar sig till snart nyutexaminerade med examen planerad 2027 och startar som junior konsult.",
+   "reason": "Tjänsten riktar sig till nyutexaminerade med planerad examen 2027 och startar som junior konsult.",
    "first_seen": "2026-10-17",
    "is_new": false
   },
@@ -1937,7 +2217,7 @@
    "published": null,
    "deadline": "2026-11-25",
    "location": "Eskilstuna, Kalmar, Karlskrona, Karlstad, Jönköping, Linköping, Norrköping, Nyköping, Skara, Västerås, Växjö, Örebro",
-   "source": "Webbplats",
+   "source": "ReachMee",
    "reason": "Examensarbete för studenter inom IT-arbetsplats och digitalisering hos Atea.",
    "first_seen": "2026-10-13",
    "is_new": false
@@ -1951,7 +2231,7 @@
    "published": null,
    "deadline": "2026-11-25",
    "location": "Eskilstuna, Kalmar, Karlskrona, Karlstad, Jönköping, Linköping, Norrköping, Nyköping, Skara, Västerås, Växjö, Örebro",
-   "source": "Webbplats",
+   "source": "ReachMee",
    "reason": "Examensarbete för studenter, med arbete inom digital arbetsplats och IT-infrastruktur hos Atea.",
    "first_seen": "2026-10-13",
    "is_new": false
@@ -1965,7 +2245,7 @@
    "published": null,
    "deadline": "2026-11-25",
    "location": "Eskilstuna, Kalmar, Karlskrona, Karlstad, Jönköping, Linköping, Norrköping, Nyköping, Skara, Västerås, Växjö, Örebro",
-   "source": "Webbplats",
+   "source": "ReachMee",
    "reason": "Examensarbete för studenter inom IT, industriell ekonomi eller statistik.",
    "first_seen": "2026-10-13",
    "is_new": false
@@ -1979,7 +2259,7 @@
    "published": null,
    "deadline": "2026-11-25",
    "location": "Eskilstuna, Kalmar, Karlskrona, Karlstad, Jönköping, Linköping, Norrköping, Nyköping, Skara, Västerås, Växjö, Örebro",
-   "source": "Webbplats",
+   "source": "ReachMee",
    "reason": "Det är ett examensarbete inriktat på studenter inom IT, vilket innebär en juniorroll.",
    "first_seen": "2026-10-13",
    "is_new": false
@@ -2001,70 +2281,70 @@
   {
    "company": "Atea Finance AB",
    "orgnr": "556725-8362",
-   "type": "Trainee",
-   "title": "Intresseanmälan Management Trainee på Atea",
-   "url": "https://web106.reachmee.com/ext/I020/1291/job?site=27&lang=SE&validator=277cb2bac1f6d9ba2720e8827a79e39b&job_id=3295",
-   "published": null,
-   "deadline": "2026-11-20",
-   "location": "",
-   "source": "ReachMee",
-   "reason": "Management Traineeprogram riktat till nyutexaminerade och personer i början av karriären, hos Atea som är en IT-infrastrukturleverantör.",
-   "first_seen": "2026-10-13",
-   "is_new": false
-  },
-  {
-   "company": "Atea Logistics AB",
-   "orgnr": "556354-4690",
    "type": "Examensarbete",
    "title": "Examensarbete - Utredning av virtualisering i datacenter",
    "url": "https://web106.reachmee.com/ext/I020/1291/job?site=27&lang=SE&validator=277cb2bac1f6d9ba2720e8827a79e39b&job_id=3400",
    "published": null,
    "deadline": "2026-11-25",
-   "location": "",
+   "location": "Eskilstuna, Kalmar, Karlskrona, Karlstad, Jönköping, Linköping, Norrköping, Nyköping, Skara, Västerås, Växjö, Örebro",
    "source": "ReachMee",
-   "reason": "Examensarbete inom datacenter och virtualisering, öppet för studenter på högskoleutbildning inom IT.",
+   "reason": "Examensarbete för studenter inom IT, vilket är en juniorroll med IT-inriktning.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
   {
-   "company": "Atea Logistics AB",
-   "orgnr": "556354-4690",
+   "company": "Atea Finance AB",
+   "orgnr": "556725-8362",
    "type": "Examensarbete",
    "title": "Examensarbete - Hållbara datacenter",
    "url": "https://web106.reachmee.com/ext/I020/1291/job?site=27&lang=SE&validator=277cb2bac1f6d9ba2720e8827a79e39b&job_id=3399",
    "published": null,
    "deadline": "2026-11-25",
-   "location": "",
+   "location": "Eskilstuna, Kalmar, Karlskrona, Karlstad, Jönköping, Linköping, Norrköping, Nyköping, Skara, Västerås, Växjö, Örebro",
    "source": "ReachMee",
-   "reason": "Examensarbete för studenter inom IT, industriell ekonomi eller statistik.",
+   "reason": "Examensarbete för studenter inom IT, industriell ekonomi eller statistik hos Atea Finance AB.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
   {
-   "company": "Atea Logistics AB",
-   "orgnr": "556354-4690",
+   "company": "Atea Finance AB",
+   "orgnr": "556725-8362",
    "type": "Examensarbete",
    "title": "Examensarbete - Rätt information till rätt person vid rätt tillfälle",
    "url": "https://web106.reachmee.com/ext/I020/1291/job?site=27&lang=SE&validator=277cb2bac1f6d9ba2720e8827a79e39b&job_id=3398",
    "published": null,
    "deadline": "2026-11-25",
-   "location": "",
+   "location": "Eskilstuna, Kalmar, Karlskrona, Karlstad, Jönköping, Linköping, Norrköping, Nyköping, Skara, Västerås, Växjö, Örebro",
    "source": "ReachMee",
-   "reason": "Examensarbete hos Atea inom digital arbetsplats, AI och internkommunikation, riktat till studenter.",
+   "reason": "Examensarbete för studenter på högskola eller universitet inom digital arbetsplats och AI.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
   {
-   "company": "Atea Logistics AB",
-   "orgnr": "556354-4690",
+   "company": "Atea Finance AB",
+   "orgnr": "556725-8362",
    "type": "Examensarbete",
    "title": "Examensarbete - Från modern till autonom arbetsplats",
    "url": "https://web106.reachmee.com/ext/I020/1291/job?site=27&lang=SE&validator=277cb2bac1f6d9ba2720e8827a79e39b&job_id=3395",
    "published": null,
    "deadline": "2026-11-25",
-   "location": "",
+   "location": "Eskilstuna, Kalmar, Karlskrona, Karlstad, Jönköping, Linköping, Norrköping, Nyköping, Skara, Västerås, Växjö, Örebro",
    "source": "ReachMee",
-   "reason": "Examensarbete hos Atea inom digital arbetsplats, öppet för studenter med IT- eller liknande utbildning.",
+   "reason": "Examensarbete för studenter inom IT, datavetenskap och liknande utbildningar hos Atea.",
+   "first_seen": "2026-10-13",
+   "is_new": false
+  },
+  {
+   "company": "Atea Finance AB",
+   "orgnr": "556725-8362",
+   "type": "Trainee",
+   "title": "Intresseanmälan Management Trainee på Atea",
+   "url": "https://web106.reachmee.com/ext/I020/1291/job?site=27&lang=SE&validator=277cb2bac1f6d9ba2720e8827a79e39b&job_id=3295",
+   "published": null,
+   "deadline": "2026-11-20",
+   "location": "Stockholm",
+   "source": "ReachMee",
+   "reason": "Management Traineeprogram för nyutexaminerade och personer i början av karriären hos Atea, en IT-infrastrukturleverantör.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2106,7 +2386,7 @@
    "deadline": "2027-03-31",
    "location": "Stockholm, Göteborg",
    "source": "Webbplats",
-   "reason": "Traineeprogram för nyexaminerade och studenter på väg att avsluta sina studier, med anställning från dag ett som konsult inom digital transformation.",
+   "reason": "Traineeprogram för nyexaminerade med examen 2026 eller 2027, anställd från dag ett som konsult inom digital transformation.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2125,20 +2405,6 @@
    "is_new": false
   },
   {
-   "company": "New Seed",
-   "orgnr": "556775-9963",
-   "type": "Praktik/Internship",
-   "title": "Praktikant / LIA",
-   "url": "https://jobb.newseed.se/sv/jobs/praktikant-lia-1",
-   "published": null,
-   "deadline": null,
-   "location": "Lund",
-   "source": "Webbplats",
-   "reason": "Det är en LIA-praktik för studenter inom webb-, app- och systemutveckling, men ansökan för våren 2027 är just nu stängd.",
-   "first_seen": "2026-10-13",
-   "is_new": false
-  },
-  {
    "company": "Telia Company AB",
    "orgnr": "556103-4249",
    "type": "Trainee",
@@ -2149,20 +2415,6 @@
    "location": "",
    "source": "Webbplats",
    "reason": "Traineeprogram för framtida ledare med anställning från start, riktad till nyexaminerade och personer i början av karriären.}",
-   "first_seen": "2026-10-13",
-   "is_new": false
-  },
-  {
-   "company": "Telia Cygate AB",
-   "orgnr": "556549-8952",
-   "type": "Junior",
-   "title": "IT-Konsult",
-   "url": "https://teliacompany.wd3.myworkdayjobs.com/Telia_careers/job/Jnkping/IT-Konsult_63358-1",
-   "published": "2026-10-12",
-   "deadline": "2026-11-02",
-   "location": "Jönköping",
-   "source": "Webbplats",
-   "reason": "Annonsen riktar sig till dig i början av din IT-karriär utan krav på många års erfarenhet.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2181,8 +2433,8 @@
    "is_new": false
   },
   {
-   "company": "Knowit Cybersecurity & Law",
-   "orgnr": "556866-3248",
+   "company": "Knowit Experience Sverige AB",
+   "orgnr": "556432-9679",
    "type": "Examensarbete",
    "title": "Exjobb hos Knowit i Sundsvall",
    "url": "https://careersweden.knowit.se/jobs/8529546-exjobb-hos-knowit-i-sundsvall",
@@ -2190,9 +2442,23 @@
    "deadline": null,
    "location": "Sundsvall",
    "source": "Teamtailor",
-   "reason": "Exjobb för studenter inom systemutveckling på Knowit i Sundsvall.",
+   "reason": "Examensarbete för studenter inom systemutveckling, med arbetsplats på Knowits kontor i Sundsvall.",
    "first_seen": "2026-10-13",
    "is_new": false
+  },
+  {
+   "company": "Voi Technology AB",
+   "orgnr": "559160-2999",
+   "type": "Junior",
+   "title": "Mechanic",
+   "url": "https://careers.voi.com/jobs/8532477-mechanic",
+   "published": "2026-10-12",
+   "deadline": null,
+   "location": "Årsta",
+   "source": "Teamtailor",
+   "reason": "Ingen tidigare mekanisk erfarenhet krävs, tillsvidare tjänst i en talangpool för deltidsroll med utbildning från start.",
+   "first_seen": "2026-11-08",
+   "is_new": true
   },
   {
    "company": "Tele2 Sverige AB",
@@ -2206,20 +2472,6 @@
    "source": "Webbplats",
    "reason": "Entry-level butikssäljare-roll som kräver endast gymnasieutbildning och inte tidigare erfarenhet, med introduktion och utbildning, och säljer Tele2:s egna telekomtjänster.",
    "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "Accenture Solutions AB",
-   "orgnr": "556593-0269",
-   "type": "Junior",
-   "title": "SOC analytiker till Accenture Cybersecurity",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Stockholm/Security-Managed-Services-Analyst-Cybersecurity-Sweden_R00361853",
-   "published": "2026-10-08",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Workday",
-   "reason": "Sidan kräver inga års erfarenhet, betonar potential framför utbildning och riktar sig till analytiker med ett genuint IT-säkerhetsintresse.",
-   "first_seen": "2026-10-27",
    "is_new": false
   },
   {
@@ -2265,8 +2517,8 @@
    "is_new": false
   },
   {
-   "company": "Advania AB (publ)",
-   "orgnr": "556963-8991",
+   "company": "Advania Sverige AB",
+   "orgnr": "556214-9996",
    "type": "Junior",
    "title": "Dansktalande IT-supporttekniker",
    "url": "https://jobb.advania.se/jobs/8507389-dansktalande-it-supporttekniker",
@@ -2274,7 +2526,7 @@
    "deadline": null,
    "location": "Solna",
    "source": "Teamtailor",
-   "reason": "Rollen riktar sig till personer med starkt IT-intresse och gärna begynnande erfarenhet, med stöd och introduktion, utan krav på flera års erfarenhet.",
+   "reason": "Rollen riktar sig till personer med ett starkt IT-intresse och tekniskt grundkunnande som kan komma in i yrket, utan krav på flera års erfarenhet.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2318,48 +2570,6 @@
    "source": "Teamtailor",
    "reason": "Programmet riktar sig till universitetsstudenter i sista studieåret utan tidigare konsulterfarenhet.",
    "first_seen": "2026-11-01",
-   "is_new": true
-  },
-  {
-   "company": "Tele2 Sverige AB",
-   "orgnr": "556267-5164",
-   "type": "Junior",
-   "title": "Butikssäljare på deltid till Tele2 i Stockholm, Liljeholmen",
-   "url": "https://emp.jobylon.com/jobs/387058-tele2-sweden-ab-butikssaljare-pa-deltid-till-tele2-i-stockholm-liljeholmen/",
-   "published": "2026-10-05",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Webbplats",
-   "reason": "Entry-level butiksroll med krav på gymnasieutbildning och ingen tidigare erfarenhet krävs, hos telekomoperatören Tele2 själv.",
-   "first_seen": "2026-10-13",
-   "is_new": false
-  },
-  {
-   "company": "StjärnaFyrkant Umeå/Skellefteå",
-   "orgnr": "556224-5232",
-   "type": "Junior",
-   "title": "Supporttekniker",
-   "url": "https://vasterbotten.stjarnafyrkant.se/karriar/annonser",
-   "published": "2026-10-02",
-   "deadline": "2026-11-15",
-   "location": "Umeå",
-   "source": "Webbplats",
-   "reason": "Supporttekniker-tjänsten söker personer med gärna tidigare IT-erfarenhet men utan krav på många års erfarenhet, med möjlighet att utvecklas.",
-   "first_seen": "2026-10-25",
-   "is_new": false
-  },
-  {
-   "company": "3",
-   "orgnr": "556593-4899",
-   "type": "Junior",
-   "title": "Säljare till 3Butiken Asecs, timanställning",
-   "url": "https://emp.jobylon.com/jobs/386688-tre-saljare-till-3butiken-asecs-timanstallning/",
-   "published": "2026-10-02",
-   "deadline": "2026-11-06",
-   "location": "Jönköping",
-   "source": "Jobylon",
-   "reason": "Ingångsroll i butik för timanställd säljare utan krav på erfarenhet, endast minimiålder 18 år, och säljer företagets egna telekomtjänster.",
-   "first_seen": "2026-10-25",
    "is_new": false
   },
   {
@@ -2391,34 +2601,6 @@
    "is_new": false
   },
   {
-   "company": "Ericsson AB",
-   "orgnr": "556056-6258",
-   "type": "Examensarbete",
-   "title": "Master Thesis: Implementing a Python-Based Verification Framework for Ethernet",
-   "url": "https://jobs.ericsson.com/careers/job/563121777291344?domain=ericsson.com",
-   "published": "2026-10-01",
-   "deadline": null,
-   "location": "Lund",
-   "source": "Eightfold",
-   "reason": "Examensarbete för masterstudenter inom elektroteknik och datorteknik.",
-   "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
-   "company": "Knowit Solutions Linköping Aktiebolag",
-   "orgnr": "556672-9488",
-   "type": "Junior",
-   "title": "Embedded Software Developer - Automotive",
-   "url": "https://careersweden.knowit.se/jobs/8462007-embedded-software-developer-automotive",
-   "published": "2026-09-28",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Teamtailor",
-   "reason": "Annonsen välkomnar personer med relevant grund som vill utvecklas och anger inga krav på flera års erfarenhet, vilket tyder på ingångsnivå.",
-   "first_seen": "2026-10-27",
-   "is_new": false
-  },
-  {
    "company": "Accenture Solutions AB",
    "orgnr": "556593-0269",
    "type": "Praktik/Internship",
@@ -2433,18 +2615,32 @@
    "is_new": false
   },
   {
-   "company": "Knowit Cybersecurity & Law",
-   "orgnr": "556866-3248",
+   "company": "Knowit Experience Sverige AB",
+   "orgnr": "556432-9679",
    "type": "Examensarbete",
-   "title": "Masteruppsats/examensarbete våren 2027",
+   "title": "Masteruppsats/examensarbete våren 2027 - Knowit Cybersecurity & Law",
    "url": "https://careersweden.knowit.se/jobs/8455437-masteruppsats-examensarbete-varen-2027-knowit-cybersecurity-law",
    "published": "2026-09-25",
    "deadline": null,
    "location": "Stockholm, Karlskrona, Göteborg, Linköping",
    "source": "Teamtailor",
-   "reason": "Examensarbete för studenter i slutet av sina studier inom cybersäkerhet och juridik.",
+   "reason": "Examensarbete och praktik för studenter inom cybersäkerhet och juridik våren 2027.",
    "first_seen": "2026-10-13",
    "is_new": false
+  },
+  {
+   "company": "Accenture Solutions AB",
+   "orgnr": "556593-0269",
+   "type": "Trainee",
+   "title": "Graduate & Junior Consulting Professionals",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Stockholm/Graduate---Junior-Consulting-Professionals---Industry---Process-Consulting_R00358073",
+   "published": "2026-09-24",
+   "deadline": null,
+   "location": "Stockholm",
+   "source": "Workday",
+   "reason": "Graduate-track trainee programme for recent graduates with a start in autumn 2027, in consulting adjacent to tech and AI.",
+   "first_seen": "2026-11-08",
+   "is_new": true
   },
   {
    "company": "Accenture Solutions AB",
@@ -2461,22 +2657,8 @@
    "is_new": false
   },
   {
-   "company": "Litium AB",
-   "orgnr": "556562-1835",
-   "type": "Junior",
-   "title": "Marknadskoordinator vikariat föräldraledighet",
-   "url": "https://join.litium.com/jobs/8439418-marknadskoordinator-vikariat-foraldraledighet",
-   "published": "2026-09-23",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Teamtailor",
-   "reason": "Vikariat som vänder sig till personer i början av karriären inom marknadsföring i digital handel, utan krav på många års erfarenhet.",
-   "first_seen": "2026-10-13",
-   "is_new": false
-  },
-  {
-   "company": "Knowit Cybersecurity & Law",
-   "orgnr": "556866-3248",
+   "company": "Knowit Experience Sverige AB",
+   "orgnr": "556432-9679",
    "type": "Examensarbete",
    "title": "Examensarbete inom försvarssektorn - våren 2027",
    "url": "https://careersweden.knowit.se/jobs/8427274-examensarbete-inom-forsvarssektorn-varen-2027",
@@ -2484,23 +2666,37 @@
    "deadline": "2026-11-30",
    "location": "Stockholm, Göteborg",
    "source": "Teamtailor",
-   "reason": "Examensarbete för studenter under vårterminen 2027 inom försvarsteknik, med Knowit som arbetsgivare.",
+   "reason": "Examensarbete för studenter i slutet av sin utbildning, vilket är en juniorroll.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
   {
-   "company": "Axians AB",
-   "orgnr": "556590-7069",
-   "type": "Junior",
-   "title": "Projektkoordinator Axians Engineering Göteborg",
-   "url": "https://karriar.axians.se/jobs/8387263-projektkoordinator-axians-engineering-goteborg",
-   "published": "2026-09-16",
-   "deadline": null,
-   "location": "Askim",
+   "company": "Knightec Group Software and Cloud AB",
+   "orgnr": "556403-0996",
+   "type": "Examensarbete",
+   "title": "Examensarbete: AI som ingenjörsverktyg för effektivisering inom konstruktion och produktutveckling",
+   "url": "https://career.knightecgroup.com/jobs/8399871-examensarbete-ai-som-ingenjorsverktyg-for-effektivisering-inom-konstruktion-och-produktutveckling",
+   "published": "2026-09-18",
+   "deadline": "2026-11-30",
+   "location": "Umeå",
    "source": "Teamtailor",
-   "reason": "Rollen riktar sig till personer i början av sin tekniska karriär med eftergymnasial utbildning och ingen krävd erfarenhet i flera år.",
-   "first_seen": "2026-10-13",
-   "is_new": false
+   "reason": "Examensarbete för masterstudenter i maskinteknik, en typisk juniorroll för studenter.",
+   "first_seen": "2026-11-08",
+   "is_new": true
+  },
+  {
+   "company": "Nexer Insight AB",
+   "orgnr": "559217-9070",
+   "type": "Junior",
+   "title": "Automationsingenjör",
+   "url": "https://techtalent.nexergroup.com/jobs/8379661-automationsingenjor",
+   "published": "2026-09-15",
+   "deadline": null,
+   "location": "Örnsköldsvik",
+   "source": "Teamtailor",
+   "reason": "Riktad till nyexaminerade ingenjörer i början av karriären med 0-3 års erfarenhet; anställd av Nexer Tech Talent som konsult, vilket räknas som egen anställning.",
+   "first_seen": "2026-11-08",
+   "is_new": true
   },
   {
    "company": "Data Ductus Holding AB",
@@ -2559,8 +2755,8 @@
    "is_new": false
   },
   {
-   "company": "Advania AB (publ)",
-   "orgnr": "556963-8991",
+   "company": "Advania Sverige AB",
+   "orgnr": "556214-9996",
    "type": "Junior",
    "title": "IT-supporttekniker",
    "url": "https://jobb.advania.se/jobs/8328299-it-supporttekniker",
@@ -2568,7 +2764,7 @@
    "deadline": null,
    "location": "Norrköping",
    "source": "Teamtailor",
-   "reason": "Entry-level IT-supporttjänst i Servicedesk där erfarenhet är meriterande men inte krav, och där nyblivna på arbetsmarknaden uppmuntras att söka.",
+   "reason": "Entry-level servicedesk role open to people new to the job market, with only upper-secondary education required and experience listed as a merit.",
    "first_seen": "2026-10-17",
    "is_new": false
   },
@@ -2583,20 +2779,6 @@
    "location": "Stockholm, Göteborg",
    "source": "Capgemini",
    "reason": "Riktar sig till nyexaminerade med 0-3 års erfarenhet, med start hösten 2027 inom data och AI.",
-   "first_seen": "2026-10-27",
-   "is_new": false
-  },
-  {
-   "company": "HiQ Mälardalen AB",
-   "orgnr": "556443-8736",
-   "type": "Trainee",
-   "title": "HiQ LEAP 2027",
-   "url": "https://career.hiq.se/jobs/8309189-hiq-leap-2027",
-   "published": "2026-09-02",
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Webbplats",
-   "reason": "Traineeprogram för nyutexaminerade civilingenjörer inom datavetenskap och datateknik, med konsultuppdrag hos HiQ.",
    "first_seen": "2026-10-27",
    "is_new": false
   },
@@ -2619,14 +2801,14 @@
    "orgnr": "556291-3185",
    "type": "Junior",
    "title": "Junior Sales Executive",
-   "url": "https://emp.jobylon.com/jobs/368365-tribia-as-sales-executive/",
+   "url": "https://emp.jobylon.com/jobs/368365-tribia-as-junior-sales-executive/",
    "published": "2026-06-25",
    "deadline": null,
    "location": "Stockholm",
-   "source": "Teamtailor",
-   "reason": "Juniorroll för någon med första steg i B2B-försäljning hos Tribia, ett SaaS-bolag inom Addnode Group.",
-   "first_seen": "2026-10-25",
-   "is_new": false
+   "source": "Webbplats",
+   "reason": "Rollen riktar sig till personer med viss B2B-försäljningserfarenhet som vill utvecklas vidare, utan krav på många års erfarenhet, vilket gör den till en juniorroll.",
+   "first_seen": "2026-11-08",
+   "is_new": true
   },
   {
    "company": "3Bits Consulting AB",
@@ -2680,9 +2862,9 @@
    "deadline": null,
    "location": "Stockholm",
    "source": "Jobylon",
-   "reason": "Öppen intresseanmälan för LIA/praktik riktad till studerande, inom bland annat IT, ekonomi och marknad.",
+   "reason": "Öppen intresseanmälan för LIA/praktik riktad till studerande, inklusive IT-området.",
    "first_seen": "2026-11-01",
-   "is_new": true
+   "is_new": false
   },
   {
    "company": "Axians AB",
@@ -2696,20 +2878,6 @@
    "source": "Teamtailor",
    "reason": "Juniorroll som installationstekniker för LAN och fiber med praktiskt lärande och ingen krävd lång erfarenhet.",
    "first_seen": "2026-10-13",
-   "is_new": false
-  },
-  {
-   "company": "TelliQ",
-   "orgnr": "556733-7430",
-   "type": "Junior",
-   "title": "Account Executive",
-   "url": "https://career.infobric.com/jobs/7776589-account-executive",
-   "published": "2026-05-21",
-   "deadline": "2026-11-02",
-   "location": "Jönköping",
-   "source": "Teamtailor",
-   "reason": "Säljroll i SaaS-bolag som kräver ingen specifik erfarenhet, \"det viktigaste är inte hur lång erfarenhet du har\", vilket gör den till ingångsnivå.",
-   "first_seen": "2026-10-27",
    "is_new": false
   },
   {
@@ -2779,6 +2947,20 @@
    "location": "Skellefteå, Piteå, Stockholm, Umeå",
    "source": "Teamtailor",
    "reason": "LIA-praktik för studenter inom bl.a. Product & Tech och Finance & Data.",
+   "first_seen": "2026-10-13",
+   "is_new": false
+  },
+  {
+   "company": "New Seed",
+   "orgnr": "556775-9963",
+   "type": "Praktik/Internship",
+   "title": "Praktikant / LIA",
+   "url": "https://jobb.newseed.se/sv/jobs/praktikant-lia-1",
+   "published": "2025-11-04",
+   "deadline": null,
+   "location": "Lund",
+   "source": "Webbplats",
+   "reason": "LIA-praktik för studenter inom webb-, app- och systemutveckling, men ansökan för våren 2027 är just nu stängd.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2862,7 +3044,7 @@
    "deadline": null,
    "location": "Kista, Göteborg, Karlskoga, Malmö, Norrköping, Sundsvall, Östersund",
    "source": "Webbplats",
-   "reason": "Intresseanmälan för LIA/praktik inom nätverk, säkerhet, molntjänster och systemutveckling hos Tele2.",
+   "reason": "Intresseanmälan för LIA/praktik för studenter inom nätverk, säkerhet, molntjänster och systemutveckling hos Tele2.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2937,10 +3119,10 @@
    "is_new": false
   },
   {
-   "company": "Vitec IT-Drift AB",
-   "orgnr": "556459-9347",
+   "company": "Vitec Energy AB",
+   "orgnr": "556347-7073",
    "type": "Examensarbete",
-   "title": "Exjobb och praktik/LIA hos Vitec Software Group!",
+   "title": "Exjobb och praktik/LIA hos Vitec Software Group",
    "url": "https://jobs.vitecsoftware.se/jobs/2567746-exjobb-och-praktik-lia-hos-vitec-software-group",
    "published": "2023-03-16",
    "deadline": null,
@@ -2983,30 +3165,37 @@
   {
    "company": "Ericsson AB",
    "url": "https://jobs.ericsson.com/careers?domain=ericsson.com",
-   "open_total": 79,
-   "junior": 53,
+   "open_total": 81,
+   "junior": 48,
    "ats": "Eightfold"
   },
   {
    "company": "Knightec Group Software and Cloud AB",
    "url": "https://career.knightecgroup.com/",
-   "open_total": 91,
-   "junior": 26,
+   "open_total": 93,
+   "junior": 25,
    "ats": "Teamtailor"
-  },
-  {
-   "company": "Tele2 Sverige AB",
-   "url": "https://www.tele2.com/join-us/",
-   "open_total": 46,
-   "junior": 7,
-   "ats": ""
   },
   {
    "company": "Atea Finance AB",
    "url": "https://www.atea.se/karriar/",
-   "open_total": 33,
-   "junior": 7,
+   "open_total": 42,
+   "junior": 13,
    "ats": "ReachMee"
+  },
+  {
+   "company": "Telia Cygate AB",
+   "url": "https://www.teliacygate.se/karriar/lediga-jobb",
+   "open_total": 23,
+   "junior": 10,
+   "ats": "Workday"
+  },
+  {
+   "company": "Tele2 Sverige AB",
+   "url": "https://www.tele2.com/join-us/",
+   "open_total": 44,
+   "junior": 7,
+   "ats": ""
   },
   {
    "company": "dizparc",
@@ -3016,20 +3205,6 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "Accenture Solutions AB",
-   "url": "https://www.accenture.com/se-en/careers/jobsearch",
-   "open_total": 42,
-   "junior": 6,
-   "ats": "Workday"
-  },
-  {
-   "company": "3",
-   "url": "https://www.tre.se/om-tre/karriar/lediga-jobb",
-   "open_total": 13,
-   "junior": 6,
-   "ats": "Jobylon"
-  },
-  {
    "company": "Tendium AB",
    "url": "https://careers.tendium.com/jobs",
    "open_total": 11,
@@ -3037,65 +3212,100 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "Telia Cygate AB",
-   "url": "https://www.teliacygate.se/karriar/lediga-jobb",
-   "open_total": 23,
-   "junior": 5,
-   "ats": "Workday"
-  },
-  {
    "company": "CGI Sverige AB",
    "url": "https://cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&lang=1",
-   "open_total": 230,
-   "junior": 4,
+   "open_total": 250,
+   "junior": 5,
    "ats": "Njoyn"
-  },
-  {
-   "company": "Capgemini Sverige AB",
-   "url": "https://www.capgemini.com/se-en/careers/join-capgemini/job-search/?country_code=se-en&brand=Capgemini,Sogeti,Capgemini+Invent",
-   "open_total": 156,
-   "junior": 4,
-   "ats": "Capgemini"
   },
   {
    "company": "Knowit Connectivity AB",
    "url": "https://www.knowit.se/karriar/lediga-jobb/",
-   "open_total": 115,
-   "junior": 4,
+   "open_total": 116,
+   "junior": 5,
    "ats": "Teamtailor"
   },
   {
-   "company": "Atea Logistics AB",
-   "url": "https://www.atea.com/why-work-in-atea/",
-   "open_total": 38,
+   "company": "Accenture Solutions AB",
+   "url": "https://www.accenture.com/se-en/careers/jobsearch",
+   "open_total": 44,
+   "junior": 5,
+   "ats": "Workday"
+  },
+  {
+   "company": "Nexer Insight AB",
+   "url": "https://nexergroup.com/sv/karriar/lediga-jobb/",
+   "open_total": 20,
+   "junior": 5,
+   "ats": "Teamtailor"
+  },
+  {
+   "company": "3",
+   "url": "https://www.tre.se/om-tre/karriar/lediga-jobb",
+   "open_total": 15,
+   "junior": 5,
+   "ats": "Jobylon"
+  },
+  {
+   "company": "Telia Company AB",
+   "url": "https://www.teliacompany.com/en/careers",
+   "open_total": 11,
+   "junior": 5,
+   "ats": ""
+  },
+  {
+   "company": "Capgemini Sverige AB",
+   "url": "https://www.capgemini.com/se-en/careers/join-capgemini/job-search/?country_code=se-en&brand=Capgemini,Sogeti,Capgemini+Invent",
+   "open_total": 149,
    "junior": 4,
-   "ats": "ReachMee"
+   "ats": "Capgemini"
   },
   {
    "company": "Net Insight AB",
    "url": "https://jobs.netinsight.net/",
-   "open_total": 4,
+   "open_total": 5,
    "junior": 4,
    "ats": "Teamtailor"
   },
   {
-   "company": "Advania AB (publ)",
+   "company": "ACM 2001 AB",
+   "url": "https://academedia.se/jobba-hos-oss/lediga-jobb/",
+   "open_total": 340,
+   "junior": 3,
+   "ats": "Onecruiter"
+  },
+  {
+   "company": "Advania Sverige AB",
    "url": "https://jobb.advania.se/",
    "open_total": 41,
    "junior": 3,
    "ats": "Teamtailor"
   },
   {
-   "company": "ACM 2001 AB",
-   "url": "https://academedia.se/jobba-hos-oss/lediga-jobb/",
-   "open_total": 330,
-   "junior": 2,
-   "ats": "Onecruiter"
+   "company": "Aderian Stockholm AB",
+   "url": "https://web103.reachmee.com/ext/I023/2696/main?site=7&validator=c50954ee76ac7d5e1489644ef8aa592a&lang=SE",
+   "open_total": 11,
+   "junior": 3,
+   "ats": "ReachMee"
+  },
+  {
+   "company": "Exsitec Edge AB",
+   "url": "https://www.exsitec.se/karriar/lediga-jobb",
+   "open_total": 11,
+   "junior": 3,
+   "ats": ""
+  },
+  {
+   "company": "Telenor",
+   "url": "https://www.telenor.com/career/open-positions/",
+   "open_total": 7,
+   "junior": 3,
+   "ats": "Teamtailor"
   },
   {
    "company": "Sigma Industry Power and Energy AB",
    "url": "https://sigmaindustrype.se/sv/karriar",
-   "open_total": 63,
+   "open_total": 69,
    "junior": 2,
    "ats": ""
   },
@@ -3107,11 +3317,18 @@
    "ats": ""
   },
   {
-   "company": "Addnode Group Aktiebolag (publ)",
-   "url": "https://www.addnodegroup.com/career/open-positions-at-addnode-groups-subsidiaries/",
-   "open_total": 13,
+   "company": "Voi Technology AB",
+   "url": "https://careers.voi.com/",
+   "open_total": 20,
    "junior": 2,
    "ats": "Teamtailor"
+  },
+  {
+   "company": "Sigma Connectivity AB",
+   "url": "https://www.sigma.se/career/jobs/",
+   "open_total": 16,
+   "junior": 2,
+   "ats": ""
   },
   {
    "company": "Data Ductus Holding AB",
@@ -3123,37 +3340,9 @@
   {
    "company": "SOPRA STERIA SWEDEN AB",
    "url": "https://careers.soprasteria.se/jobs",
-   "open_total": 10,
+   "open_total": 8,
    "junior": 2,
    "ats": "SmartRecruiters"
-  },
-  {
-   "company": "Axians AB",
-   "url": "https://karriar.axians.se/",
-   "open_total": 7,
-   "junior": 2,
-   "ats": "Teamtailor"
-  },
-  {
-   "company": "Telenor Linx As",
-   "url": "https://www.telenor.com/career/open-positions/",
-   "open_total": 7,
-   "junior": 2,
-   "ats": "Teamtailor"
-  },
-  {
-   "company": "Aderian Stockholm AB",
-   "url": "https://web103.reachmee.com/ext/I023/2696/main?site=7&validator=c50954ee76ac7d5e1489644ef8aa592a&lang=SE",
-   "open_total": 6,
-   "junior": 2,
-   "ats": "ReachMee"
-  },
-  {
-   "company": "Evimeria EMR AB",
-   "url": "https://careers.carasent.com/",
-   "open_total": 4,
-   "junior": 2,
-   "ats": "Teamtailor"
   },
   {
    "company": "3Bits Consulting AB",
@@ -3172,86 +3361,58 @@
   {
    "company": "Ants IT-support AB",
    "url": "https://jobb.ants.se/",
-   "open_total": 52,
+   "open_total": 50,
    "junior": 1,
    "ats": "Teamtailor"
   },
   {
    "company": "Sigma Industry Evolution AB",
    "url": "https://sigmaindustryevolution.se/sv/karriar",
-   "open_total": 42,
+   "open_total": 46,
    "junior": 1,
    "ats": ""
   },
   {
    "company": "Consid S5 AB",
    "url": "https://www.consid.com/sv/karriar/lediga-tjanster/",
-   "open_total": 38,
+   "open_total": 37,
    "junior": 1,
    "ats": ""
-  },
-  {
-   "company": "Sigma Connectivity AB",
-   "url": "https://www.sigma.se/career/jobs/",
-   "open_total": 20,
-   "junior": 1,
-   "ats": ""
-  },
-  {
-   "company": "Telia Towers Sweden AB",
-   "url": "https://www.teliacompany.com/en/careers/open-positions",
-   "open_total": 20,
-   "junior": 1,
-   "ats": ""
-  },
-  {
-   "company": "Voi Technology AB",
-   "url": "https://careers.voi.com/",
-   "open_total": 20,
-   "junior": 1,
-   "ats": "Teamtailor"
   },
   {
    "company": "Sigma Industry Solutions AB",
    "url": "https://sigmaindustrysolutions.se/karriar",
-   "open_total": 19,
+   "open_total": 20,
    "junior": 1,
    "ats": ""
   },
   {
    "company": "Camai Consulting AB",
    "url": "https://karriar.camai.se/jobs",
-   "open_total": 18,
+   "open_total": 19,
    "junior": 1,
    "ats": "Teamtailor"
   },
   {
-   "company": "HiQ Mälardalen AB",
-   "url": "https://hiq.se/karriar/",
-   "open_total": 17,
-   "junior": 1,
-   "ats": ""
-  },
-  {
    "company": "Humanit X AB",
    "url": "https://career.humanit.se",
-   "open_total": 14,
+   "open_total": 12,
+   "junior": 1,
+   "ats": "Teamtailor"
+  },
+  {
+   "company": "Addnode Group Aktiebolag (publ)",
+   "url": "https://www.addnodegroup.com/career/open-positions-at-addnode-groups-subsidiaries/",
+   "open_total": 11,
    "junior": 1,
    "ats": "Teamtailor"
   },
   {
    "company": "Softronic Dokumenthantering AB",
    "url": "https://jobb.softronic.se/",
-   "open_total": 12,
+   "open_total": 10,
    "junior": 1,
    "ats": "Teamtailor"
-  },
-  {
-   "company": "Telia Company AB",
-   "url": "https://www.teliacompany.com/en/careers",
-   "open_total": 11,
-   "junior": 1,
-   "ats": ""
   },
   {
    "company": "Fellowmind Sweden AB",
@@ -3268,20 +3429,6 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "Azets Solutions AB",
-   "url": "https://www.azets.com/sv-se/karriar/lediga-tjanster",
-   "open_total": 8,
-   "junior": 1,
-   "ats": ""
-  },
-  {
-   "company": "ECIT Services AB",
-   "url": "https://www.ecit.com/se/karriar/",
-   "open_total": 8,
-   "junior": 1,
-   "ats": "Teamtailor"
-  },
-  {
    "company": "One CC AB",
    "url": "https://onecontact.se/jobb",
    "open_total": 8,
@@ -3289,11 +3436,18 @@
    "ats": ""
   },
   {
-   "company": "Coromatic AB",
-   "url": "https://karriar.coromatic.se/",
+   "company": "Azets Solutions AB",
+   "url": "https://www.azets.com/sv-se/karriar/lediga-tjanster",
    "open_total": 7,
    "junior": 1,
    "ats": ""
+  },
+  {
+   "company": "ECIT Services AB",
+   "url": "https://www.ecit.com/se/karriar/",
+   "open_total": 7,
+   "junior": 1,
+   "ats": "Teamtailor"
   },
   {
    "company": "Pulsen Omsorg AB",
@@ -3301,6 +3455,13 @@
    "open_total": 7,
    "junior": 1,
    "ats": "Jobylon"
+  },
+  {
+   "company": "Axians AB",
+   "url": "https://karriar.axians.se/",
+   "open_total": 6,
+   "junior": 1,
+   "ats": "Teamtailor"
   },
   {
    "company": "Siemens Industry Software AB",
@@ -3317,9 +3478,16 @@
    "ats": ""
   },
   {
-   "company": "Vitec IT-Drift AB",
-   "url": "https://workwithus.vitecsoftware.com/jobs",
+   "company": "Vitec Energy AB",
+   "url": "https://www.vitec-energy.com/career/",
    "open_total": 4,
+   "junior": 1,
+   "ats": "Teamtailor"
+  },
+  {
+   "company": "Evimeria EMR AB",
+   "url": "https://careers.carasent.com/",
+   "open_total": 3,
    "junior": 1,
    "ats": "Teamtailor"
   },
@@ -3331,23 +3499,16 @@
    "ats": ""
   },
   {
+   "company": "Visma Spiris AB",
+   "url": "https://www.spiris.se/om-oss/lediga-jobb",
+   "open_total": 3,
+   "junior": 1,
+   "ats": "Teamtailor"
+  },
+  {
    "company": "itm8 Sverige AB",
    "url": "https://join.itm8.se/",
-   "open_total": 3,
-   "junior": 1,
-   "ats": "Teamtailor"
-  },
-  {
-   "company": "TelliQ",
-   "url": "https://career.infobric.com/",
-   "open_total": 3,
-   "junior": 1,
-   "ats": "Teamtailor"
-  },
-  {
-   "company": "Tunstall AB",
-   "url": "https://se-careers.tunstall.com/",
-   "open_total": 3,
+   "open_total": 2,
    "junior": 1,
    "ats": "Teamtailor"
   },
@@ -3359,8 +3520,15 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "Visma Spiris AB",
-   "url": "https://www.spiris.se/om-oss/lediga-jobb",
+   "company": "TelliQ",
+   "url": "https://career.infobric.com/",
+   "open_total": 2,
+   "junior": 1,
+   "ats": "Teamtailor"
+  },
+  {
+   "company": "Tunstall AB",
+   "url": "https://se-careers.tunstall.com/",
    "open_total": 2,
    "junior": 1,
    "ats": "Teamtailor"
@@ -3380,18 +3548,11 @@
    "ats": "Workspace Recruit"
   },
   {
-   "company": "Exsitec Tech Solutions AB",
-   "url": "https://www.exsitec.se/karriar/lediga-jobb",
+   "company": "Compodium International AB",
+   "url": "https://compodium.weselect.com/",
    "open_total": 1,
    "junior": 1,
-   "ats": ""
-  },
-  {
-   "company": "Litium AB",
-   "url": "https://join.litium.com/jobs",
-   "open_total": 1,
-   "junior": 1,
-   "ats": "Teamtailor"
+   "ats": "Weselect"
   },
   {
    "company": "New Seed",
@@ -3408,37 +3569,37 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "StjärnaFyrkant Umeå/Skellefteå",
-   "url": "https://stjarnafyrkant.se/karriar/",
-   "open_total": 1,
-   "junior": 1,
-   "ats": ""
+   "company": "Sogeti Sverige AB",
+   "url": "https://www.sogeti.se/karriar/lediga-jobb/?page=1&size=11&country_code=se-en%2Cen-se%2CSE",
+   "open_total": 213,
+   "junior": 0,
+   "ats": "Capgemini"
   },
   {
    "company": "TopWork Digital Sverige AB",
    "url": "https://jobb.topwork.se/jobb",
-   "open_total": 99,
+   "open_total": 98,
    "junior": 0,
    "ats": ""
   },
   {
    "company": "Flowbird AB",
    "url": "https://careers.arrive.com/",
-   "open_total": 76,
+   "open_total": 80,
    "junior": 0,
    "ats": "Teamtailor"
   },
   {
-   "company": "Nordcloud Hosting Sweden AB",
-   "url": "https://www.ibm.com/careers",
-   "open_total": 60,
+   "company": "Orientalent AB",
+   "url": "https://careers.ultragroup.se/",
+   "open_total": 55,
    "junior": 0,
-   "ats": ""
+   "ats": "Teamtailor"
   },
   {
    "company": "Capgemini Engineering Sverige AB",
    "url": "https://www.capgemini.com/se-en/careers/join-capgemini/job-search/?country_code=se-en&brand=Capgemini+Engineering",
-   "open_total": 57,
+   "open_total": 54,
    "junior": 0,
    "ats": "Capgemini"
   },
@@ -3452,37 +3613,30 @@
   {
    "company": "IGT Sweden Interactive AB",
    "url": "https://jobs.igt.com/",
-   "open_total": 46,
+   "open_total": 48,
    "junior": 0,
    "ats": ""
   },
   {
-   "company": "Doktorse Nordic AB",
-   "url": "https://jobs.doktor.se/jobs",
-   "open_total": 45,
+   "company": "Atea Logistics AB",
+   "url": "https://www.atea.com/why-work-in-atea/",
+   "open_total": 46,
    "junior": 0,
-   "ats": "Teamtailor"
+   "ats": "ReachMee"
   },
   {
-   "company": "Orientalent AB",
-   "url": "https://careers.ultragroup.se/",
-   "open_total": 45,
+   "company": "Doktorse Nordic AB",
+   "url": "https://jobs.doktor.se/jobs",
+   "open_total": 46,
    "junior": 0,
    "ats": "Teamtailor"
   },
   {
    "company": "B3 Consulting Group AB (publ)",
    "url": "https://bli.b3.se/",
-   "open_total": 43,
+   "open_total": 45,
    "junior": 0,
    "ats": "Teamtailor"
-  },
-  {
-   "company": "ADP Employer Services Sweden",
-   "url": "https://jobs.adp.com/en/?rb=ADP_COM",
-   "open_total": 42,
-   "junior": 0,
-   "ats": ""
   },
   {
    "company": "Kyndryl Svenska Aktiebolag",
@@ -3494,16 +3648,30 @@
   {
    "company": "Airbus Defence and Space, Secure Land Communication",
    "url": "https://www.airbus.com/en/careers",
-   "open_total": 37,
+   "open_total": 33,
    "junior": 0,
    "ats": "Workday"
   },
   {
    "company": "XLENT Analytics Syd AB",
    "url": "https://jobb.xlent.se/",
-   "open_total": 33,
+   "open_total": 31,
    "junior": 0,
    "ats": "Teamtailor"
+  },
+  {
+   "company": "Essiq AB",
+   "url": "https://careers.essiq.se/",
+   "open_total": 30,
+   "junior": 0,
+   "ats": "Teamtailor"
+  },
+  {
+   "company": "IBM Svenska AB",
+   "url": "https://www.ibm.com/careers",
+   "open_total": 30,
+   "junior": 0,
+   "ats": ""
   },
   {
    "company": "QESTIT Utbildning AB",
@@ -3513,29 +3681,36 @@
    "ats": ""
   },
   {
-   "company": "Colt Technology Services AB",
-   "url": "https://www.colt.net/careers",
+   "company": "Iver Accelerate AB",
+   "url": "https://iver.com/sv/karriar",
+   "open_total": 28,
+   "junior": 0,
+   "ats": "Teamtailor"
+  },
+  {
+   "company": "Cree Sweden AB",
+   "url": "https://www.wolfspeed.com/careers/",
+   "open_total": 27,
+   "junior": 0,
+   "ats": "Workday"
+  },
+  {
+   "company": "Kodak Nordic AB",
+   "url": "https://careers.kodak.com/?utm_source=corpsite",
+   "open_total": 27,
+   "junior": 0,
+   "ats": ""
+  },
+  {
+   "company": "ADP Employer Services Sweden",
+   "url": "https://jobs.adp.com/en/?rb=ADP_COM",
    "open_total": 26,
    "junior": 0,
    "ats": ""
   },
   {
-   "company": "Cree Sweden AB",
-   "url": "https://www.wolfspeed.com/careers/",
-   "open_total": 26,
-   "junior": 0,
-   "ats": "Workday"
-  },
-  {
-   "company": "Essiq AB",
-   "url": "https://careers.essiq.se/",
-   "open_total": 26,
-   "junior": 0,
-   "ats": "Teamtailor"
-  },
-  {
-   "company": "Kodak Nordic AB",
-   "url": "https://careers.kodak.com/?utm_source=corpsite",
+   "company": "Colt Technology Services AB",
+   "url": "https://www.colt.net/careers",
    "open_total": 26,
    "junior": 0,
    "ats": ""
@@ -3548,11 +3723,25 @@
    "ats": ""
   },
   {
-   "company": "Iver Accelerate AB",
-   "url": "https://iver.com/sv/karriar",
+   "company": "Truesec Detect AB",
+   "url": "https://www.truesec.com/jobs",
    "open_total": 25,
    "junior": 0,
    "ats": "Teamtailor"
+  },
+  {
+   "company": "Vivicta AB",
+   "url": "https://careers.tieto.com/sverige",
+   "open_total": 24,
+   "junior": 0,
+   "ats": "SmartRecruiters"
+  },
+  {
+   "company": "Roche Diagnostics Scandinavia AB",
+   "url": "https://careers.roche.com/global/en",
+   "open_total": 23,
+   "junior": 0,
+   "ats": "Workday"
   },
   {
    "company": "DXC Technology Sverige AB",
@@ -3562,20 +3751,6 @@
    "ats": "Workday"
   },
   {
-   "company": "Roche Diagnostics Scandinavia AB",
-   "url": "https://careers.roche.com/global/en",
-   "open_total": 22,
-   "junior": 0,
-   "ats": "Workday"
-  },
-  {
-   "company": "Truesec Detect AB",
-   "url": "https://www.truesec.com/jobs",
-   "open_total": 22,
-   "junior": 0,
-   "ats": "Teamtailor"
-  },
-  {
    "company": "Bricobomba AB",
    "url": "https://valcon.com/careers/?search&discipline&experience-level&countries=sweden",
    "open_total": 21,
@@ -3583,15 +3758,22 @@
    "ats": ""
   },
   {
-   "company": "OpenUniverse AB",
-   "url": "https://globalconnect.jobylon.com/",
+   "company": "DF IT AB",
+   "url": "https://www.topteam.se/job-list-v1/",
    "open_total": 21,
    "junior": 0,
-   "ats": "Jobylon"
+   "ats": ""
   },
   {
    "company": "Sagem",
    "url": "https://careers.sagemcom.com/job/list-of-jobs.aspx?LCID=1033",
+   "open_total": 21,
+   "junior": 0,
+   "ats": ""
+  },
+  {
+   "company": "Telia Finance AB",
+   "url": "https://www.teliacompany.com/en/careers/open-positions",
    "open_total": 21,
    "junior": 0,
    "ats": ""
@@ -3618,8 +3800,15 @@
    "ats": ""
   },
   {
-   "company": "DF IT AB",
-   "url": "https://www.topteam.se/job-list-v1/",
+   "company": "Nexer Recruit AB",
+   "url": "https://lediga-jobb.nexerrecruit.com/jobs",
+   "open_total": 20,
+   "junior": 0,
+   "ats": "Teamtailor"
+  },
+  {
+   "company": "Retail Logistics Excellence AB",
+   "url": "https://www.relexsolutions.com/careers/",
    "open_total": 20,
    "junior": 0,
    "ats": ""
@@ -3632,18 +3821,11 @@
    "ats": "SmartRecruiters"
   },
   {
-   "company": "Vivicta AB",
-   "url": "https://careers.tieto.com/sverige",
+   "company": "Toshiba Tec Nordic AB",
+   "url": "https://www.toshiba.eu/about-toshiba-europe/careers-toshiba-europe/",
    "open_total": 20,
    "junior": 0,
-   "ats": "SmartRecruiters"
-  },
-  {
-   "company": "Nexer Recruit AB",
-   "url": "https://lediga-jobb.nexerrecruit.com/jobs",
-   "open_total": 19,
-   "junior": 0,
-   "ats": "Teamtailor"
+   "ats": ""
   },
   {
    "company": "Imployy AB",
@@ -3655,16 +3837,16 @@
   {
    "company": "Eltel AB",
    "url": "https://www.eltelnetworks.se/sv/lediga-tjanster/",
-   "open_total": 17,
+   "open_total": 16,
    "junior": 0,
    "ats": "Jobylon"
   },
   {
-   "company": "Toshiba Tec Nordic AB",
-   "url": "https://www.toshiba.eu/about-toshiba-europe/careers-toshiba-europe/",
+   "company": "GlobalConnect AB",
+   "url": "https://globalconnect.jobylon.com/",
    "open_total": 16,
    "junior": 0,
-   "ats": ""
+   "ats": "Jobylon"
   },
   {
    "company": "Adlede AB",
@@ -3674,32 +3856,18 @@
    "ats": ""
   },
   {
-   "company": "Extenda Retail AB",
-   "url": "https://career.extendaretail.com/",
-   "open_total": 14,
-   "junior": 0,
-   "ats": "Teamtailor"
-  },
-  {
-   "company": "Humanit Stockholm AB",
-   "url": "https://career.humanit.se/jobs",
-   "open_total": 14,
-   "junior": 0,
-   "ats": "Teamtailor"
-  },
-  {
-   "company": "Nordlo Advance AB",
-   "url": "https://nordlo.com/karriar/lediga-jobb",
-   "open_total": 14,
-   "junior": 0,
-   "ats": "Varbi"
-  },
-  {
    "company": "OneCo Networks AB",
    "url": "https://oneco.se/en/karriar/",
    "open_total": 14,
    "junior": 0,
    "ats": "HR Manager"
+  },
+  {
+   "company": "HiQ Mälardalen AB",
+   "url": "https://hiq.se/karriar/",
+   "open_total": 13,
+   "junior": 0,
+   "ats": ""
   },
   {
    "company": "Hemmersbach Sweden AB",
@@ -3709,6 +3877,13 @@
    "ats": ""
   },
   {
+   "company": "Humanit Stockholm AB",
+   "url": "https://career.humanit.se/jobs",
+   "open_total": 12,
+   "junior": 0,
+   "ats": "Teamtailor"
+  },
+  {
    "company": "Install Fiber I Norr AB",
    "url": "https://install.se/jobba-hos-oss-se-vara-lediga-tjanster/",
    "open_total": 12,
@@ -3716,32 +3891,25 @@
    "ats": ""
   },
   {
-   "company": "Retail Logistics Excellence AB",
-   "url": "https://www.relexsolutions.com/careers/",
+   "company": "Nordlo Advance AB",
+   "url": "https://nordlo.com/karriar/lediga-jobb",
    "open_total": 12,
    "junior": 0,
-   "ats": ""
+   "ats": "Varbi"
   },
   {
    "company": "SmartSoc Solutions Filial",
-   "url": "https://www.smartsocs.com/job-type/full-time/",
+   "url": "https://smartsocs.com/job-type/full-time/",
    "open_total": 12,
    "junior": 0,
    "ats": ""
   },
   {
-   "company": "Nexer Data Management AB",
-   "url": "https://nexergroup.com/sv/karriar/lediga-jobb/",
+   "company": "NYCE Solutions AB",
+   "url": "https://career.extendaretail.com/",
    "open_total": 11,
    "junior": 0,
-   "ats": ""
-  },
-  {
-   "company": "Nexer Engineering AB",
-   "url": "https://nexergroup.com/career/open-positions/",
-   "open_total": 11,
-   "junior": 0,
-   "ats": ""
+   "ats": "Teamtailor"
   },
   {
    "company": "Amazon Corporate Services Sweden AB",
@@ -3749,13 +3917,6 @@
    "open_total": 10,
    "junior": 0,
    "ats": "Amazon Jobs"
-  },
-  {
-   "company": "Arelion AB",
-   "url": "https://www.arelion.com/why-arelion/about-us/join-us/open-positions",
-   "open_total": 10,
-   "junior": 0,
-   "ats": ""
   },
   {
    "company": "BT Nordics Sweden AB",
@@ -3772,8 +3933,22 @@
    "ats": "ReachMee"
   },
   {
+   "company": "JMA Maskindata",
+   "url": "https://www.maskindata.se/karriaer",
+   "open_total": 10,
+   "junior": 0,
+   "ats": ""
+  },
+  {
    "company": "Lenovo (Sweden) AB",
    "url": "https://jobs.lenovo.com/en_US/careers",
+   "open_total": 10,
+   "junior": 0,
+   "ats": ""
+  },
+  {
+   "company": "Nexer AB",
+   "url": "https://nexergroup.com/career/open-positions/",
    "open_total": 10,
    "junior": 0,
    "ats": ""
@@ -3814,11 +3989,11 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "Complete Synergi AB",
-   "url": "https://synergi.se/careers/",
+   "company": "Arelion AB",
+   "url": "https://www.arelion.com/why-arelion/about-us/join-us/open-positions",
    "open_total": 9,
    "junior": 0,
-   "ats": "BambooHR"
+   "ats": ""
   },
   {
    "company": "PTV Nordics AB",
@@ -3826,6 +4001,13 @@
    "open_total": 9,
    "junior": 0,
    "ats": "Personio"
+  },
+  {
+   "company": "CityFlow Technologies AB",
+   "url": "https://www.besttransport.se/om-best/karriar/",
+   "open_total": 8,
+   "junior": 0,
+   "ats": "Teamtailor"
   },
   {
    "company": "Crepido AB",
@@ -3856,11 +4038,11 @@
    "ats": ""
   },
   {
-   "company": "CityFlow Technologies AB",
-   "url": "https://www.besttransport.se/om-best/karriar/",
+   "company": "Coromatic AB",
+   "url": "https://karriar.coromatic.se/",
    "open_total": 7,
    "junior": 0,
-   "ats": "Teamtailor"
+   "ats": ""
   },
   {
    "company": "EPI-USE Sweden 2 AB",
@@ -3877,11 +4059,11 @@
    "ats": ""
   },
   {
-   "company": "Hydratronics AB",
-   "url": "https://kgk.se/lediga-jobb/",
+   "company": "Nordlo Nethouse AB",
+   "url": "https://jobb.nethouse.se/",
    "open_total": 7,
    "junior": 0,
-   "ats": "Onecruiter"
+   "ats": "Teamtailor"
   },
   {
    "company": "Acorn Technology AB",
@@ -3898,18 +4080,18 @@
    "ats": ""
   },
   {
+   "company": "Complete Synergi AB",
+   "url": "https://synergi.se/careers/",
+   "open_total": 6,
+   "junior": 0,
+   "ats": "BambooHR"
+  },
+  {
    "company": "Event Logic Försäljning Sweden AB",
    "url": "https://www.eventlogic.io/sv/om-oss/karriar/",
    "open_total": 6,
    "junior": 0,
    "ats": ""
-  },
-  {
-   "company": "HMS Industrial Networks AB",
-   "url": "https://www.hms-networks.com/sv/open-positions",
-   "open_total": 6,
-   "junior": 0,
-   "ats": "ReachMee"
   },
   {
    "company": "Innofactor AB",
@@ -3924,13 +4106,6 @@
    "open_total": 6,
    "junior": 0,
    "ats": ""
-  },
-  {
-   "company": "Nordlo Nethouse AB",
-   "url": "https://jobb.nethouse.se/",
-   "open_total": 6,
-   "junior": 0,
-   "ats": "Teamtailor"
   },
   {
    "company": "Asurgent AB",
@@ -3968,11 +4143,25 @@
    "ats": ""
   },
   {
+   "company": "Electrocare Nordic AB",
+   "url": "https://jobs.talentech.com/elcarenordic",
+   "open_total": 5,
+   "junior": 0,
+   "ats": "Talentech"
+  },
+  {
    "company": "Flex Applications Sverige AB",
    "url": "https://career.flexhrm.com/",
    "open_total": 5,
    "junior": 0,
    "ats": "Teamtailor"
+  },
+  {
+   "company": "HMS Industrial Networks AB",
+   "url": "https://www.hms-networks.com/sv/open-positions",
+   "open_total": 5,
+   "junior": 0,
+   "ats": "ReachMee"
   },
   {
    "company": "IMPACT Commerce AB",
@@ -4010,11 +4199,32 @@
    "ats": "Teamtailor"
   },
   {
+   "company": "Vitec IT-Drift AB",
+   "url": "https://workwithus.vitecsoftware.com/jobs",
+   "open_total": 5,
+   "junior": 0,
+   "ats": "Teamtailor"
+  },
+  {
+   "company": "Vitec Software Group AB (Publ)",
+   "url": "https://workwithus.vitecsoftware.com/",
+   "open_total": 5,
+   "junior": 0,
+   "ats": "Teamtailor"
+  },
+  {
    "company": "8 Bits Code AB",
    "url": "https://www.8bitscode.com/jobs",
    "open_total": 4,
    "junior": 0,
    "ats": ""
+  },
+  {
+   "company": "Acrelec",
+   "url": "https://acrelec.com/jobboard/",
+   "open_total": 4,
+   "junior": 0,
+   "ats": "SmartRecruiters"
   },
   {
    "company": "AGIO System & Kompetens AB",
@@ -4029,13 +4239,6 @@
    "open_total": 4,
    "junior": 0,
    "ats": ""
-  },
-  {
-   "company": "CompuGroup Medical Sweden AB",
-   "url": "https://cgm.wd3.myworkdayjobs.com/sv-SE/cgm",
-   "open_total": 4,
-   "junior": 0,
-   "ats": "Workday"
   },
   {
    "company": "Construct IT",
@@ -4059,13 +4262,6 @@
    "ats": ""
   },
   {
-   "company": "Electrocare Nordic AB",
-   "url": "https://jobs.talentech.com/elcarenordic",
-   "open_total": 4,
-   "junior": 0,
-   "ats": "Talentech"
-  },
-  {
    "company": "Epical Sweden AB",
    "url": "https://careers.epicalgroup.com/jobs",
    "open_total": 4,
@@ -4080,8 +4276,8 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "HPI Health Profile Institute AB",
-   "url": "https://www.hpi-plustoo.com/jobba-hos-hpi",
+   "company": "Kivra",
+   "url": "https://jobs.kivra.dev/",
    "open_total": 4,
    "junior": 0,
    "ats": "Teamtailor"
@@ -4108,8 +4304,8 @@
    "ats": ""
   },
   {
-   "company": "Vitec Software Group AB (Publ)",
-   "url": "https://workwithus.vitecsoftware.com/",
+   "company": "Telenor Connexion AB",
+   "url": "https://iot.telenor.com/company/career/",
    "open_total": 4,
    "junior": 0,
    "ats": "Teamtailor"
@@ -4136,13 +4332,6 @@
    "ats": ""
   },
   {
-   "company": "Crosskey",
-   "url": "https://www.crosskey.fi/company/careers",
-   "open_total": 3,
-   "junior": 0,
-   "ats": "HR Manager"
-  },
-  {
    "company": "Didup Consulting AB",
    "url": "https://didup.com/lediga-tjanster/",
    "open_total": 3,
@@ -4150,11 +4339,25 @@
    "ats": ""
   },
   {
+   "company": "Gs1 Sweden AB",
+   "url": "https://gs1.se/jobb/",
+   "open_total": 3,
+   "junior": 0,
+   "ats": "Weselect"
+  },
+  {
    "company": "Hoist Group AB",
    "url": "https://www.weareplanet.com/careers",
    "open_total": 3,
    "junior": 0,
    "ats": "Workday"
+  },
+  {
+   "company": "HPI Health Profile Institute AB",
+   "url": "https://www.hpi-plustoo.com/jobba-hos-hpi",
+   "open_total": 3,
+   "junior": 0,
+   "ats": "Teamtailor"
   },
   {
    "company": "ICT Additude AB",
@@ -4176,13 +4379,6 @@
    "open_total": 3,
    "junior": 0,
    "ats": ""
-  },
-  {
-   "company": "Kivra",
-   "url": "https://jobs.kivra.dev/",
-   "open_total": 3,
-   "junior": 0,
-   "ats": "Teamtailor"
   },
   {
    "company": "MATERNA Sweden AB",
@@ -4213,46 +4409,11 @@
    "ats": ""
   },
   {
-   "company": "Techstep AB",
-   "url": "https://www.techstep.io/work-with-us",
-   "open_total": 3,
-   "junior": 0,
-   "ats": "Teamtailor"
-  },
-  {
-   "company": "Ungapped AB",
-   "url": "https://ungapped.teamtailor.com/jobs",
-   "open_total": 3,
-   "junior": 0,
-   "ats": "Teamtailor"
-  },
-  {
-   "company": "Unibap Space Solutions AB (publ)",
-   "url": "https://winrowrekrytering.teamtailor.com/jobs",
-   "open_total": 3,
-   "junior": 0,
-   "ats": "Teamtailor"
-  },
-  {
    "company": "Vend Marketplaces AB",
    "url": "https://vend.com/career",
    "open_total": 3,
    "junior": 0,
    "ats": ""
-  },
-  {
-   "company": "Videnca AB",
-   "url": "https://karriar.videnca.se/",
-   "open_total": 3,
-   "junior": 0,
-   "ats": "Teamtailor"
-  },
-  {
-   "company": "Vitec Energy AB",
-   "url": "https://www.vitec-energy.com/career/",
-   "open_total": 3,
-   "junior": 0,
-   "ats": "Teamtailor"
   },
   {
    "company": "ADACA Authority AB",
@@ -4304,6 +4465,20 @@
    "ats": ""
   },
   {
+   "company": "CompuGroup Medical Sweden AB",
+   "url": "https://cgm.wd3.myworkdayjobs.com/sv-SE/cgm",
+   "open_total": 2,
+   "junior": 0,
+   "ats": "Workday"
+  },
+  {
+   "company": "Crosskey",
+   "url": "https://www.crosskey.fi/company/careers",
+   "open_total": 2,
+   "junior": 0,
+   "ats": "HR Manager"
+  },
+  {
    "company": "Crystal IT AB",
    "url": "https://ikaros.se/lediga-jobb",
    "open_total": 2,
@@ -4339,18 +4514,18 @@
    "ats": ""
   },
   {
+   "company": "Gibon Eskilstuna AB",
+   "url": "https://karriar.jobbet.se/gibon",
+   "open_total": 2,
+   "junior": 0,
+   "ats": "Jobbet"
+  },
+  {
    "company": "Gisys AB",
    "url": "https://www.gisys.se/karri%C3%A4r/s%C3%B6k-anst%C3%A4llning",
    "open_total": 2,
    "junior": 0,
    "ats": "Teamtailor"
-  },
-  {
-   "company": "Glow Technology AB",
-   "url": "https://www.bring.se/jobb",
-   "open_total": 2,
-   "junior": 0,
-   "ats": "Oracle"
   },
   {
    "company": "Hogia AB",
@@ -4386,13 +4561,6 @@
    "open_total": 2,
    "junior": 0,
    "ats": ""
-  },
-  {
-   "company": "Icebound AB",
-   "url": "https://www.icebound.com/foretaget/karriar/",
-   "open_total": 2,
-   "junior": 0,
-   "ats": "Onecruiter"
   },
   {
    "company": "Icomera AB",
@@ -4472,13 +4640,6 @@
    "ats": ""
   },
   {
-   "company": "Netsecurity Nordic AB",
-   "url": "https://www.netsecurity.no/sv/karriar/lediga-tjanster",
-   "open_total": 2,
-   "junior": 0,
-   "ats": "ReachMee"
-  },
-  {
    "company": "Network Projectum",
    "url": "https://networkprojectum.se/karriar/",
    "open_total": 2,
@@ -4507,6 +4668,13 @@
    "ats": ""
   },
   {
+   "company": "Prodoc",
+   "url": "https://prodoc.se/jobba-hos-oss",
+   "open_total": 2,
+   "junior": 0,
+   "ats": "Weselect"
+  },
+  {
    "company": "QD Sverige AB",
    "url": "https://www.qd.se/karriar/lediga-tjanster/",
    "open_total": 2,
@@ -4521,6 +4689,13 @@
    "ats": "BambooHR"
   },
   {
+   "company": "Sokigo AB",
+   "url": "https://karriar.sokigo.com/",
+   "open_total": 2,
+   "junior": 0,
+   "ats": "Teamtailor"
+  },
+  {
    "company": "STV",
    "url": "https://stv.se/lediga-tjanster/",
    "open_total": 2,
@@ -4528,8 +4703,8 @@
    "ats": ""
   },
   {
-   "company": "Telenor Connexion AB",
-   "url": "https://iot.telenor.com/company/career/",
+   "company": "Techstep AB",
+   "url": "https://www.techstep.io/work-with-us",
    "open_total": 2,
    "junior": 0,
    "ats": "Teamtailor"
@@ -4542,18 +4717,25 @@
    "ats": "Teamtailor"
   },
   {
+   "company": "Unibap Space Solutions AB (publ)",
+   "url": "https://winrowrekrytering.teamtailor.com/jobs",
+   "open_total": 2,
+   "junior": 0,
+   "ats": "Teamtailor"
+  },
+  {
+   "company": "Videnca AB",
+   "url": "https://karriar.videnca.se/",
+   "open_total": 2,
+   "junior": 0,
+   "ats": "Teamtailor"
+  },
+  {
    "company": "AB Stokab",
    "url": "https://stokab.se/det-har-ar-stokab/arbeta-hos-oss/lediga-tjanster",
    "open_total": 1,
    "junior": 0,
    "ats": ""
-  },
-  {
-   "company": "Acrelec",
-   "url": "https://acrelec.com/jobboard/",
-   "open_total": 1,
-   "junior": 0,
-   "ats": "SmartRecruiters"
   },
   {
    "company": "Addovation Sweden AB",
@@ -4619,13 +4801,6 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "Digital Workforce Svenska AB",
-   "url": "https://careers.digitalworkforce.eu",
-   "open_total": 1,
-   "junior": 0,
-   "ats": "Teamtailor"
-  },
-  {
    "company": "Dolphin Computer Access AB",
    "url": "https://yourdolphin.com/careers/vacancies/all",
    "open_total": 1,
@@ -4647,11 +4822,18 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "Enea AB",
-   "url": "https://careers.enea.com/",
+   "company": "Euronics",
+   "url": "https://euronics.weselect.com/",
    "open_total": 1,
    "junior": 0,
-   "ats": "Teamtailor"
+   "ats": "Weselect"
+  },
+  {
+   "company": "Euvic AB",
+   "url": "https://euvic.weselect.com/",
+   "open_total": 1,
+   "junior": 0,
+   "ats": "Weselect"
   },
   {
    "company": "Exobe AB",
@@ -4682,13 +4864,6 @@
    "ats": ""
   },
   {
-   "company": "Gibon Eskilstuna AB",
-   "url": "https://karriar.jobbet.se/gibon",
-   "open_total": 1,
-   "junior": 0,
-   "ats": "Jobbet"
-  },
-  {
    "company": "Griffel AB",
    "url": "https://www.griffel.se/lediga-jobb",
    "open_total": 1,
@@ -4708,6 +4883,13 @@
    "open_total": 1,
    "junior": 0,
    "ats": "Teamtailor"
+  },
+  {
+   "company": "Icebound AB",
+   "url": "https://www.icebound.com/foretaget/karriar/",
+   "open_total": 1,
+   "junior": 0,
+   "ats": "Onecruiter"
   },
   {
    "company": "IIS",
@@ -4759,6 +4941,13 @@
    "ats": "Jobylon"
   },
   {
+   "company": "Litium AB",
+   "url": "https://join.litium.com/jobs",
+   "open_total": 1,
+   "junior": 0,
+   "ats": "Teamtailor"
+  },
+  {
    "company": "LNW Sweden AB",
    "url": "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers",
    "open_total": 1,
@@ -4808,6 +4997,13 @@
    "ats": "Teamtailor"
   },
   {
+   "company": "Netsecurity Nordic AB",
+   "url": "https://www.netsecurity.no/sv/karriar/lediga-tjanster",
+   "open_total": 1,
+   "junior": 0,
+   "ats": "ReachMee"
+  },
+  {
    "company": "Onitio Sverige AB",
    "url": "https://www.onitio.com/life-at-onitio/career-opportunities",
    "open_total": 1,
@@ -4843,13 +5039,6 @@
    "ats": ""
   },
   {
-   "company": "Sokigo AB",
-   "url": "https://karriar.sokigo.com/",
-   "open_total": 1,
-   "junior": 0,
-   "ats": "Teamtailor"
-  },
-  {
    "company": "SolarPlexus IT Strategi AB",
    "url": "https://pinea.se/sv/nyheter/pinea-soker-produktagare-och-verksamhetskonsult-till-lex/",
    "open_total": 1,
@@ -4859,6 +5048,13 @@
   {
    "company": "Soleil AB",
    "url": "https://www.soleil.se/vilka-vi-ar/karriar/lediga-tjanster.html",
+   "open_total": 1,
+   "junior": 0,
+   "ats": ""
+  },
+  {
+   "company": "StjärnaFyrkant Umeå/Skellefteå",
+   "url": "https://stjarnafyrkant.se/karriar/",
    "open_total": 1,
    "junior": 0,
    "ats": ""
@@ -4892,13 +5088,6 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "Voyagerr Scandinavia AB",
-   "url": "https://voyagerr.com/about-us/work-with-us/",
-   "open_total": 1,
-   "junior": 0,
-   "ats": "Workday"
-  },
-  {
    "company": "Acapela Group Sweden AB",
    "url": "https://www.acapela-group.com/voiceai-people-behind-technology-at-acapela-group/jobs/",
    "open_total": 0,
@@ -4907,7 +5096,7 @@
   },
   {
    "company": "AceIQ AB",
-   "url": "https://www.aceiq.com/karriar/",
+   "url": "https://www.aceiq.com/karriar",
    "open_total": 0,
    "junior": 0,
    "ats": ""
@@ -5054,7 +5243,7 @@
   },
   {
    "company": "Azolver Svenska AB",
-   "url": "https://www.azolver.com/careers/",
+   "url": "https://azolver.bamboohr.com/jobs",
    "open_total": 0,
    "junior": 0,
    "ats": "BambooHR"
@@ -5165,15 +5354,8 @@
    "ats": ""
   },
   {
-   "company": "Compodium International AB",
-   "url": "https://compodium.weselect.com/",
-   "open_total": 0,
-   "junior": 0,
-   "ats": "Weselect"
-  },
-  {
    "company": "Connectel AB",
-   "url": "https://careers.connectel.io/",
+   "url": "https://connectel.io/about-connectel/career/",
    "open_total": 0,
    "junior": 0,
    "ats": "Teamtailor"
@@ -5270,6 +5452,13 @@
    "ats": ""
   },
   {
+   "company": "Digital Workforce Svenska AB",
+   "url": "https://careers.digitalworkforce.eu",
+   "open_total": 0,
+   "junior": 0,
+   "ats": "Teamtailor"
+  },
+  {
    "company": "Digitalist Open Cloud AB",
    "url": "https://digitalist.careers.haileyhr.app/",
    "open_total": 0,
@@ -5361,25 +5550,18 @@
    "ats": ""
   },
   {
+   "company": "Enea AB",
+   "url": "https://careers.enea.com/",
+   "open_total": 0,
+   "junior": 0,
+   "ats": "Teamtailor"
+  },
+  {
    "company": "Esri Sverige AB",
    "url": "https://www.esri.se/sv-se/karriar/oversikt",
    "open_total": 0,
    "junior": 0,
    "ats": ""
-  },
-  {
-   "company": "Euronics",
-   "url": "https://euronics.weselect.com/",
-   "open_total": 0,
-   "junior": 0,
-   "ats": "Weselect"
-  },
-  {
-   "company": "Euvic AB",
-   "url": "https://euvic.weselect.com/",
-   "open_total": 0,
-   "junior": 0,
-   "ats": "Weselect"
   },
   {
    "company": "Everyday",
@@ -5438,6 +5620,13 @@
    "ats": "ReachMee"
   },
   {
+   "company": "Glow Technology AB",
+   "url": "https://www.bring.se/jobb",
+   "open_total": 0,
+   "junior": 0,
+   "ats": "Oracle"
+  },
+  {
    "company": "goFRST AB",
    "url": "https://frst.world/se/career",
    "open_total": 0,
@@ -5450,13 +5639,6 @@
    "open_total": 0,
    "junior": 0,
    "ats": ""
-  },
-  {
-   "company": "Gs1 Sweden AB",
-   "url": "https://gs1.se/jobb/",
-   "open_total": 0,
-   "junior": 0,
-   "ats": "Weselect"
   },
   {
    "company": "Götalandsnätet AB",
@@ -5474,7 +5656,7 @@
   },
   {
    "company": "HiCore Systems AB",
-   "url": "https://hicore.se/om-oss/",
+   "url": "https://hicore.se/jobba-med-oss/",
    "open_total": 0,
    "junior": 0,
    "ats": ""
@@ -5501,18 +5683,18 @@
    "ats": ""
   },
   {
-   "company": "HR Fokus AB",
-   "url": "https://www.hrfokus.se/arbeta-med-oss",
-   "open_total": 0,
-   "junior": 0,
-   "ats": ""
-  },
-  {
    "company": "Huawei",
    "url": "https://career.huawei.com/en",
    "open_total": 0,
    "junior": 0,
    "ats": ""
+  },
+  {
+   "company": "Hydratronics AB",
+   "url": "https://kgk.se/lediga-jobb/",
+   "open_total": 0,
+   "junior": 0,
+   "ats": "Onecruiter"
   },
   {
    "company": "Icecon AB",
@@ -5608,13 +5790,6 @@
   {
    "company": "ITKoncept Sverige AB",
    "url": "https://itkoncept.se/en/work-with-us",
-   "open_total": 0,
-   "junior": 0,
-   "ats": ""
-  },
-  {
-   "company": "JMA Maskindata",
-   "url": "https://www.maskindata.se/karriaer",
    "open_total": 0,
    "junior": 0,
    "ats": ""
@@ -5760,13 +5935,6 @@
    "ats": ""
   },
   {
-   "company": "Limavi AB",
-   "url": "https://limavi.net/career/",
-   "open_total": 0,
-   "junior": 0,
-   "ats": ""
-  },
-  {
    "company": "Loxodonta AB",
    "url": "https://www.loxodonta.se/17/7/karriar/",
    "open_total": 0,
@@ -5856,6 +6024,13 @@
    "open_total": 0,
    "junior": 0,
    "ats": ""
+  },
+  {
+   "company": "MT3 Technology AB",
+   "url": "https://mt3.se/en/career/",
+   "open_total": 0,
+   "junior": 0,
+   "ats": "Teamtailor"
   },
   {
    "company": "MW Field Service AB",
@@ -6047,13 +6222,6 @@
    "ats": ""
   },
   {
-   "company": "Prodoc",
-   "url": "https://prodoc.se/jobba-hos-oss",
-   "open_total": 0,
-   "junior": 0,
-   "ats": "Weselect"
-  },
-  {
    "company": "Prototyp Stockholm AB",
    "url": "https://jobs.prototyp.se/",
    "open_total": 0,
@@ -6187,13 +6355,6 @@
    "ats": "Teamtailor"
   },
   {
-   "company": "Sogeti Sverige AB",
-   "url": "https://www.sogeti.se/karriar/lediga-jobb/",
-   "open_total": 0,
-   "junior": 0,
-   "ats": ""
-  },
-  {
    "company": "Solid Networks",
    "url": "https://solidnetworks.se/ledigatjanster",
    "open_total": 0,
@@ -6314,7 +6475,7 @@
   },
   {
    "company": "Telefon AB LM Ericsson",
-   "url": "https://www.ericsson.com/en/careers/working-here",
+   "url": "https://www.ericsson.com/en/careers/students-early-careers",
    "open_total": 0,
    "junior": 0,
    "ats": ""
@@ -6418,6 +6579,13 @@
    "ats": ""
   },
   {
+   "company": "Ungapped AB",
+   "url": "https://ungapped.teamtailor.com/jobs",
+   "open_total": 0,
+   "junior": 0,
+   "ats": "Teamtailor"
+  },
+  {
    "company": "Vera Policy",
    "url": "https://verapolicy.se/careers",
    "open_total": 0,
@@ -6479,6 +6647,13 @@
    "open_total": 0,
    "junior": 0,
    "ats": ""
+  },
+  {
+   "company": "Voyagerr Scandinavia AB",
+   "url": "https://voyagerr.com/about-us/work-with-us/",
+   "open_total": 0,
+   "junior": 0,
+   "ats": "Workday"
   },
   {
    "company": "Välkommen Webbutveckling AB",
