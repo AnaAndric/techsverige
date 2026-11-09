@@ -40,6 +40,7 @@ import argparse
 import concurrent.futures as cf
 import csv
 import datetime as dt
+import difflib
 import gzip
 import hashlib
 import json
@@ -616,6 +617,20 @@ def clean_url(u: str) -> str:
     q = [(k, v) for k, v in parse_qsl(p.query) if not k.lower().startswith(("utm_", "source", "ref"))]
     path = p.path.rstrip("/") or "/"
     return urlunparse((p.scheme.lower(), p.netloc.lower(), path, "", urlencode(q), ""))
+
+
+JOB_KEY_DROP = ("_", "lang", "language", "locale", "ref", "source", "src")
+
+
+def job_key(u: str) -> str:
+    """Nyckel för att känna igen samma annons: som clean_url, men utan www., schema,
+    cache-busters (?_=0.123) och språkparametrar (Njoyn: &lang=1 / &lang=8)."""
+    p = urlparse(u.strip())
+    host = p.netloc.lower()
+    host = host[4:] if host.startswith("www.") else host
+    q = sorted((k, v) for k, v in parse_qsl(p.query)
+               if v and not k.lower().startswith("utm_") and k.lower() not in JOB_KEY_DROP)
+    return host + (p.path.rstrip("/") or "/") + ("?" + urlencode(q) if q else "")
 
 
 def host_of(u: str) -> str:
@@ -1673,26 +1688,94 @@ def load_members_file(path: Path) -> list[dict]:
 # ---------------------------------------------------------------------------
 # Sammanställning
 # ---------------------------------------------------------------------------
+BRAND_STOP = {"svenska", "swedish", "sverige", "sweden", "nordic", "nordiska", "scandinavian", "the", "it",
+              "digital", "data", "tech", "global", "international", "first", "new", "my", "smart", "west",
+              "east", "north", "south", "group", "ab", "i", "en", "ett"}
+
+
+def brand_of(company: str) -> str:
+    """Varumärket = första ordet i företagsnamnet (Telia Cygate AB -> telia), så att systerbolag
+    som publicerar samma annons på olika sajter slås ihop. Generiska förstaord ger ingen nyckel."""
+    w = re.sub(r"[^a-z0-9]+", "", (unicodedata.normalize("NFKD", (company or "").split(" ")[0])
+                                  .encode("ascii", "ignore").decode().lower()))
+    return "" if len(w) < 3 or w in BRAND_STOP else w
+
+
+LANG_SEG_RX = re.compile(r"(?:^|/)(sv|se|en)(?=/)|-(sv|en|sverige|sweden)-", re.I)
+
+
+def lang_of(u: str) -> str:
+    """Språkmarkör i sökvägen: /sv/position/… eller …-sverige-sv-2026… (tomt om ingen finns)."""
+    m = LANG_SEG_RX.search(urlparse(u).path)
+    return ("sv" if (m.group(1) or m.group(2)).lower() in ("sv", "se", "sverige") else "en") if m else ""
+
+
+def path_key(u: str) -> str:
+    """Sökväg + query utan värd och språkmapp – samma annons på systerbolagens sajter,
+    t.ex. sigmaindustrype.se/sv/platsannons?id=X och sigmaindustrysolutions.se/platsannons?id=X."""
+    k = job_key(u)
+    k = k[k.find("/"):] if "/" in k else k
+    return re.sub(r"^/(sv|se|en)(?=/)", "", k, flags=re.I)
+
+
 def dedupe(postings: list[dict]) -> list[dict]:
-    def completeness(p):
-        return sum(bool(p.get(k)) for k in ("published", "deadline", "location"))
-    postings = sorted(postings, key=lambda p: -completeness(p))
-    out, by_url, by_title = [], set(), {}
+    def rank(p):  # ATS-flöden har bäst länkar och fält, sedan så kompletta annonser som möjligt
+        return (p.get("source") not in ats.ADAPTERS,
+                -sum(bool(p.get(k)) for k in ("published", "deadline", "location")))
+    postings = sorted(postings, key=rank)
+    out, by_url, by_title, by_brand, by_path = [], set(), {}, {}, {}
+
+    def merge(keep, p):
+        for k in ("published", "deadline", "location"):
+            keep[k] = keep[k] or p.get(k)
+
     for p in postings:
-        u = clean_url(p["url"]) if p["url"] else ""
-        t = (p.get("_site") or norm_name(p["company"]), re.sub(r"\W+", "", p["title"].lower()))
-        if (u and u in by_url):
+        u = job_key(p["url"]) if p["url"] else ""
+        title = re.sub(r"\W+", "", p["title"].lower())
+        t = (p.get("_site") or norm_name(p["company"]), title)
+        if u and u in by_url:
             continue
         keep = by_title.get(t)
         # samma roll från två källor -> komplettera tomma fält. Två olika annonser med samma
-        # titel i samma flöde (t.ex. två team som söker "System Developer") behålls båda.
+        # titel i samma flöde (t.ex. två team som söker "System Developer") behålls båda –
+        # men bara när båda länkarna går till samma värd; atea.se + reachmee.com är samma annons.
         if keep and not (u and keep["url"] and keep.get("source") == p.get("source")
-                         and keep.get("source") in ats.ADAPTERS):
-            for k in ("published", "deadline", "location"):
-                keep[k] = keep[k] or p.get(k)
+                         and keep.get("source") in ats.ADAPTERS and host_of(keep["url"]) == host_of(p["url"])):
+            merge(keep, p)
+            continue
+        # systerbolag (Telia Company/Telia Cygate, Knowit X/Knowit Y …) med samma annons på olika sajter
+        b = brand_of(p["company"])
+        loc = norm_location(p.get("location", "")).lower()
+        sib = by_brand.get((b, title)) if b else None
+        if sib and sib["company"] != p["company"] and (not loc or not sib["_loc"] or loc == sib["_loc"]):
+            merge(sib, p)
+            continue
+        pk = path_key(p["url"]) if b and p["url"] else ""
+        if pk and "?" in pk and (b, pk) in by_path:  # samma annons-id hos ett systerbolag, annan rubrik
+            merge(by_path[(b, pk)], p)
+            continue
+        # samma annons på svenska och engelska på samma sajt (/sv/position/… och /position/…-en-…)
+        twin = next((q for q in out if (q["company"] == p["company"] or (b and brand_of(q["company"]) == b))
+                     and p["url"] and q["url"]
+                     and host_of(q["url"]) == host_of(p["url"]) and {lang_of(q["url"]), lang_of(p["url"])} == {"sv", "en"}
+                     and (q["_loc"] == loc or not q["_loc"] or not loc)
+                     and difflib.SequenceMatcher(None, q["_title"], title).ratio() >= 0.85), None)
+        if twin:
+            if lang_of(p["url"]) == "sv":  # visa den svenska versionen
+                twin.update(title=p["title"], url=p["url"], _title=title)
+            by_url.add(u)
+            by_title.setdefault(t, twin)
+            if b:
+                by_brand.setdefault((b, title), twin)
+            merge(twin, p)
             continue
         by_url.add(u)
         by_title[t] = p
+        p["_loc"], p["_title"] = loc, title
+        if b:
+            by_brand.setdefault((b, title), p)
+            if pk and "?" in pk:
+                by_path.setdefault((b, pk), p)
         out.append(p)
     return out
 
@@ -1715,7 +1798,9 @@ def norm_location(loc: str) -> str:
 
 
 def finalize(postings: list[dict], previous: list[dict]) -> list[dict]:
-    first_seen = {clean_url(p["url"]): p.get("first_seen") for p in previous if p.get("url")}
+    first_seen = {job_key(p["url"]): p.get("first_seen") for p in previous if p.get("url")}
+    # samma annons med ny länk (t.ex. ändrad slug i Jobylon) ska inte bli "ny" igen
+    seen_title = {(p.get("company"), p.get("title")): p.get("first_seen") for p in previous}
     today = TODAY.isoformat()
     out = []
     for p in dedupe([dict(x) for x in postings]):
@@ -1726,7 +1811,7 @@ def finalize(postings: list[dict], previous: list[dict]) -> list[dict]:
         if p.get("published") and p["published"] > today:
             p["published"] = None
         p["location"] = norm_location(p.get("location", ""))
-        fs = first_seen.get(clean_url(p["url"]))
+        fs = first_seen.get(job_key(p["url"])) or seen_title.get((p.get("company"), p.get("title")))
         p["first_seen"] = fs or today
         p["is_new"] = fs is None and bool(previous)
         out.append(p)
