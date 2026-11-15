@@ -2715,11 +2715,6 @@
   "domain": ""
  },
  {
-  "name": "Interverbum Technology",
-  "orgnr": "556570-4920",
-  "domain": "Interverbumtech.com"
- },
- {
   "name": "Intinor AB",
   "orgnr": "556644-1860",
   "domain": ""
@@ -2793,6 +2788,11 @@
   "name": "Infobyte",
   "orgnr": "556663-7707",
   "domain": "www.infobyte.se"
+ },
+ {
+  "name": "Interverbum Technology",
+  "orgnr": "556570-4920",
+  "domain": "Interverbumtech.com"
  },
  {
   "name": "Infometric",
@@ -5571,8 +5571,8 @@
  },
  {
   "name": "upKeeper Solutions AB",
-  "orgnr": "556751-1596",
-  "domain": "www.upkeeper.se"
+  "orgnr": "559255-1195",
+  "domain": ""
  },
  {
   "name": "Vera Policy",
