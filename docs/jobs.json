@@ -6,8 +6,8 @@
   "members_with_career_page": 604,
   "members_scraped_this_run": 1201,
   "career_pages_unchanged": 255,
-  "companies_with_jobs": 59,
-  "jobs_total": 186,
+  "companies_with_jobs": 58,
+  "jobs_total": 184,
   "duration_min": 24.4,
   "demo": false,
   "ats_signature": "8e8b713578f9",
@@ -105,20 +105,6 @@
    "location": "Borlänge",
    "source": "ReachMee",
    "reason": "Rollen riktar sig till personer i början av karriären inom nätverk och kräver inte många års erfarenhet.",
-   "first_seen": "2026-11-15",
-   "is_new": true
-  },
-  {
-   "company": "Atea Logistics AB",
-   "orgnr": "556354-4690",
-   "type": "Junior",
-   "title": "Kundsupport",
-   "url": "https://web106.reachmee.com/ext/I020/1291/job?site=27&lang=SE&validator=277cb2bac1f6d9ba2720e8827a79e39b&job_id=3486",
-   "published": null,
-   "deadline": "2026-12-03",
-   "location": "Växjö",
-   "source": "ReachMee",
-   "reason": "Ingångsroll i kundsupport som kräver endast gymnasieexamen och kundservicerfarenhet i någon form, vilket passar nybörjare.",
    "first_seen": "2026-11-15",
    "is_new": true
   },
@@ -611,6 +597,20 @@
    "reason": "Early Career Program för nyligen examinerade eller personer med upp till fem års erfarenhet inom ingenjörsteknik.",
    "first_seen": "2026-11-15",
    "is_new": true
+  },
+  {
+   "company": "Atea Logistics AB",
+   "orgnr": "556354-4690",
+   "type": "Junior",
+   "title": "Kundsupport",
+   "url": "https://web106.reachmee.com/ext/I020/1291/job?site=27&lang=SE&validator=277cb2bac1f6d9ba2720e8827a79e39b&job_id=3486",
+   "published": null,
+   "deadline": "2026-12-03",
+   "location": "Växjö",
+   "source": "ReachMee",
+   "reason": "Ingångsroll i kundsupport som kräver endast gymnasieexamen och kundservicerfarenhet i någon form, vilket passar nybörjare.",
+   "first_seen": "2026-11-08",
+   "is_new": false
   },
   {
    "company": "Aderian Stockholm AB",
@@ -1509,20 +1509,6 @@
    "is_new": false
   },
   {
-   "company": "CGI Sverige AB",
-   "orgnr": "556337-2191",
-   "type": "Praktik/Internship",
-   "title": "LIA-möjligheter hösten 2026 till våren 2027",
-   "url": "https://cgi.njoyn.com/CORP/xweb/xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0704&BRID=1339844&lang=1",
-   "published": null,
-   "deadline": null,
-   "location": "Stockholm",
-   "source": "Njoyn",
-   "reason": "Flera LIA-platser (praktik) för studenter inom AI, data, IT och infrastruktur hos CGI.",
-   "first_seen": "2026-10-17",
-   "is_new": false
-  },
-  {
    "company": "Sigma Industry Solutions AB",
    "orgnr": "559165-1681",
    "type": "Junior",
@@ -1981,20 +1967,6 @@
    "location": "Stockholm, Göteborg",
    "source": "Webbplats",
    "reason": "Traineeprogram för nyexaminerade med examen 2026 eller 2027 inom IT/teknik, anställd från dag ett.",
-   "first_seen": "2026-10-13",
-   "is_new": false
-  },
-  {
-   "company": "Knowit Connectivity AB",
-   "orgnr": "556254-0673",
-   "type": "Examensarbete",
-   "title": "Masteruppsats/examensarbete våren 2027 - Knowit Cybersecurity & Law",
-   "url": "https://www.knowit.se/karriar/lediga-jobb/masteruppsats-eller-examensarbete-varen-2027/",
-   "published": null,
-   "deadline": null,
-   "location": "Stockholm, Göteborg, Linköping, Karlskrona",
-   "source": "Webbplats",
-   "reason": "Examensarbete och praktik för studenter under våren 2027 inom cybersäkerhet och juridik hos Knowit Cybersecurity & Law.",
    "first_seen": "2026-10-13",
    "is_new": false
   },
@@ -2722,13 +2694,6 @@
    "ats": "ReachMee"
   },
   {
-   "company": "CGI Sverige AB",
-   "url": "https://cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&lang=1",
-   "open_total": 396,
-   "junior": 3,
-   "ats": "Njoyn"
-  },
-  {
    "company": "ACM 2001 AB",
    "url": "https://academedia.se/jobba-hos-oss/lediga-jobb/",
    "open_total": 344,
@@ -2748,6 +2713,13 @@
    "open_total": 4,
    "junior": 3,
    "ats": "Teamtailor"
+  },
+  {
+   "company": "CGI Sverige AB",
+   "url": "https://cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&lang=1",
+   "open_total": 396,
+   "junior": 2,
+   "ats": "Njoyn"
   },
   {
    "company": "Advania Sverige AB",

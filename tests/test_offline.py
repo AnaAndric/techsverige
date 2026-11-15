@@ -165,8 +165,43 @@ def test_register(tmp=None):
     ROUTES["/karriar"] = CAREER
     srv.shutdown()
 
+def test_dedupe():
+    """Dubbletter som slunkit igenom tidigare söndagskörningar."""
+    def job(company, title, url, location="Stockholm", source="Njoyn"):
+        return {"company": company, "title": title, "url": url, "location": location, "source": source,
+                "published": None, "deadline": None}
+    cgi = "https://cgi.njoyn.com/%s/xweb/xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0704&lang=1"
+    jobs = scrape.finalize([
+        # samma Njoyn-annons med /corp/ och /CORP/
+        job("CGI Sverige AB", "LIA-möjligheter hösten 2026", cgi % "corp"),
+        job("CGI Sverige AB", "LIA-möjligheter hösten 2026", cgi % "CORP"),
+        # systerbolag med samma annons, orterna i olika ordning
+        job("Knowit Connectivity AB", "Masteruppsats/examensarbete våren 2027 - Knowit Cybersecurity & Law",
+            "https://www.knowit.se/karriar/lediga-jobb/masteruppsats-1/", "Stockholm, Göteborg, Linköping", "html"),
+        job("Knowit Experience Sverige AB", "Masteruppsats/examensarbete våren 2027 - Knowit Cybersecurity & Law",
+            "https://careersweden.knowit.se/jobs/8455437-masteruppsats", "Linköping, Stockholm, Göteborg", "Teamtailor"),
+        # olika annonser som ska vara kvar: samma titel men olika orter, nästan samma titel
+        job("Telia Company AB", "Säljare", "https://telia.se/jobb/1", "Stockholm", "html"),
+        job("Telia Cygate AB", "Säljare", "https://cygate.se/jobb/2", "Linköping", "html"),
+        job("Atea Logistics AB", "Management Trainee, Region Väst", "https://www.atea.se/karriar/?id=3454", "Göteborg", "html"),
+        job("Atea Logistics AB", "Management Trainee, Region Norr", "https://www.atea.se/karriar/?id=3455", "Umeå", "html"),
+    ], [])
+    titles = sorted(j["company"] + ": " + j["title"] for j in jobs)
+    assert len(jobs) == 6, titles
+    assert sum(j["company"] == "CGI Sverige AB" for j in jobs) == 1, titles
+    assert sum(j["company"].startswith("Knowit") for j in jobs) == 1, titles
+
+    # annonsen flyttar till ett systerbolag med ny länk -> inte "ny" igen
+    prev = [dict(job("Atea Finance AB", "Kundsupport", "https://www.atea.se/karriar/?id=3421", "Växjö", "html"),
+                 first_seen="2026-10-01")]
+    jobs = scrape.finalize([job("Atea Logistics AB", "Kundsupport", "https://reachmee.com/job?job_id=3486", "Växjö",
+                                "ReachMee")], prev)
+    assert jobs[0]["first_seen"] == "2026-10-01" and not jobs[0]["is_new"], jobs
+
+
 if __name__ == "__main__":
     test_dates_and_classify()
+    test_dedupe()
     test_site()
     test_register()
     print("OK – alla tester gick igenom")

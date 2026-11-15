@@ -624,13 +624,14 @@ JOB_KEY_DROP = ("_", "lang", "language", "locale", "ref", "source", "src")
 
 def job_key(u: str) -> str:
     """Nyckel för att känna igen samma annons: som clean_url, men utan www., schema,
-    cache-busters (?_=0.123) och språkparametrar (Njoyn: &lang=1 / &lang=8)."""
+    cache-busters (?_=0.123) och språkparametrar (Njoyn: &lang=1 / &lang=8).
+    Hela nyckeln gemener – Njoyn länkar samma annons som både /corp/ och /CORP/."""
     p = urlparse(u.strip())
     host = p.netloc.lower()
     host = host[4:] if host.startswith("www.") else host
     q = sorted((k, v) for k, v in parse_qsl(p.query)
                if v and not k.lower().startswith("utm_") and k.lower() not in JOB_KEY_DROP)
-    return host + (p.path.rstrip("/") or "/") + ("?" + urlencode(q) if q else "")
+    return (host + (p.path.rstrip("/") or "/") + ("?" + urlencode(q) if q else "")).lower()
 
 
 def host_of(u: str) -> str:
@@ -1745,7 +1746,8 @@ def dedupe(postings: list[dict]) -> list[dict]:
             continue
         # systerbolag (Telia Company/Telia Cygate, Knowit X/Knowit Y …) med samma annons på olika sajter
         b = brand_of(p["company"])
-        loc = norm_location(p.get("location", "")).lower()
+        # orterna som mängd – "Stockholm, Göteborg" och "Göteborg, Stockholm" är samma
+        loc = ", ".join(sorted(x.strip() for x in norm_location(p.get("location", "")).lower().split(",")))
         sib = by_brand.get((b, title)) if b else None
         if sib and sib["company"] != p["company"] and (not loc or not sib["_loc"] or loc == sib["_loc"]):
             merge(sib, p)
@@ -1799,8 +1801,10 @@ def norm_location(loc: str) -> str:
 
 def finalize(postings: list[dict], previous: list[dict]) -> list[dict]:
     first_seen = {job_key(p["url"]): p.get("first_seen") for p in previous if p.get("url")}
-    # samma annons med ny länk (t.ex. ändrad slug i Jobylon) ska inte bli "ny" igen
-    seen_title = {(p.get("company"), p.get("title")): p.get("first_seen") for p in previous}
+    # samma annons med ny länk (t.ex. ändrad slug i Jobylon) ska inte bli "ny" igen – inte heller
+    # när den hamnar på ett annat systerbolag med samma karriärsida (Atea Finance -> Atea Logistics)
+    seen_key = lambda p: (brand_of(p.get("company")) or p.get("company"), (p.get("title") or "").strip().lower())
+    seen_title = {seen_key(p): p.get("first_seen") for p in previous}
     today = TODAY.isoformat()
     out = []
     for p in dedupe([dict(x) for x in postings]):
@@ -1811,7 +1815,7 @@ def finalize(postings: list[dict], previous: list[dict]) -> list[dict]:
         if p.get("published") and p["published"] > today:
             p["published"] = None
         p["location"] = norm_location(p.get("location", ""))
-        fs = first_seen.get(job_key(p["url"])) or seen_title.get((p.get("company"), p.get("title")))
+        fs = first_seen.get(job_key(p["url"])) or seen_title.get(seen_key(p))
         p["first_seen"] = fs or today
         p["is_new"] = fs is None and bool(previous)
         out.append(p)
